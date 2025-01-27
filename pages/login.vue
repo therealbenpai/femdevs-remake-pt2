@@ -22,15 +22,13 @@ const state = reactive({
 async function onSubmit(event: FormSubmitEvent<z.output<typeof schema>>) {
     event.preventDefault()
     try {
-        const res = await fetch('/auth/login', {
+        const res = await fetch('/auth/user', {
             method: 'POST',
             headers: {
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'x-method': 'login',
             },
-            body: JSON.stringify({
-                email: state.email,
-                password: state.password
-            })
+            body: JSON.stringify(state)
         })
         if (res.ok) {
             const data = await res.json()

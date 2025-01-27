@@ -1,5 +1,31 @@
 <script setup lang="ts">
 const { loggedIn, user, session, fetch, clear } = useUserSession();
+
+const state = reactive({
+  loggedIn,
+
+});
+
+const refs = {
+  account: ref<HTMLElement | null>(null),
+  logout: ref<HTMLElement | null>(null),
+  signin: ref<HTMLElement | null>(null),
+  signup: ref<HTMLElement | null>(null),
+}
+
+const logout = async () => {
+  await fetch("/auth/user", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "x-method": "logout",
+    },
+  });
+  refs.account?.classList.add("hidden");
+  refs.logout?.classList.add("hidden");
+  refs.signin?.classList.remove("hidden");
+  refs.signup?.classList.remove("hidden");
+};
 </script>
 
 <template>
@@ -19,21 +45,22 @@ const { loggedIn, user, session, fetch, clear } = useUserSession();
             <NavLink href="mailto:support@thefemdevs.com">{{
               $t("nav.contact")
             }}</NavLink>
-            <div>
-              <div v-if="loggedIn">
-                <NavLink href="/account">{{ $t("nav.account") }}</NavLink>
-                <button
-                  class="rounded-md bg-neutral-50 px-4 py-2 text-center font-poppins text-lg text-neutral-900 transition-all hover:bg-neutral-200 hover:shadow-lg"
-                  @click="clear"
-                >
-                  {{ $t("nav.logout") }}
-                </button>
-              </div>
-              <div v-else>
-                <NavLink href="/login">{{ $t("nav.login") }}</NavLink>
-                <NavLink href="/register">{{ $t("nav.register") }}</NavLink>
-              </div>
-            </div>
+            <NavLink v-if="state.loggedIn" href="/account">
+              {{ $t("nav.auth.account") }}
+            </NavLink>
+            <button
+              v-if="state.loggedIn"
+              class="select-none font-poppins text-lg transition-all hover:text-neutral-800 text-slate-800 border-none"
+              @click="logout"
+            >
+              {{ $t("nav.auth.logout") }}
+            </button>
+            <NavLink v-if="!state.loggedIn" href="/login">
+              {{ $t("nav.auth.login") }}
+            </NavLink>
+            <NavLink v-if="!state.loggedIn" href="/register">
+              {{ $t("nav.auth.register") }}
+            </NavLink>
           </div>
         </div>
       </nav>

@@ -33,16 +33,16 @@ interface SpotifyListening {
 
 export default defineEventHandler(async (event) => {
     const query = getQuery(event);
-    const runtimeConfig = useRuntimeConfig();
+    const RTC = useRuntimeConfig();
     const { name: user } = query;
     const SpotifyAPI = new SpotifyWebAPI({
-        clientId: runtimeConfig.spotify.clientId,
-        clientSecret: runtimeConfig.spotify.clientSecret,
-        redirectUri: runtimeConfig.spotify.redirectUri,
+        clientId: RTC.spotify.clientId,
+        clientSecret: RTC.spotify.clientSecret,
+        redirectUri: RTC.spotify.redirectUri,
     });
     const supabase = Supabase.createClient(
-        runtimeConfig.supabase.url!,
-        runtimeConfig.supabase.serviceKey!
+        RTC.supabase.url!,
+        RTC.supabase.serviceKey!
     );
     const { data: userRows, error: userError } = await supabase.from('spotify').select('*');
     if (userError || !userRows) throw createError({
