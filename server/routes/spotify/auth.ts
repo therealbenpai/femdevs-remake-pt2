@@ -1,13 +1,13 @@
-
 import SpotifyWebApi from "spotify-web-api-node";
 
 export default defineEventHandler(async (event) => {
+    const RTC = useRuntimeConfig();
     const query = getQuery(event);
     const { code } = query;
     const SpotifyAPI = new SpotifyWebApi({
-        clientId: process.env.SPOTIFY_CLIENT_ID,
-        clientSecret: process.env.SPOTIFY_CLIENT_SECRET,
-        redirectUri: process.env.SPOTIFY_REDIRECT_URI,
+        clientId: RTC.spotify.clientId,
+        clientSecret: RTC.spotify.clientSecret,
+        redirectUri: RTC.spotify.redirectUri
     });
     if (!code) {
         const scopes = ["user-read-private", "user-read-currently-playing", "user-read-playback-state", "user-read-email"];

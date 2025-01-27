@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col items-center justify-center">
-            <hero class="flex w-full max-w-6xl flex-row items-center justify-between p-8 md:my-16">
+            <div class="flex w-full max-w-6xl flex-row items-center justify-between p-8 md:my-16">
                 <div class="flex w-full flex-col space-y-8">
                     <div class="flex w-full flex-col space-y-4">
                         <h1 class="select-none font-poppins text-5xl font-medium text-neutral-900">Cookie Policy</h1>
@@ -37,6 +37,6 @@
                         <LegalDisclaimer />
                     </div>
                 </div>
-            </hero>
+            </div>
         </div>
 </template>

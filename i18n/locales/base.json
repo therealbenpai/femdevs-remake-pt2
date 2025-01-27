@@ -137,5 +137,15 @@
             "org_partner": "Business Partner (Organization)",
             "other": "Other"
         }
+    },
+    "legal": {
+        "cookies": {},
+        "privacy": {},
+        "terms": {}
+    },
+    "oss": {
+        "conduct": {},
+        "license": {},
+        "contributing": {}
     }
 }

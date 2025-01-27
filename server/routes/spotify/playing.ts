@@ -1,18 +1,48 @@
 import * as Supabase from '@supabase/supabase-js';
 import SpotifyWebAPI from 'spotify-web-api-node';
 
+interface ArtistInfo {
+    name: string;
+    image: string;
+    url: string;
+}
+
+interface SpotifyListening {
+    isPlaying: boolean;
+    playing: {
+        track: {
+            title: string;
+            url: string | null;
+        };
+        album: {
+            title: string;
+            artists: ArtistInfo[];
+            image: string | null;
+        };
+        artists: ArtistInfo[];
+        meta: {
+            progress: {
+                start: number;
+                end: number;
+                current: number;
+                percentage: number;
+            };
+        };
+    };
+}
+
 export default defineEventHandler(async (event) => {
     const query = getQuery(event);
     const runtimeConfig = useRuntimeConfig();
     const { name: user } = query;
     const SpotifyAPI = new SpotifyWebAPI({
-        clientId: runtimeConfig.SPOTIFY_CLIENT_ID,
-        clientSecret: runtimeConfig.SPOTIFY_CLIENT_SECRET,
-        redirectUri: runtimeConfig.SPOTIFY_REDIRECT_URI,
+        clientId: runtimeConfig.spotify.clientId,
+        clientSecret: runtimeConfig.spotify.clientSecret,
+        redirectUri: runtimeConfig.spotify.redirectUri,
     });
     const supabase = Supabase.createClient(
-        runtimeConfig.SUPABASE_URL!,
-        runtimeConfig.SUPABASE_KEY!
+        runtimeConfig.supabase.url!,
+        runtimeConfig.supabase.serviceKey!
     );
     const { data: userRows, error: userError } = await supabase.from('spotify').select('*');
     if (userError || !userRows) throw createError({
@@ -31,39 +61,33 @@ export default defineEventHandler(async (event) => {
     SpotifyAPI.setAccessToken(newAccess);
     SpotifyAPI.setRefreshToken(newRefresh!);
     await supabase.from('spotify').update({ access: newAccess, refresh: newRefresh }).eq('user', user);
-    const res = {
-        next: {}
-    };
     const MainSpotifyRes = await SpotifyAPI.getMyCurrentPlaybackState({ market: 'US' })
-        .catch(() => res.next = {
-            status: 200,
-            body: {
-                isPlaying: false,
-                playing: {
-                    track: {
-                        title: 'Nothing playing',
-                        url: null,
-                    },
-                    album: {
-                        title: 'Nothing playing',
-                        artists: [],
-                        image: null,
-                    },
-                    artists: [],
-                    meta: {
-                        progress: {
-                            start: 0,
-                            end: 0,
-                            current: 0,
-                            percentage: 0,
-                        },
-                    },
+        .catch(() => {});
+    if (!MainSpotifyRes) return {
+        isPlaying: false,
+        playing: {
+            track: {
+                title: 'Nothing playing',
+                url: null,
+            },
+            album: {
+                title: 'Nothing playing',
+                artists: [],
+                image: null,
+            },
+            artists: [],
+            meta: {
+                progress: {
+                    start: 0,
+                    end: 0,
+                    current: 0,
+                    percentage: 0,
                 },
             },
-        });
-    if (res.next) return res.next;
-    const { body } = MainSpotifyRes;
-    if (!new Object(body).hasOwnProperty('item')) return {
+        },
+    }
+    const body = MainSpotifyRes.body as SpotifyApi.CurrentPlaybackResponse;
+    if (!Object.hasOwn(body, 'item')) return {
             isPlaying: false,
             playing: {
                 track: {
@@ -86,10 +110,31 @@ export default defineEventHandler(async (event) => {
                 },
             },
     };
-    /** @type {SpotifyAPI.TrackObjectFull} */
-    // @ts-ignore
-    const item = body.item;
+    const item = body?.item as SpotifyApi.TrackObjectFull;
     const { name, album, artists, external_urls: externalURLs } = item;
+    const full: SpotifyListening = {
+        isPlaying: body.is_playing,
+        playing: {
+            track: {
+                title: name,
+                url: externalURLs.spotify,
+            },
+            album: {
+                title: album.name,
+                artists: [],
+                image: album.images.find((sDat: Record<string, any>) => sDat.width === 64e1)?.url || 'https://via.placeholder.com/64',
+            },
+            artists: [],
+            meta: {
+                progress: {
+                    start: Date.now() - item.duration_ms,
+                    end: Date.now() + (item.duration_ms - body.progress_ms!),
+                    current: body.progress_ms!,
+                    percentage: (body.progress_ms! / item!.duration_ms) * 1e2,
+                },
+            },
+        },
+    }
     const data = {
         track: {
             title: name,
@@ -98,20 +143,20 @@ export default defineEventHandler(async (event) => {
         album: {
             title: album.name,
             artists: [],
-            image: album.images.find((sDat: Record<string, any>) => sDat.width === 64e1).url || 'https://via.placeholder.com/64',
+            image: album.images.find((sDat: Record<string, any>) => sDat.width === 64e1)?.url || 'https://via.placeholder.com/64',
         },
         artists: [],
         meta: {
             progress: {
-                start: Date.now() - body!.progress_ms,
-                end: Date.now() + (body.item.duration_ms - body.progress_ms),
+                start: Date.now() - item.duration_ms,
+                end: Date.now() + (item.duration_ms - body.progress_ms!),
                 current: body.progress_ms,
-                percentage: (body.progress_ms / body.item.duration_ms) * 1e2,
+                percentage: (body.progress_ms! / item!.duration_ms) * 1e2,
             },
         },
     };
     for (const artist of artists) {
-        data.artists.push(
+        full.playing.artists.push(
             await SpotifyAPI.getArtist(artist.id)
                 .then(
                     dat => ({
@@ -128,7 +173,7 @@ export default defineEventHandler(async (event) => {
         );
     }
     for (const albumArtist of album.artists) {
-        data.album.artists.push(
+        full.playing.album.artists.push(
             await SpotifyAPI.getArtist(albumArtist.id)
                 .then(
                     dat => ({
@@ -144,8 +189,5 @@ export default defineEventHandler(async (event) => {
                 ),
         );
     }
-    return {
-        isPlaying: true,
-        playing: data,
-    }
+    return full;
 });

@@ -1,7 +1,19 @@
+<script setup lang="ts">
+useHead({
+    title: 'Home Page',
+    meta: [
+        {
+            name: 'description',
+            content: 'The FEM Devs - Home Page'
+        }
+    ]
+})
+</script>
+
 <template>
     <div class="flex flex-col items-center justify-center">
-            <main>
-                <hero class="flex w-full max-w-6xl flex-row items-center justify-between p-8 md:my-16">
+            <div>
+                <div class="flex w-full max-w-6xl flex-row items-center justify-between p-8 md:my-16">
                     <div class="flex w-full flex-col space-y-8">
                         <div class="flex flex-col space-y-4">
                             <h1 class="select-none font-poppins text-5xl font-medium text-neutral-900">
@@ -20,8 +32,8 @@
                             </a>
                         </div>
                     </div>
-                </hero>
-                <hero class="flex w-full justify-center bg-brand-primary">
+                </div>
+                <div class="flex w-full justify-center bg-brand-primary">
                     <div class="w-full max-w-6xl space-y-4 p-8">
                         <div class="flex flex-col items-center justify-between space-y-4 sm:flex-row sm:justify-between sm:space-x-4 sm:space-y-0">
                             <h2 class="max-w-2xl select-none font-poppins text-2xl font-medium text-white">
@@ -36,14 +48,13 @@
                             </a>
                         </div>
                     </div>
-                </hero>
-                <hero class="flex w-full justify-center p-8 bg-white">
+                </div>
+                <div class="flex w-full justify-center p-8 bg-white">
                     <div class="w-full max-w-6xl space-y-8 px-8">
                         <div class="flex flex-col items-start space-y-4">
                             <div class="flex flex-row items-center space-x-2">
                                 <Icon
                                     name="ph:globe"
-                                    noobserver
                                     width='2rem'
                                     height='2rem'
                                     style="color: #008"
@@ -63,7 +74,6 @@
                                 </h3>
                                 <Icon
                                     name="solar:server-outline"
-                                    noobserver
                                     width='2rem'
                                     height='2rem'
                                     style="color: #008"
@@ -77,7 +87,6 @@
                             <div class="flex flex-row items-center space-x-2">
                                 <Icon
                                     name="mdi:message-question-outline"
-                                    noobserver
                                     width='2rem'
                                     height='2rem'
                                     style="color: #008"
@@ -91,8 +100,8 @@
                             </p>
                         </div>
                     </div>
-                </hero>
-                <hero class="flex w-full max-w-6xl flex-row items-center p-8 md:my-16">
+                </div>
+                <div class="flex w-full max-w-6xl flex-row items-center p-8 md:my-16">
                     <div class="flex w-full flex-col space-y-8">
                         <div class="flex flex-col space-y-4">
                             <h2 class="max-w-2xl select-none font-poppins text-2xl font-medium text-neutral-900">
@@ -103,7 +112,6 @@
                             <div class="flex flex-col space-y-3 rounded-lg bg-white p-8">
                                 <Icon
                                     name="carbon:api"
-                                    noobserver
                                     width='2rem'
                                     height='2rem'
                                     style="color: #008"
@@ -116,7 +124,6 @@
                             <div class="flex flex-col space-y-3 rounded-lg bg-white p-8 lg:col-span-2">
                                 <Icon
                                     name="gridicons:site"
-                                    noobserver
                                     width='2rem'
                                     height='2rem'
                                     style="color: #008"
@@ -129,7 +136,6 @@
                             <div class="flex flex-col space-y-3 rounded-lg bg-white p-8 lg:col-span-2">
                                 <Icon
                                     name="bxs:bot"
-                                    noobserver
                                     width='2rem'
                                     height='2rem'
                                     style="color: #008"
@@ -142,7 +148,6 @@
                             <div class="flex flex-col space-y-3 rounded-lg bg-white p-8">
                                 <Icon
                                     name="material-symbols-light:database"
-                                    noobserver
                                     width='2rem'
                                     height='2rem'
                                     style="color: #008"
@@ -154,7 +159,7 @@
                             </div>
                         </div>
                     </div>
-                </hero>
-            </main>
+                </div>
+            </div>
         </div>
 </template>

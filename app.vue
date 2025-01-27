@@ -1,48 +1,71 @@
+<script setup lang="ts">
+const { loggedIn, user, session, fetch, clear } = useUserSession();
+</script>
+
 <template>
   <div>
     <div class="bg-neutral-200">
-      <nav class="sticky top-0 z-30 flex flex-row items-center justify-center bg-white">
-        <div class="flex w-full max-w-6xl flex-row items-center justify-between p-8">
+      <nav
+        class="sticky top-0 z-30 flex flex-row items-center justify-center bg-white"
+      >
+        <div
+          class="flex w-full max-w-6xl flex-row items-center justify-between p-8"
+        >
           <img class="h-12" src="/logos/default.svg" alt="FemDevs Logo" />
           <div class="hidden flex-row items-center space-x-6 md:flex">
-            <NavLink href="/">
-              Home
-            </NavLink>
-            <NavLink href="/about">
-              About
-            </NavLink>
-            <NavLink href="/team">
-              Team
-            </NavLink>
-            <NavLink href="mailto:support@thefemdevs.com">
-              Contact
-            </NavLink>
+            <NavLink href="/">{{ $t("nav.home") }}</NavLink>
+            <NavLink href="/about">{{ $t("nav.about") }}</NavLink>
+            <NavLink href="/team">{{ $t("nav.team") }}</NavLink>
+            <NavLink href="mailto:support@thefemdevs.com">{{
+              $t("nav.contact")
+            }}</NavLink>
+            <div>
+              <div v-if="loggedIn">
+                <NavLink href="/account">{{ $t("nav.account") }}</NavLink>
+                <button
+                  class="rounded-md bg-neutral-50 px-4 py-2 text-center font-poppins text-lg text-neutral-900 transition-all hover:bg-neutral-200 hover:shadow-lg"
+                  @click="clear"
+                >
+                  {{ $t("nav.logout") }}
+                </button>
+              </div>
+              <div v-else>
+                <NavLink href="/login">{{ $t("nav.login") }}</NavLink>
+                <NavLink href="/register">{{ $t("nav.register") }}</NavLink>
+              </div>
+            </div>
           </div>
         </div>
       </nav>
       <NuxtPage />
-      <footer class="flex w-full justify-center bg-neutral-900 p-12 text-neutral-100">
-        <div class="flex w-full max-w-6xl flex-col space-y-8 divide-y divide-neutral-700 px-8">
-          <div class="flex flex-col justify-between space-y-4 md:flex-row md:space-x-4 md:space-y-0">
+      <footer
+        class="flex w-full justify-center bg-neutral-900 p-12 text-neutral-100"
+      >
+        <div
+          class="flex w-full max-w-6xl flex-col space-y-8 divide-y divide-neutral-700 px-8"
+        >
+          <div
+            class="flex flex-col justify-between space-y-4 md:flex-row md:space-x-4 md:space-y-0"
+          >
             <div class="flex flex-col space-y-2">
               <h2 class="select-none font-poppins text-xl font-medium">
-                {{ $t('footer.header.about') }}
+                {{ $t("footer.header.about") }}
               </h2>
               <div class="flex flex-col space-y-0">
                 <FooterLink href="/about">
-                  {{ $t('footer.links.about.about') }}
+                  {{ $t("footer.links.about.about") }}
                 </FooterLink>
                 <FooterLink href="/team">
-                  {{ $t('footer.links.about.team') }}
+                  {{ $t("footer.links.about.team") }}
                 </FooterLink>
                 <FooterLink href="/products">
-                  {{ $t('footer.links.about.products') }}
+                  {{ $t("footer.links.about.products") }}
                 </FooterLink>
               </div>
             </div>
             <div class="flex flex-col space-y-2">
               <h2 class="select-none font-poppins text-xl font-medium">
-                {{ $t('footer.header.community') }}
+                {{ $t("footer.header.community") }}
               </h2>
               <div class="flex flex-col space-y-0">
                 <FooterLink href="https://discord.gg/FgQvDW8jtr">
@@ -64,42 +87,46 @@
             </div>
             <div class="flex flex-col space-y-2">
               <h2 class="select-none font-poppins text-xl font-medium">
-                {{ $t('footer.header.company') }}
+                {{ $t("footer.header.company") }}
               </h2>
-              <FooterHeader title={strings.footer.header.company} />
+              <FooterHeader title="{strings.footer.header.company}" />
               <div class="flex flex-col space-y-0">
                 <FooterLink href="/branding">
-                  {{ $t('footer.links.company.branding') }}
+                  {{ $t("footer.links.company.branding") }}
                 </FooterLink>
                 <FooterLink href="/careers">
-                  {{ $t('footer.links.company.careers') }}
+                  {{ $t("footer.links.company.careers") }}
                 </FooterLink>
-                <FooterLink href="mailto:support@thefemdevs.com"
-                  :extraAttributes="{ rel: `noreferrer`, target: `_blank` }">
-                  {{ $t('footer.links.company.contact') }}
+                <FooterLink
+                  href="mailto:support@thefemdevs.com"
+                  :extraAttributes="{ rel: `noreferrer`, target: `_blank` }"
+                >
+                  {{ $t("footer.links.company.contact") }}
                 </FooterLink>
               </div>
             </div>
             <div class="flex flex-col space-y-2">
               <FooterHeader>
-                {{ $t('footer.header.legal') }}
+                {{ $t("footer.header.legal") }}
               </FooterHeader>
-              <FooterHeader title={strings.footer.header.legal} />
+              <FooterHeader title="{strings.footer.header.legal}" />
               <div class="flex flex-col space-y-0">
                 <FooterLink href="/legal/terms">
-                  {{ $t('footer.links.legal.terms') }}
+                  {{ $t("footer.links.legal.terms") }}
                 </FooterLink>
                 <FooterLink href="/legal/privacy">
-                  {{ $t('footer.links.legal.privacy') }}
+                  {{ $t("footer.links.legal.privacy") }}
                 </FooterLink>
                 <FooterLink href="/legal/cookies">
-                  {{ $t('footer.links.legal.cookies') }}
+                  {{ $t("footer.links.legal.cookies") }}
                 </FooterLink>
               </div>
             </div>
           </div>
           <div class="flex flex-row items-center justify-between pt-8">
-            <h2 class="select-none font-poppins text-lg">FemDevs &copy; 2024</h2>
+            <h2 class="select-none font-poppins text-lg">
+              FemDevs &copy; 2024
+            </h2>
             <div class="flex flex-row items-center justify-center space-x-4">
               <StatusOrb />
             </div>
