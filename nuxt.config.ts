@@ -47,7 +47,6 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/fonts',
     '@nuxtjs/seo',
-    '@clerk/nuxt',
     'nuxt-auth-utils',
     '@nuxt/ui',
   ],
