@@ -1,0 +1,141 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "Over ons",
+        "team": "Team",
+        "contact": "Contact"
+    },
+    "footer": {
+        "header": {
+            "about": "Over ons",
+            "community": "Gemeenschap",
+            "company": "Bedrijf",
+            "legal": "Juridisch"
+        },
+        "links": {
+            "about": {
+                "about": "Over ons",
+                "team": "Team",
+                "products": "Producten"
+            },
+            "community": {
+                "discord": "Discord",
+                "twitter": "Twitter",
+                "instagram": "Instagram",
+                "tiktok": "TikTok",
+                "reddit": "Reddit",
+                "femboyland": "Femboyland"
+            },
+            "company": {
+                "branding": "Branding",
+                "careers": "Carrières",
+                "contact": "Contact"
+            },
+            "legal": {
+                "terms": "Servicevoorwaarden",
+                "privacy": "Privacybeleid",
+                "cookies": "Cookiebeleid"
+            }
+        }
+    },
+    "status": {
+        "prefix": "Systeemstatus: ",
+        "type": {
+            "up": "Actief",
+            "down": "Inactief",
+            "degraded": "Verminderd",
+            "maintenance": "Onder onderhoud",
+            "unknown": "Onbekend"
+        }
+    },
+    "home": {
+        "headliner": {
+            "title": "Transformeer je digitale aanwezigheid vandaag",
+            "desc": "Snelle, veilige en hoogwaardige software. Heb je het nodig voor kleine bedrijven of voor persoonlijk gebruik? Wij voldoen aan je behoeften. Begin nu."
+        },
+        "products": {
+            "button": "Onze producten",
+            "title": "Betrouwbare producten",
+            "api": {
+                "title": "API",
+                "desc": "Onze API's zijn ontworpen om snel en betrouwbaar te zijn voor jouw applicaties."
+            },
+            "website": {
+                "title": "Websites",
+                "desc": "Onze websites en webapplicaties zijn ontworpen om gebruiksvriendelijk en toegankelijk vanaf overal te zijn."
+            },
+            "bot": {
+                "title": "Discord bots",
+                "desc": "Onze Discord bots zijn gemaakt door bekwame ontwikkelaars voor verschillende doeleinden en taken."
+            },
+            "database": {
+                "title": "Databases",
+                "desc": "Onze databases zijn ontworpen met snelheid en veiligheid in gedachten voor jouw applicaties."
+            }
+        },
+        "tagline": "Boei van trage software? Ontwikkel je bedrijf vandaag nog met FemDevs.",
+        "info": {
+            "one": {
+                "title": "Ontworpen om te schalen",
+                "desc": "Onze producten zijn ontworpen om mee te groeien met jouw ambities. Of je nu een klein bedrijf hebt of een groot bedrijf, wij hebben de oplossing."
+            },
+            "two": {
+                "title": "Nieuwste technologie",
+                "desc": "We gebruiken de nieuwste apps en services om ervoor te zorgen dat je software snel, veilig en betrouwbaar is vanaf het begin."
+            },
+            "three": {
+                "title": "Uitstekende ondersteuning",
+                "desc": "Ons ondersteuningsteam is 24/7 beschikbaar om je te helpen met eventuele problemen die je tegenkomt met je software of diensten."
+            }
+        },
+        "contact": {
+            "button": "Neem contact op met verkoop"
+        },
+        "clients": "Totaal aantal klanten",
+        "uptime": "Servicebeschikbaarheid"
+    },
+    "about": {
+        "title": "Ons verhaal",
+        "sections": {
+            "one": {
+                "title": "Achtergrond",
+                "desc": "Wij zijn een klein softwareontwikkelingsbedrijf, opgericht in februari 2023. We zijn gevestigd in de Verenigde Staten en we zijn toegewijd aan het leveren van hoogwaardige softwareoplossingen voor zowel individuen als kleine bedrijven. We zijn gepassioneerd over wat we doen en werken voortdurend aan het verbeteren van onze producten en diensten. Maar we zijn niet op deze manier begonnen. Laten we even terug in de tijd gaan."
+            },
+            "two": {
+                "title": "De eerste stappen",
+                "desc": "In februari 2023 begonnen we met het ontwikkelen van een Discord bot voor het beheren van een persoonlijke server. Dit was het eerste project waar de eigenaren als team aan werkten. Ze leerden veel van dit project, zowel over elkaar als over de open-source gemeenschap en de software-industrie. Dit project was de vonk die FemDevs op gang bracht."
+            },
+            "three": {
+                "title": "Een nieuwe uitdaging verschijnt",
+                "desc": "Na een paar dagen werd een nieuw lid aan het team toegevoegd, Benjamin. Benjamin was erg goed in programmeren, vooral in serverontwikkeling en databasebeheer. Het team ging door met het ontwikkelen van de bot in Python, totdat Benjamin besloot dat het handig zou zijn om over te schakelen naar JavaScript. Dit waren de eerste beslissingen die de toekomst van het bedrijf vormden."
+            },
+            "four": {
+                "title": "Het heden",
+                "desc": "In juli 2023 hadden we al meer dan 12.000 mensen geholpen en begonnen we hoogwaardige producten te verkopen. Tegen het einde van 2023 hadden we meer dan 50.000 mensen geholpen. We blijven groeien en onze diensten uitbreiden, en we streven altijd naar verbetering van wat we aanbieden. We zijn benieuwd wat de toekomst voor ons bedrijf in petto heeft en we zijn dankbaar voor alle steun die we hebben ontvangen."
+            },
+            "five": {
+                "title": "De toekomst",
+                "desc": "We blijven werken aan het verbeteren van onze producten en diensten en kijken ernaar uit om te zien wat de toekomst voor ons brengt. We zijn toegewijd aan het leveren van hoogwaardige softwareoplossingen voor individuen en kleine bedrijven en streven ernaar onze diensten voortdurend uit te breiden."
+            }
+        }
+    },
+    "team": {
+        "desc": "Dit bedrijf zou niet mogelijk zijn geweest zonder de hulp van veel mensen.\nWe willen de volgende mensen bedanken voor hun bijdragen.",
+        "roles": {
+            "owner": "Eigenaar",
+            "hr_dir": "HR-directeur",
+            "hr_mgr": "HR-manager",
+            "hr_mem": "HR-lid",
+            "admin": "Beheerder",
+            "dev": "Ontwikkelaar",
+            "marketing": "Marketingverantwoordelijke",
+            "adv": "Adviseur",
+            "server_mod": "Servermoderator",
+            "digital_assets": "Digitale middelenmaker",
+            "social_media": "Social media verantwoordelijke",
+            "support": "Supportteamlid",
+            "org_partner": "Zakelijke partner (organisatie)",
+            "other": "Anders"
+        }
+    }
+}

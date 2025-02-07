@@ -1,0 +1,141 @@
+{
+    "nav": {
+        "home": "Hem",
+        "about": "Om oss",
+        "team": "Team",
+        "contact": "Kontakt"
+    },
+    "footer": {
+        "header": {
+            "about": "Om oss",
+            "community": "Gemenskap",
+            "company": "Företag",
+            "legal": "Juridik"
+        },
+        "links": {
+            "about": {
+                "about": "Om oss",
+                "team": "Team",
+                "products": "Produkter"
+            },
+            "community": {
+                "discord": "Discord",
+                "twitter": "Twitter",
+                "instagram": "Instagram",
+                "tiktok": "TikTok",
+                "reddit": "Reddit",
+                "femboyland": "Femboyland"
+            },
+            "company": {
+                "branding": "Branding",
+                "careers": "Karriär",
+                "contact": "Kontakt"
+            },
+            "legal": {
+                "terms": "Användarvillkor",
+                "privacy": "Integritetspolicy",
+                "cookies": "Cookiepolicy"
+            }
+        }
+    },
+    "status": {
+        "prefix": "Systemstatus: ",
+        "type": {
+            "up": "Uppe",
+            "down": "Nere",
+            "degraded": "Försämrad",
+            "maintenance": "Underhåll",
+            "unknown": "Okänd"
+        }
+    },
+    "home": {
+        "headliner": {
+            "title": "Transformera din digitala närvaro idag",
+            "desc": "Snabb, säker och högkvalitativ programvara. Behöver du det för ett litet företag eller för personlig användning? Vi är här för att möta dina behov. Börja nu."
+        },
+        "products": {
+            "button": "Våra produkter",
+            "title": "Påliteliga produkter",
+            "api": {
+                "title": "API",
+                "desc": "Våra API:er är designade för att vara snabba och pålitliga för dina applikationer."
+            },
+            "website": {
+                "title": "Webbplatser",
+                "desc": "Våra webbplatser och webbappar är designade för att vara lättanvända och tillgängliga från var som helst."
+            },
+            "bot": {
+                "title": "Discord-botar",
+                "desc": "Våra Discord-botar är skapade av skickliga utvecklare för olika syften och uppgifter."
+            },
+            "database": {
+                "title": "Databaser",
+                "desc": "Våra databaser är designade med fokus på hastighet och säkerhet för dina applikationer."
+            }
+        },
+        "tagline": "Trött på långsam programvara? Utveckla ditt företag med FemDevs idag.",
+        "info": {
+            "one": {
+                "title": "Designad för att växa",
+                "desc": "Våra produkter är designade för att växa med dina ambitioner. Oavsett om det är ett litet företag eller en stor organisation, har vi lösningen."
+            },
+            "two": {
+                "title": "De senaste teknologierna",
+                "desc": "Vi använder de senaste apparna och tjänsterna för att säkerställa att din programvara är snabb, säker och pålitlig från början."
+            },
+            "three": {
+                "title": "Utmärkt support",
+                "desc": "Vårt supportteam är tillgängligt dygnet runt för att hjälpa dig med eventuella problem du kan stöta på med din programvara eller tjänster."
+            }
+        },
+        "contact": {
+            "button": "Kontakta försäljning"
+        },
+        "clients": "Totalt antal kunder",
+        "uptime": "Drifttid"
+    },
+    "about": {
+        "title": "Vår historia",
+        "sections": {
+            "one": {
+                "title": "Bakgrund",
+                "desc": "Vi är ett litet mjukvaruutvecklingsföretag som grundades i februari 2023. Vi är baserade i USA och är dedikerade till att erbjuda högkvalitativa mjukvarulösningar för individer och små företag. Vi brinner för det vi gör och strävar alltid efter att förbättra våra produkter och tjänster. Men vi började inte så här. Låt oss ta ett steg tillbaka."
+            },
+            "two": {
+                "title": "De första stegen",
+                "desc": "I februari 2023 började vi utveckla en Discord-bot för att hantera en personlig server. Det var det första projektet som ägarna arbetade på som ett team. De lärde sig mycket från det här projektet, både om varandra och om open-source-communityn och mjukvaruindustrin. Det var gnistan som tände skapandet av FemDevs."
+            },
+            "three": {
+                "title": "En ny utmaning uppstår",
+                "desc": "Efter några dagar av projektet gick en ny medlem med i teamet, Benjamin. Benjamin var mycket skicklig på programmering, särskilt på serverutveckling och databasadministration. Teamet fortsatte att utveckla boten i Python, tills Benjamin bestämde sig för att det skulle vara fördelaktigt att byta till JavaScript. Det var de första besluten som formade företagets framtid."
+            },
+            "four": {
+                "title": "Nutid",
+                "desc": "I juli 2023 hade vi hjälpt över 12 000 personer och började sälja högkvalitativa produkter. I slutet av 2023 hade vi hjälpt över 50 000 personer. Vi fortsatte växa och expandera våra tjänster, och vi strävar alltid efter att förbättra det vi erbjuder. Vi är exalterade över att se vad framtiden har att erbjuda för vårt företag, och vi är tacksamma för allt stöd vi har fått."
+            },
+            "five": {
+                "title": "Framtid",
+                "desc": "Vi strävar alltid efter att förbättra våra produkter och tjänster och ser fram emot att se vad framtiden har för oss. Vi är dedikerade till att erbjuda högkvalitativa mjukvarulösningar för individer och små företag och strävar alltid efter att expandera våra tjänster."
+            }
+        }
+    },
+    "team": {
+        "desc": "Detta företag hade inte varit möjligt utan hjälp från många.\nVi vill tacka de följande för deras bidrag.",
+        "roles": {
+            "owner": "Ägare",
+            "hr_dir": "HR-chef",
+            "hr_mgr": "HR-chef",
+            "hr_mem": "HR-medlem",
+            "admin": "Admin",
+            "dev": "Utvecklare",
+            "marketing": "Marknadsföringsansvarig",
+            "adv": "Rådgivare",
+            "server_mod": "Servermod",
+            "digital_assets": "Skapare av digitala tillgångar",
+            "social_media": "Sociala medier ansvarig",
+            "support": "Supportteammedlem",
+            "org_partner": "Affärspartner (Organisation)",
+            "other": "Annat"
+        }
+    }
+}

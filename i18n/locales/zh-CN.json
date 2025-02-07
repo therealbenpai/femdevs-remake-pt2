@@ -1,0 +1,141 @@
+{
+    "nav": {
+        "home": "首页",
+        "about": "关于我们",
+        "team": "团队",
+        "contact": "联系我们"
+    },
+    "footer": {
+        "header": {
+            "about": "关于我们",
+            "community": "社区",
+            "company": "公司",
+            "legal": "法律信息"
+        },
+        "links": {
+            "about": {
+                "about": "公司简介",
+                "team": "团队成员",
+                "products": "产品与服务"
+            },
+            "community": {
+                "discord": "Discord",
+                "twitter": "Twitter",
+                "instagram": "Instagram",
+                "tiktok": "TikTok",
+                "reddit": "Reddit",
+                "femboyland": "Femboy Land"
+            },
+            "company": {
+                "branding": "品牌形象",
+                "careers": "招聘信息",
+                "contact": "联系我们"
+            },
+            "legal": {
+                "terms": "使用条款",
+                "privacy": "隐私政策",
+                "cookies": "Cookie 政策"
+            }
+        }
+    },
+    "status": {
+        "prefix": "系统状态：",
+        "type": {
+            "up": "在线",
+            "down": "离线",
+            "degraded": "性能下降",
+            "maintenance": "维护中",
+            "unknown": "未知"
+        }
+    },
+    "home": {
+        "headliner": {
+            "title": "提升您的数字化体验",
+            "desc": "快速、安全、高质量的软件解决方案。无论是小型企业还是个人用户，我们都能提供合适的产品。立即开始！"
+        },
+        "products": {
+            "button": "查看产品",
+            "title": "可靠的解决方案",
+            "api": {
+                "title": "API",
+                "desc": "我们的 API 运行快速、稳定，非常适合您的应用。"
+            },
+            "website": {
+                "title": "网站",
+                "desc": "我们的网站和 Web 应用程序兼具美观与高效，始终可用。"
+            },
+            "bot": {
+                "title": "Discord 机器人",
+                "desc": "我们的 Discord 机器人专为各种需求精心打造。"
+            },
+            "database": {
+                "title": "数据库",
+                "desc": "我们的数据库专注于高效与安全。"
+            }
+        },
+        "tagline": "厌倦了缓慢的软件？使用 FemDevs 提升您的业务体验。",
+        "info": {
+            "one": {
+                "title": "助力增长",
+                "desc": "我们的解决方案可扩展，适用于初创公司和大企业。"
+            },
+            "two": {
+                "title": "现代技术",
+                "desc": "我们采用最新技术，确保高性能、安全性和可靠性。"
+            },
+            "three": {
+                "title": "24/7 支持",
+                "desc": "我们的支持团队全天候为您服务。"
+            }
+        },
+        "contact": {
+            "button": "联系我们的销售团队"
+        },
+        "clients": "客户总数",
+        "uptime": "正常运行时间"
+    },
+    "about": {
+        "title": "我们的故事",
+        "sections": {
+            "one": {
+                "title": "我们的起源",
+                "desc": "我们是一家软件开发公司，成立于 2023 年 2 月，总部位于美国。我们的目标是为个人和小型企业提供高质量的软件解决方案。然而，一开始的旅程与现在大不相同。让我们回顾一下历史。"
+            },
+            "two": {
+                "title": "最初的尝试",
+                "desc": "2023 年 2 月，我们开发了第一个 Discord 机器人，用于管理私人服务器。这是我们的第一个团队项目，也让我们学到了许多关于编程和开源的知识。"
+            },
+            "three": {
+                "title": "新阶段",
+                "desc": "几天后，Benjamin 加入团队，负责后端开发和数据库管理。在他的建议下，我们从 Python 转向 JavaScript，推动了公司的技术发展。"
+            },
+            "four": {
+                "title": "我们的现在",
+                "desc": "到 2023 年 7 月，我们已经为超过 12,000 名用户提供服务，并开始销售高质量产品。到年底，我们的用户群已超过 50,000 人，并持续增长。"
+            },
+            "five": {
+                "title": "展望未来",
+                "desc": "我们不断优化产品和服务，期待未来的新机遇。我们的目标是提供创新且可靠的软件解决方案。"
+            }
+        }
+    },
+    "team": {
+        "desc": "没有大家的努力，这家公司无法成功。\n我们感谢每一位贡献者。",
+        "roles": {
+            "owner": "创始人",
+            "hr_dir": "人力资源总监",
+            "hr_mgr": "人力资源经理",
+            "hr_mem": "人力资源专员",
+            "admin": "管理员",
+            "dev": "开发人员",
+            "marketing": "市场营销",
+            "adv": "顾问",
+            "server_mod": "服务器管理员",
+            "digital_assets": "数字内容设计师",
+            "social_media": "社交媒体经理",
+            "support": "客服专员",
+            "org_partner": "合作伙伴（组织）",
+            "other": "其他"
+        }
+    }
+}

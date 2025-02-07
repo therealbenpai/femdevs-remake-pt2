@@ -1,0 +1,141 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "Chi siamo",
+        "team": "Team",
+        "contact": "Contatti"
+    },
+    "footer": {
+        "header": {
+            "about": "Chi siamo",
+            "community": "Community",
+            "company": "Azienda",
+            "legal": "Legale"
+        },
+        "links": {
+            "about": {
+                "about": "Chi siamo",
+                "team": "Team",
+                "products": "Prodotti"
+            },
+            "community": {
+                "discord": "Discord",
+                "twitter": "Twitter",
+                "instagram": "Instagram",
+                "tiktok": "TikTok",
+                "reddit": "Reddit",
+                "femboyland": "Femboy Land"
+            },
+            "company": {
+                "branding": "Identità visiva",
+                "careers": "Lavora con noi",
+                "contact": "Contatti"
+            },
+            "legal": {
+                "terms": "Termini di servizio",
+                "privacy": "Informativa sulla privacy",
+                "cookies": "Politica sui cookie"
+            }
+        }
+    },
+    "status": {
+        "prefix": "Stato del sistema: ",
+        "type": {
+            "up": "Online",
+            "down": "Offline",
+            "degraded": "Prestazioni ridotte",
+            "maintenance": "In manutenzione",
+            "unknown": "Sconosciuto"
+        }
+    },
+    "home": {
+        "headliner": {
+            "title": "Migliora la tua presenza digitale oggi",
+            "desc": "Software veloce, sicuro e di alta qualità. Per piccole aziende o uso personale, abbiamo la soluzione giusta per te. Inizia ora!"
+        },
+        "products": {
+            "button": "I nostri prodotti",
+            "title": "Soluzioni affidabili",
+            "api": {
+                "title": "API",
+                "desc": "Le nostre API sono veloci e affidabili per le tue applicazioni."
+            },
+            "website": {
+                "title": "Siti web",
+                "desc": "I nostri siti web e le web app sono facili da usare e accessibili ovunque."
+            },
+            "bot": {
+                "title": "Bot per Discord",
+                "desc": "I nostri bot per Discord sono sviluppati da esperti per molteplici scopi."
+            },
+            "database": {
+                "title": "Database",
+                "desc": "I nostri database sono progettati per garantire velocità e sicurezza."
+            }
+        },
+        "tagline": "Stufo di software lenti? Potenzia il tuo business con FemDevs oggi stesso.",
+        "info": {
+            "one": {
+                "title": "Progettato per crescere",
+                "desc": "Le nostre soluzioni si adattano alle tue esigenze, dalle startup alle grandi aziende."
+            },
+            "two": {
+                "title": "Tecnologie all'avanguardia",
+                "desc": "Utilizziamo le migliori tecnologie per garantire prestazioni, sicurezza e affidabilità."
+            },
+            "three": {
+                "title": "Supporto dedicato",
+                "desc": "Il nostro team di supporto è disponibile 24/7 per aiutarti con qualsiasi problema."
+            }
+        },
+        "contact": {
+            "button": "Contatta il reparto vendite"
+        },
+        "clients": "Clienti totali",
+        "uptime": "Disponibilità del sistema"
+    },
+    "about": {
+        "title": "La nostra storia",
+        "sections": {
+            "one": {
+                "title": "Le origini",
+                "desc": "Siamo una piccola azienda di sviluppo software, fondata a febbraio 2023 negli Stati Uniti. Il nostro obiettivo è fornire soluzioni software di alta qualità per privati e piccole imprese. Ma non è sempre stato così. Facciamo un passo indietro nel tempo."
+            },
+            "two": {
+                "title": "Gli inizi",
+                "desc": "Nel febbraio 2023 abbiamo iniziato sviluppando un bot per Discord per gestire un server privato. Questo è stato il primo progetto su cui abbiamo lavorato come team, imparando molto sia sulla programmazione che sulla comunità open-source."
+            },
+            "three": {
+                "title": "Una nuova sfida",
+                "desc": "Pochi giorni dopo, si è unito al team Benjamin, un esperto di sviluppo backend e gestione database. Su suo consiglio, abbiamo deciso di passare da Python a JavaScript, una scelta che ha segnato il futuro dell'azienda."
+            },
+            "four": {
+                "title": "Il presente",
+                "desc": "A luglio 2023 avevamo già aiutato più di 12.000 persone e iniziato a vendere prodotti di alta qualità. Alla fine dell'anno, avevamo supportato oltre 50.000 utenti e stavamo continuando a crescere."
+            },
+            "five": {
+                "title": "Il futuro",
+                "desc": "Siamo sempre impegnati a migliorare i nostri prodotti e servizi e siamo entusiasti per ciò che verrà. Il nostro obiettivo è offrire soluzioni software affidabili e innovative per tutti."
+            }
+        }
+    },
+    "team": {
+        "desc": "Questa azienda non sarebbe stata possibile senza il contributo di molte persone.\nVogliamo ringraziare tutti coloro che hanno partecipato al nostro successo.",
+        "roles": {
+            "owner": "Fondatore/rice",
+            "hr_dir": "Direttore/rice Risorse Umane",
+            "hr_mgr": "Responsabile Risorse Umane",
+            "hr_mem": "Membro del team HR",
+            "admin": "Amministratore/rice",
+            "dev": "Sviluppatore/rice",
+            "marketing": "Responsabile Marketing",
+            "adv": "Consulente",
+            "server_mod": "Moderatore/rice server",
+            "digital_assets": "Designer di contenuti digitali",
+            "social_media": "Gestore/a social media",
+            "support": "Membro del supporto",
+            "org_partner": "Partner commerciale (organizzazione)",
+            "other": "Altro"
+        }
+    }
+}
