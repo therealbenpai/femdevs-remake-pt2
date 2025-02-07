@@ -1,0 +1,141 @@
+{
+    "nav": {
+        "home": "Startseite",
+        "about": "Über uns",
+        "team": "Team",
+        "contact": "Kontakt"
+    },
+    "footer": {
+        "header": {
+            "about": "Über uns",
+            "community": "Community",
+            "company": "Unternehmen",
+            "legal": "Rechtliches"
+        },
+        "links": {
+            "about": {
+                "about": "Über uns",
+                "team": "Team",
+                "products": "Produkte"
+            },
+            "community": {
+                "discord": "Discord",
+                "twitter": "Twitter",
+                "instagram": "Instagram",
+                "tiktok": "TikTok",
+                "reddit": "Reddit",
+                "femboyland": "Femboy Land"
+            },
+            "company": {
+                "branding": "Markenidentität",
+                "careers": "Karriere",
+                "contact": "Kontakt"
+            },
+            "legal": {
+                "terms": "Nutzungsbedingungen",
+                "privacy": "Datenschutzrichtlinie",
+                "cookies": "Cookie-Richtlinie"
+            }
+        }
+    },
+    "status": {
+        "prefix": "Systemstatus: ",
+        "type": {
+            "up": "Online",
+            "down": "Offline",
+            "degraded": "Beeinträchtigt",
+            "maintenance": "Wartung",
+            "unknown": "Unbekannt"
+        }
+    },
+    "home": {
+        "headliner": {
+            "title": "Optimieren Sie Ihre digitale Präsenz noch heute",
+            "desc": "Schnelle, sichere und hochwertige Softwarelösungen. Egal ob für Unternehmen oder den persönlichen Gebrauch – wir haben die passende Lösung. Legen Sie jetzt los."
+        },
+        "products": {
+            "button": "Unsere Produkte",
+            "title": "Zuverlässige Lösungen",
+            "api": {
+                "title": "API",
+                "desc": "Unsere APIs sind schnell und zuverlässig für Ihre Anwendungen."
+            },
+            "website": {
+                "title": "Websites",
+                "desc": "Unsere Webseiten und Web-Apps sind benutzerfreundlich und von überall zugänglich."
+            },
+            "bot": {
+                "title": "Discord-Bots",
+                "desc": "Unsere Discord-Bots werden von erfahrenen Entwickler*innen für vielfältige Zwecke programmiert."
+            },
+            "database": {
+                "title": "Datenbanken",
+                "desc": "Unsere Datenbanken sind für Geschwindigkeit und Sicherheit optimiert."
+            }
+        },
+        "tagline": "Langsame Software satt? Bringen Sie Ihr Projekt mit FemDevs auf das nächste Level.",
+        "info": {
+            "one": {
+                "title": "Skalierbar entwickelt",
+                "desc": "Unsere Lösungen wachsen mit Ihnen – egal ob kleines Start-up oder großes Unternehmen."
+            },
+            "two": {
+                "title": "Neueste Technologien",
+                "desc": "Wir nutzen modernste Technologien für Performance, Sicherheit und Zuverlässigkeit von Anfang an."
+            },
+            "three": {
+                "title": "Hervorragender Support",
+                "desc": "Unser Support-Team steht Ihnen rund um die Uhr zur Verfügung, um Sie bei Problemen zu unterstützen."
+            }
+        },
+        "contact": {
+            "button": "Vertrieb kontaktieren"
+        },
+        "clients": "Kunden gesamt",
+        "uptime": "Systemverfügbarkeit"
+    },
+    "about": {
+        "title": "Unsere Geschichte",
+        "sections": {
+            "one": {
+                "title": "Der Anfang",
+                "desc": "Wir sind ein kleines Softwareentwicklungsunternehmen, gegründet im Februar 2023 in den USA. Unser Ziel ist es, hochwertige Softwarelösungen für Privatpersonen und kleine Unternehmen bereitzustellen. Doch so hat alles nicht begonnen. Lassen Sie uns zurückblicken."
+            },
+            "two": {
+                "title": "Die ersten Schritte",
+                "desc": "Im Februar 2023 haben wir mit der Entwicklung eines Discord-Bots zur Verwaltung eines privaten Servers begonnen. Dies war unser erstes gemeinsames Projekt, bei dem wir viel über Softwareentwicklung und die Open-Source-Community gelernt haben."
+            },
+            "three": {
+                "title": "Eine neue Herausforderung",
+                "desc": "Wenige Tage nach dem Start trat Benjamin dem Team bei. Er war erfahren in der Backend-Entwicklung und Datenbankverwaltung. Schließlich entschieden wir uns auf seine Empfehlung hin für den Wechsel von Python zu JavaScript – eine richtungsweisende Entscheidung."
+            },
+            "four": {
+                "title": "Heute",
+                "desc": "Im Juli 2023 hatten wir über 12.000 Menschen unterstützt und unsere ersten Produkte verkauft. Ende 2023 hatten wir bereits mehr als 50.000 Nutzer*innen erreicht. Wir wachsen stetig weiter und verbessern unsere Dienstleistungen."
+            },
+            "five": {
+                "title": "Die Zukunft",
+                "desc": "Wir arbeiten kontinuierlich daran, unsere Produkte und Dienstleistungen zu verbessern und unser Angebot zu erweitern."
+            }
+        }
+    },
+    "team": {
+        "desc": "Dieses Unternehmen wäre ohne die vielen engagierten Menschen nicht möglich gewesen.\nWir danken allen, die zu unserem Erfolg beigetragen haben.",
+        "roles": {
+            "owner": "Gründer*in",
+            "hr_dir": "Leitung Personalwesen",
+            "hr_mgr": "Personalmanager*in",
+            "hr_mem": "Teammitglied Personalwesen",
+            "admin": "Administrator*in",
+            "dev": "Entwickler*in",
+            "marketing": "Marketing-Verantwortliche*r",
+            "adv": "Berater*in",
+            "server_mod": "Server-Moderator*in",
+            "digital_assets": "Digitale*r Designer*in",
+            "social_media": "Social Media Manager*in",
+            "support": "Support-Teammitglied",
+            "org_partner": "Geschäftspartner*in (Organisation)",
+            "other": "Andere"
+        }
+    }
+}
