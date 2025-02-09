@@ -17,7 +17,7 @@ interface StaffMember {
 export default defineEventHandler(async (event) => {
     const runtimeConfig = useRuntimeConfig();
     const staffRoles = [] as { name: string, members: StaffMember[] }[];
-    const supabase = createClient('https://xbrshjvntcletdswsxtq.supabase.co', runtimeConfig.SUPABASE_SERVICE_KEY);
+    const supabase = createClient(runtimeConfig.supabase.url, runtimeConfig.supabase.key);
     const { data, error } = await supabase
         .from('staff')
         .select('*')

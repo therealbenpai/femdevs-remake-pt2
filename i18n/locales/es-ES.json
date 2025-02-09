@@ -51,48 +51,48 @@
     "home": {
         "headliner": {
             "title": "Soluciones de software rápidas, seguras y de alta calidad.",
-            "desc": "FemDevs es una empresa de desarrollo de software dedicada a proporcionar soluciones de software de alta calidad a pequeñas empresas y particulares. Nuestros productos están diseñados para ser rápidos, seguros y fiables desde el primer día.",
+            "desc": "FemDevs es una empresa de desarrollo de software dedicada a proporcionar soluciones de software de alta calidad a pequeñas empresas y particulares. Nuestros productos están diseñados para ser rápidos, seguros y fiables desde el primer día."
         },
         "products": {
-            "button": "Our Products",
-            "title": "Reliable Products",
+            "button": "Ver Productos",
+            "title": "Nuestros Productos",
             "api": {
-                "title": "API",
-                "desc": "Our APIs are designed to be fast and reliable for your applications."
+                "title": "APIs",
+                "desc": "Nuestras APIs están diseñadas para ser rápidas y fáciles de usar, y son ideales para cualquier aplicación que necesite acceso a datos en tiempo real."
             },
             "website": {
-                "title": "Websites",
-                "desc": "Our websites and other web-based applications are designed to be easy for anyone to use and remain accessible from anywhere."
+                "title": "Sitios Web",
+                "desc": "Nuestros sitios web están diseñados para ser rápidos, seguros y fiables, y son ideales para cualquier empresa que necesite una presencia en línea."
             },
             "bot": {
-                "title": "Discord Bots",
-                "desc": "Our Discord bots are created by skilled and well-versed developers for a multitude of purposes and tasks."
+                "title": "Bots de Discord",
+                "desc": "Nuestros bots de Discord están diseñados para ser fáciles de usar y personalizar, y son ideales para cualquier servidor de Discord que necesite un bot de moderación o entretenimiento."
             },
             "database": {
-                "title": "Databases",
-                "desc": "Our databases are designed with speed and security in mind for your applications."
+                "title": "Bases de Datos",
+                "desc": "Nuestras bases de datos están diseñadas para ser rápidas, seguras y fiables, y son ideales para cualquier aplicación que necesite almacenar y recuperar datos en tiempo real."
             }
         },
-        "tagline": "Tired of Slow Software? Upgrade with FemDevs Today.",
+        "tagline": "Construido para escalar.",
         "info": {
             "one": {
-                "title": "Built to Scale",
-                "desc": "Our products are built to scale with your goals. Whether you're a small indie company or a large enterprise, we have an answer for you."
+                "title": "Escalabilidad",
+                "desc": "Nuestros productos están diseñados para ser escalables, lo que significa que pueden crecer con su empresa a medida que su empresa crece."
             },
             "two": {
-                "title": "Latest Technology",
-                "desc": "We use the latest applications and services to ensure that your software is fast, secure, and reliable from stage one."
+                "title": "Tecnología de Vanguardia",
+                "desc": "Utilizamos la última tecnología para garantizar que nuestros productos sean rápidos, seguros y fiables desde el primer día."
             },
             "three": {
-                "title": "Outstanding Support",
-                "desc": "Our support team is available 24/7 to help you with any issues you may have with your software or service."
+                "title": "Soporte 24/7",
+                "desc": "Nuestro equipo de soporte está disponible las 24 horas del día, los 7 días de la semana para ayudarle con cualquier pregunta o problema que pueda tener."
             }
         },
         "contact": {
-            "button": "Contact Sales"
+            "button": "Contáctenos"
         },
-        "clients": "Total Clients",
-        "uptime": "Service Uptime"
+        "clients": "Algunos de nuestros clientes",
+        "uptime": "Tiempo de actividad"
     },
     "about": {
         "title": "Our Story",

@@ -1,7 +1,51 @@
 {
-  "name": "nuxt-app",
+  "name": "femdevs-website",
+  "version": "5.0.0-beta2",
   "private": true,
-  "type": "module",
+  "readme": "README.md",
+  "author": {
+    "name": "Benjamin",
+    "email": "therealbenpai@gmail.com",
+    "url": "https://thefemdevs.com/profile/ben"
+  },
+  "contributors": [
+    {
+      "name": "Alex",
+      "email": "alex@thefemdevs.com",
+      "url": "https://thefemdevs.com/profile/alex"
+    },
+    {
+      "name": "Benjamin",
+      "email": "therealbenpai@gmail.com",
+      "url": "https://thefemdevs.com/profile/ben"
+    },
+    {
+      "name": "Nezha",
+      "email": "nezha@thefemdevs.com",
+      "url": "https://thefemdevs.com/profile/nezha"
+    },
+    {
+      "name": "Oblong",
+      "email": "oblong@thefemdevs.com",
+      "url": "https://thefemdevs.com/profile/oblong"
+    }
+  ],
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://github.com/sponsors/therealbenpai"
+    },
+    {
+      "type": "organization",
+      "url": "https://donate.stripe.com/6oE3ge8OU6hS93OcMM"
+    }
+  ],
+  "license": "AGPL-3.0-or-later",
+  "description": "The official source code for the FemDevs website including all the subdomains.",
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -10,7 +54,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@crowdin/ota-client": "^2.0.1",
+    "@bwip-js/node": "^4.5.1",
     "@nuxt/eslint": "0.7.5",
     "@nuxt/fonts": "0.10.3",
     "@nuxt/icon": "1.10.3",
@@ -23,14 +67,18 @@
     "eslint": "^8.57.0 || ^9.0.0",
     "lodash": "^4.17.21",
     "nuxt": "^3.15.2",
+    "nuxt-auth-utils": "0.5.9",
     "vitest": "^3.0.3",
     "vue": "latest",
     "vue-router": "latest",
-    "yaml": "^2.7.0"
+    "yaml": "^2.7.0",
+    "zod": "^3.24.1"
   },
   "devDependencies": {
     "@types/lodash": "^4.17.14",
     "typescript": "^5.7.3",
+    "uuid": "^10.0.0",
     "vue-tsc": "^2.2.0"
-  }
+  },
+  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0"
 }

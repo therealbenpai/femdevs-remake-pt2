@@ -3,7 +3,13 @@
         "home": "Home",
         "about": "About",
         "team": "Team",
-        "contact": "Contact"
+        "contact": "Contact",
+        "auth": {
+            "login": "Login",
+            "register": "Register",
+            "logout": "Log out",
+            "account": "Profile"
+        }
     },
     "footer": {
         "header": {
@@ -137,5 +143,15 @@
             "org_partner": "Business Partner (Organization)",
             "other": "Other"
         }
+    },
+    "legal": {
+        "cookies": {},
+        "privacy": {},
+        "terms": {}
+    },
+    "oss": {
+        "conduct": {},
+        "license": {},
+        "contributing": {}
     }
 }

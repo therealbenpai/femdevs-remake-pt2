@@ -1,6 +1,6 @@
 <template>
     <div className="flex flex-col items-center justify-center">
-        <hero className="flex w-full max-w-6xl flex-row items-center justify-between p-8 md:my-16">
+        <div className="flex w-full max-w-6xl flex-row items-center justify-between p-8 md:my-16">
             <div className="flex w-full flex-col space-y-8">
                 <div className="flex w-full flex-col space-y-4">
                     <h1 className="select-none font-poppins text-5xl font-extrabold text-neutral-900">License</h1>
@@ -696,6 +696,6 @@
                     </div>
                 </div>
             </div>
-        </hero>
+        </div>
     </div>
 </template>

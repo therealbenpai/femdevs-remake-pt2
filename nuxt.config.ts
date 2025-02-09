@@ -2,22 +2,41 @@
 
 import { languages } from './configs/languages';
 import TailwindsConfig from './configs/tailwinds.config';
+import FontConfig from './configs/fonts.config';
 
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   runtimeConfig: {
-    BETTER_STACK_TOKEN: process.env.BETTER_STACK_TOKEN,
-    SPOTIFY_CLIENT_ID: process.env.SPOTIFY_CLIENT_ID,
-    SPOTIFY_CLIENT_SECRET: process.env.SPOTIFY_CLIENT_SECRET,
-    SPOTIFY_REDIRECT_URI: process.env.SPOTIFY_REDIRECT_URI,
-
-    SUPABASE_KEY: process.env.SUPABASE_KEY,
-    SUPABASE_SERVICE_KEY: process.env.SUPABASE_SERVICE_KEY,
+    betterStack: {
+      token: process.env.BETTER_STACK_TOKEN,
+    },
+    spotify: {
+      clientId: process.env.SPOTIFY_CLIENT_ID,
+      clientSecret: process.env.SPOTIFY_CLIENT_SECRET,
+      redirectUri: process.env.SPOTIFY_REDIRECT_URI,
+    },
+    supabase: {
+      url: process.env.SUPABASE_URL,
+      key: process.env.SUPABASE_KEY,
+      serviceKey: process.env.SUPABASE_SERVICE_KEY,
+    },
+    oauth: {
+      discord: {
+        clientId: process.env.DISCORD_CLIENT_ID,
+        clientSecret: process.env.DISCORD_CLIENT_SECRET,
+      },
+    }
   },
   $production: {
     routeRules: {
-      '/*': { isr: false }
+      '/*': { isr: false },
+      '/api/**': {
+        isr: false,
+        headers: {
+          'Cache-Control': 'no-cache'
+        }
+      }
     },
   },
   $development: {
@@ -34,6 +53,7 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/fonts',
     '@nuxtjs/seo',
+    'nuxt-auth-utils',
   ],
   app: {
     head: {
@@ -65,7 +85,7 @@ export default defineNuxtConfig({
     vueI18n: './configs/i18n.config.ts',
     locales: languages,
     defaultLocale: 'en-US',
-    strategy: 'prefix_and_default',
   },
   routeRules: {},
+  fonts: FontConfig,
 })

@@ -12,7 +12,7 @@ export default defineEventHandler(async (event) => {
     const base = 'api/v2/status-pages/195665/resources';
     const response = await fetch(`https://betteruptime.com/${base}`, {
         headers: {
-            Authorization: `Bearer ${runtimeConfig.BETTER_STACK_TOKEN}`,
+            Authorization: `Bearer ${runtimeConfig.betterStack.token}`,
         },
     }).then(res => res.json());
     const resourceIDs = response.data.map((obj: any) => obj.id);
@@ -20,7 +20,7 @@ export default defineEventHandler(async (event) => {
     for (const id of resourceIDs) {
         const { data: { attributes: attr } } = await fetch(`https://uptime.betterstack.com/${base}/${id}`, {
             headers: {
-                Authorization: `Bearer ${runtimeConfig.BETTER_STACK_TOKEN}`,
+                Authorization: `Bearer ${runtimeConfig.betterStack.token}`,
             },
         }).then(res => res.json());
         resources.push(new ResourceData(attr));
