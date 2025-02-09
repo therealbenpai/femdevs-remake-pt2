@@ -1,31 +1,4 @@
 <script setup lang="ts">
-const { loggedIn, user, session, fetch, clear } = useUserSession();
-
-const state = reactive({
-  loggedIn,
-
-});
-
-const refs = {
-  account: ref<HTMLElement | null>(null),
-  logout: ref<HTMLElement | null>(null),
-  signin: ref<HTMLElement | null>(null),
-  signup: ref<HTMLElement | null>(null),
-}
-
-const logout = async () => {
-  await fetch("/auth/user", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      "x-method": "logout",
-    },
-  });
-  refs.account?.classList.add("hidden");
-  refs.logout?.classList.add("hidden");
-  refs.signin?.classList.remove("hidden");
-  refs.signup?.classList.remove("hidden");
-};
 </script>
 
 <template>
@@ -45,22 +18,6 @@ const logout = async () => {
             <NavLink href="mailto:support@thefemdevs.com">{{
               $t("nav.contact")
             }}</NavLink>
-            <NavLink v-if="state.loggedIn" href="/account">
-              {{ $t("nav.auth.account") }}
-            </NavLink>
-            <button
-              v-if="state.loggedIn"
-              class="select-none font-poppins text-lg transition-all hover:text-neutral-800 text-slate-800 border-none"
-              @click="logout"
-            >
-              {{ $t("nav.auth.logout") }}
-            </button>
-            <NavLink v-if="!state.loggedIn" href="/login">
-              {{ $t("nav.auth.login") }}
-            </NavLink>
-            <NavLink v-if="!state.loggedIn" href="/register">
-              {{ $t("nav.auth.register") }}
-            </NavLink>
           </div>
         </div>
       </nav>

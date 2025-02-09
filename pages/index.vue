@@ -4,7 +4,7 @@ useHead({
     meta: [
         {
             name: 'description',
-            content: 'The FEM Devs - Home Page'
+            content: 'The FemDevs is a community'
         }
     ]
 })
@@ -55,8 +55,7 @@ useHead({
                             <div class="flex flex-row items-center space-x-2">
                                 <Icon
                                     name="ph:globe"
-                                    width='2rem'
-                                    height='2rem'
+                                    class="size-[2rem]"
                                     style="color: #008"
                                 />
                                 <h3 class="max-w-2xl select-none font-poppins text-2xl font-medium text-neutral-900">
@@ -74,8 +73,7 @@ useHead({
                                 </h3>
                                 <Icon
                                     name="solar:server-outline"
-                                    width='2rem'
-                                    height='2rem'
+                                    class="size-[2rem]"
                                     style="color: #008"
                                 />
                             </div>
@@ -87,8 +85,7 @@ useHead({
                             <div class="flex flex-row items-center space-x-2">
                                 <Icon
                                     name="mdi:message-question-outline"
-                                    width='2rem'
-                                    height='2rem'
+                                    class="size-[2rem]"
                                     style="color: #008"
                                 />
                                 <h3 class="max-w-2xl select-none font-poppins text-2xl font-medium text-neutral-900">
@@ -112,8 +109,7 @@ useHead({
                             <div class="flex flex-col space-y-3 rounded-lg bg-white p-8">
                                 <Icon
                                     name="carbon:api"
-                                    width='2rem'
-                                    height='2rem'
+                                    class="size-[2rem]"
                                     style="color: #008"
                                 />
                                 <ServicesAbout
@@ -124,8 +120,7 @@ useHead({
                             <div class="flex flex-col space-y-3 rounded-lg bg-white p-8 lg:col-span-2">
                                 <Icon
                                     name="gridicons:site"
-                                    width='2rem'
-                                    height='2rem'
+                                    class="size-[2rem]"
                                     style="color: #008"
                                 />
                                 <ServicesAbout
@@ -136,8 +131,7 @@ useHead({
                             <div class="flex flex-col space-y-3 rounded-lg bg-white p-8 lg:col-span-2">
                                 <Icon
                                     name="bxs:bot"
-                                    width='2rem'
-                                    height='2rem'
+                                    class="size-[2rem]"
                                     style="color: #008"
                                 />
                                 <ServicesAbout
@@ -148,8 +142,7 @@ useHead({
                             <div class="flex flex-col space-y-3 rounded-lg bg-white p-8">
                                 <Icon
                                     name="material-symbols-light:database"
-                                    width='2rem'
-                                    height='2rem'
+                                    class="size-[2rem]"
                                     style="color: #008"
                                 />
                                 <ServicesAbout

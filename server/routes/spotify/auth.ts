@@ -11,8 +11,7 @@ export default defineEventHandler(async (event) => {
     });
     if (!code) {
         const scopes = ["user-read-private", "user-read-currently-playing", "user-read-playback-state", "user-read-email"];
-        const authorizeURL = SpotifyAPI.createAuthorizeURL(scopes, '');
-        return await sendRedirect(event, authorizeURL, 302)
+        return await sendRedirect(event, SpotifyAPI.createAuthorizeURL(scopes, ''), 301)
     }
     if (typeof code !== 'string') {
         throw createError({
