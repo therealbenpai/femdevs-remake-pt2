@@ -83,15 +83,4 @@ export default defineNuxtConfig({
   },
   routeRules: {},
   fonts: FontConfig,
-  auth: {
-    hash: {
-      scrypt: {
-        blockSize: 1 << 3, // 8
-        parallelization: 1,
-        saltSize: 1 << 3, // 8
-        cost: 1 << 8, // 256
-      }
-    },
-    webAuthn: true
-  }
 })
