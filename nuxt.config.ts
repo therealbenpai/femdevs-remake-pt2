@@ -30,7 +30,13 @@ export default defineNuxtConfig({
   },
   $production: {
     routeRules: {
-      '/*': { isr: false }
+      '/*': { isr: false },
+      '/api/**': {
+        isr: false,
+        headers: {
+          'Cache-Control': 'no-cache'
+        }
+      }
     },
   },
   $development: {
