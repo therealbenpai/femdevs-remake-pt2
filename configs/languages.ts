@@ -14,7 +14,7 @@ const languages: LocaleObject<string>[] = [
     defineLocale('en-PigLatin', 'Pig Latin'),
     defineLocale('es-ES', 'Español'),
     defineLocale('ar', 'العربية', { dir: 'rtl' }),
-    defineLocale('hi-IL', 'עִברִית', { dir: 'rtl' }),
+    defineLocale('he-IL', 'עִברִית', { dir: 'rtl' }),
     defineLocale('fa-IR', 'فارسى', { dir: 'rtl' }),
     defineLocale('fr-FR', 'Français'),
     defineLocale('hi-IN', 'हिन्दी'),
