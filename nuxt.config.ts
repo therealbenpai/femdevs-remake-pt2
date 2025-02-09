@@ -48,7 +48,6 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxtjs/seo',
     'nuxt-auth-utils',
-    '@nuxt/ui',
   ],
   app: {
     head: {
