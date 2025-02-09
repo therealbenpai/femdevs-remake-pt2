@@ -1,0 +1,157 @@
+{
+    "nav": {
+        "home": "crwdns7220:0crwdne7220:0",
+        "about": "crwdns7222:0crwdne7222:0",
+        "team": "crwdns7224:0crwdne7224:0",
+        "contact": "crwdns7226:0crwdne7226:0",
+        "auth": {
+            "login": "crwdns7374:0crwdne7374:0",
+            "register": "crwdns7376:0crwdne7376:0",
+            "logout": "crwdns7378:0crwdne7378:0",
+            "account": "crwdns7380:0crwdne7380:0"
+        }
+    },
+    "footer": {
+        "header": {
+            "about": "crwdns7228:0crwdne7228:0",
+            "community": "crwdns7230:0crwdne7230:0",
+            "company": "crwdns7232:0crwdne7232:0",
+            "legal": "crwdns7234:0crwdne7234:0"
+        },
+        "links": {
+            "about": {
+                "about": "crwdns7236:0crwdne7236:0",
+                "team": "crwdns7238:0crwdne7238:0",
+                "products": "crwdns7240:0crwdne7240:0"
+            },
+            "community": {
+                "discord": "crwdns7242:0crwdne7242:0",
+                "twitter": "crwdns7244:0crwdne7244:0",
+                "instagram": "crwdns7246:0crwdne7246:0",
+                "tiktok": "crwdns7248:0crwdne7248:0",
+                "reddit": "crwdns7250:0crwdne7250:0",
+                "femboyland": "crwdns7252:0crwdne7252:0"
+            },
+            "company": {
+                "branding": "crwdns7254:0crwdne7254:0",
+                "careers": "crwdns7256:0crwdne7256:0",
+                "contact": "crwdns7258:0crwdne7258:0"
+            },
+            "legal": {
+                "terms": "crwdns7260:0crwdne7260:0",
+                "privacy": "crwdns7262:0crwdne7262:0",
+                "cookies": "crwdns7264:0crwdne7264:0"
+            }
+        }
+    },
+    "status": {
+        "prefix": "crwdns7266:0crwdne7266:0",
+        "type": {
+            "up": "crwdns7268:0crwdne7268:0",
+            "down": "crwdns7270:0crwdne7270:0",
+            "degraded": "crwdns7272:0crwdne7272:0",
+            "maintenance": "crwdns7274:0crwdne7274:0",
+            "unknown": "crwdns7276:0crwdne7276:0"
+        }
+    },
+    "home": {
+        "headliner": {
+            "title": "crwdns7278:0crwdne7278:0",
+            "desc": "crwdns7280:0crwdne7280:0"
+        },
+        "products": {
+            "button": "crwdns7282:0crwdne7282:0",
+            "title": "crwdns7284:0crwdne7284:0",
+            "api": {
+                "title": "crwdns7286:0crwdne7286:0",
+                "desc": "crwdns7288:0crwdne7288:0"
+            },
+            "website": {
+                "title": "crwdns7290:0crwdne7290:0",
+                "desc": "crwdns7292:0crwdne7292:0"
+            },
+            "bot": {
+                "title": "crwdns7294:0crwdne7294:0",
+                "desc": "crwdns7296:0crwdne7296:0"
+            },
+            "database": {
+                "title": "crwdns7298:0crwdne7298:0",
+                "desc": "crwdns7300:0crwdne7300:0"
+            }
+        },
+        "tagline": "crwdns7302:0crwdne7302:0",
+        "info": {
+            "one": {
+                "title": "crwdns7304:0crwdne7304:0",
+                "desc": "crwdns7306:0crwdne7306:0"
+            },
+            "two": {
+                "title": "crwdns7308:0crwdne7308:0",
+                "desc": "crwdns7310:0crwdne7310:0"
+            },
+            "three": {
+                "title": "crwdns7312:0crwdne7312:0",
+                "desc": "crwdns7314:0crwdne7314:0"
+            }
+        },
+        "contact": {
+            "button": "crwdns7316:0crwdne7316:0"
+        },
+        "clients": "crwdns7318:0crwdne7318:0",
+        "uptime": "crwdns7320:0crwdne7320:0"
+    },
+    "about": {
+        "title": "crwdns7322:0crwdne7322:0",
+        "sections": {
+            "one": {
+                "title": "crwdns7324:0crwdne7324:0",
+                "desc": "crwdns7326:0crwdne7326:0"
+            },
+            "two": {
+                "title": "crwdns7328:0crwdne7328:0",
+                "desc": "crwdns7330:0crwdne7330:0"
+            },
+            "three": {
+                "title": "crwdns7332:0crwdne7332:0",
+                "desc": "crwdns7334:0crwdne7334:0"
+            },
+            "four": {
+                "title": "crwdns7336:0crwdne7336:0",
+                "desc": "crwdns7338:0crwdne7338:0"
+            },
+            "five": {
+                "title": "crwdns7340:0crwdne7340:0",
+                "desc": "crwdns7342:0crwdne7342:0"
+            }
+        }
+    },
+    "team": {
+        "desc": "crwdns7344:0crwdne7344:0",
+        "roles": {
+            "owner": "crwdns7346:0crwdne7346:0",
+            "hr_dir": "crwdns7348:0crwdne7348:0",
+            "hr_mgr": "crwdns7350:0crwdne7350:0",
+            "hr_mem": "crwdns7352:0crwdne7352:0",
+            "admin": "crwdns7354:0crwdne7354:0",
+            "dev": "crwdns7356:0crwdne7356:0",
+            "marketing": "crwdns7358:0crwdne7358:0",
+            "adv": "crwdns7360:0crwdne7360:0",
+            "server_mod": "crwdns7362:0crwdne7362:0",
+            "digital_assets": "crwdns7364:0crwdne7364:0",
+            "social_media": "crwdns7366:0crwdne7366:0",
+            "support": "crwdns7368:0crwdne7368:0",
+            "org_partner": "crwdns7370:0crwdne7370:0",
+            "other": "crwdns7372:0crwdne7372:0"
+        }
+    },
+    "legal": {
+        "cookies": {},
+        "privacy": {},
+        "terms": {}
+    },
+    "oss": {
+        "conduct": {},
+        "license": {},
+        "contributing": {}
+    }
+}
