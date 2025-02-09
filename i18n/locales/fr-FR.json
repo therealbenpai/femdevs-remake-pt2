@@ -1,0 +1,141 @@
+{
+    "nav": {
+        "home": "Accueil",
+        "about": "À propos",
+        "team": "Équipe",
+        "contact": "Contactez-nous"
+    },
+    "footer": {
+        "header": {
+            "about": "À propos",
+            "community": "Communauté",
+            "company": "Entreprise",
+            "legal": "Légal"
+        },
+        "links": {
+            "about": {
+                "about": "À propos",
+                "team": "Équipe",
+                "products": "Produits"
+            },
+            "community": {
+                "discord": "Discord",
+                "twitter": "Twitter",
+                "instagram": "Instagram",
+                "tiktok": "TikTok",
+                "reddit": "Reddit",
+                "femboyland": "Femboy Land"
+            },
+            "company": {
+                "branding": "Identité visuelle",
+                "careers": "Carrières",
+                "contact": "Contact"
+            },
+            "legal": {
+                "terms": "Conditions d'utilisation",
+                "privacy": "Politique de confidentialité",
+                "cookies": "Politique des cookies"
+            }
+        }
+    },
+    "status": {
+        "prefix": "État du système : ",
+        "type": {
+            "up": "En ligne",
+            "down": "Hors service",
+            "degraded": "Dégradé",
+            "maintenance": "Maintenance en cours",
+            "unknown": "Inconnu"
+        }
+    },
+    "home": {
+        "headliner": {
+            "title": "Transformez votre présence numérique dès aujourd'hui",
+            "desc": "Des solutions logicielles rapides, sécurisées et de haute qualité. Que ce soit pour une entreprise ou un usage personnel, nous avons ce qu'il vous faut. Lancez-vous dès maintenant."
+        },
+        "products": {
+            "button": "Nos Produits",
+            "title": "Des solutions fiables",
+            "api": {
+                "title": "API",
+                "desc": "Nos API sont conçues pour être rapides et fiables pour vos applications."
+            },
+            "website": {
+                "title": "Sites web",
+                "desc": "Nos sites et applications web sont pensés pour être intuitifs et accessibles partout."
+            },
+            "bot": {
+                "title": "Bots Discord",
+                "desc": "Nos bots Discord sont développés par des experts pour une multitude d’usages."
+            },
+            "database": {
+                "title": "Bases de données",
+                "desc": "Nos bases de données sont optimisées pour la rapidité et la sécurité."
+            }
+        },
+        "tagline": "Marre des logiciels lents ? Faites passer votre projet au niveau supérieur avec FemDevs.",
+        "info": {
+            "one": {
+                "title": "Pensé pour évoluer",
+                "desc": "Nos solutions sont conçues pour s’adapter à vos ambitions, qu'il s'agisse d'une startup ou d'une grande entreprise."
+            },
+            "two": {
+                "title": "Technologies de pointe",
+                "desc": "Nous utilisons les meilleures technologies pour garantir performance, sécurité et fiabilité dès le départ."
+            },
+            "three": {
+                "title": "Support de qualité",
+                "desc": "Notre équipe est disponible 24/7 pour vous aider en cas de problème avec vos services."
+            }
+        },
+        "contact": {
+            "button": "Contacter les ventes"
+        },
+        "clients": "Clients servis",
+        "uptime": "Disponibilité"
+    },
+    "about": {
+        "title": "Notre Histoire",
+        "sections": {
+            "one": {
+                "title": "Nos débuts",
+                "desc": "Nous sommes une petite entreprise de développement logiciel fondée en février 2023 aux États-Unis. Nous nous engageons à fournir des solutions logicielles de qualité aux particuliers et aux petites entreprises. Mais tout n’a pas commencé ainsi. Remontons un peu dans le temps."
+            },
+            "two": {
+                "title": "Les premières étapes",
+                "desc": "En février 2023, nous avons commencé avec un bot Discord conçu pour gérer un serveur privé. C’était notre premier projet en équipe, et nous avons énormément appris sur le développement et la communauté open source."
+            },
+            "three": {
+                "title": "Un défi à relever",
+                "desc": "Quelques jours après, Benjamin a rejoint l’équipe. Développeur expérimenté en backend et gestion de bases de données, il a suggéré de passer de Python à JavaScript, un choix qui a marqué l’évolution de notre entreprise."
+            },
+            "four": {
+                "title": "Aujourd’hui",
+                "desc": "En juillet 2023, nous avions aidé plus de 12 000 utilisateurs et commencé à vendre nos premiers produits. Fin 2023, nous avions dépassé les 50 000 utilisateurs. Nous continuons de grandir et d'améliorer nos services grâce à vous."
+            },
+            "five": {
+                "title": "L'avenir",
+                "desc": "Notre objectif est d'innover et d’élargir notre offre pour mieux répondre aux besoins des particuliers et des entreprises."
+            }
+        }
+    },
+    "team": {
+        "desc": "Cette entreprise ne serait pas ce qu'elle est sans toutes les personnes qui ont contribué à son succès.\nNous remercions chaleureusement tous ceux qui ont participé à cette aventure.",
+        "roles": {
+            "owner": "Fondateur/trice",
+            "hr_dir": "Directeur/trice RH",
+            "hr_mgr": "Responsable RH",
+            "hr_mem": "Membre RH",
+            "admin": "Administrateur/trice",
+            "dev": "Développeur/euse",
+            "marketing": "Responsable marketing",
+            "adv": "Conseiller/ère",
+            "server_mod": "Modérateur/trice serveur",
+            "digital_assets": "Créateur/trice d'assets numériques",
+            "social_media": "Community manager",
+            "support": "Membre support",
+            "org_partner": "Partenaire commercial (organisation)",
+            "other": "Autre"
+        }
+    }
+}

@@ -1,0 +1,141 @@
+{
+    "nav": {
+        "home": "Strona główna",
+        "about": "O nas",
+        "team": "Zespół",
+        "contact": "Kontakt"
+    },
+    "footer": {
+        "header": {
+            "about": "O nas",
+            "community": "Społeczność",
+            "company": "Firma",
+            "legal": "Prawne"
+        },
+        "links": {
+            "about": {
+                "about": "O nas",
+                "team": "Zespół",
+                "products": "Produkty"
+            },
+            "community": {
+                "discord": "Discord",
+                "twitter": "Twitter",
+                "instagram": "Instagram",
+                "tiktok": "TikTok",
+                "reddit": "Reddit",
+                "femboyland": "Femboyland"
+            },
+            "company": {
+                "branding": "Marka",
+                "careers": "Kariera",
+                "contact": "Kontakt"
+            },
+            "legal": {
+                "terms": "Warunki usługi",
+                "privacy": "Polityka prywatności",
+                "cookies": "Polityka plików cookies"
+            }
+        }
+    },
+    "status": {
+        "prefix": "Status systemu: ",
+        "type": {
+            "up": "Działa",
+            "down": "Nie działa",
+            "degraded": "Obniżona wydajność",
+            "maintenance": "W trakcie konserwacji",
+            "unknown": "Nieznany"
+        }
+    },
+    "home": {
+        "headliner": {
+            "title": "Przekształć swoją obecność w Internecie już teraz",
+            "desc": "Szybkie, bezpieczne i wysokiej jakości oprogramowanie. Potrzebujesz go do małych firm lub na użytek osobisty? Zaspokoimy Twoje potrzeby. Zacznij teraz."
+        },
+        "products": {
+            "button": "Nasze produkty",
+            "title": "Niezawodne produkty",
+            "api": {
+                "title": "API",
+                "desc": "Nasze interfejsy API są zaprojektowane, aby być szybkie i niezawodne dla Twoich aplikacji."
+            },
+            "website": {
+                "title": "Strony internetowe",
+                "desc": "Nasze strony internetowe i aplikacje webowe zostały zaprojektowane, aby były łatwe w użyciu i dostępne z dowolnego miejsca."
+            },
+            "bot": {
+                "title": "Boty Discorda",
+                "desc": "Nasze boty Discorda są tworzone przez utalentowanych deweloperów do różnych celów i zadań."
+            },
+            "database": {
+                "title": "Bazy danych",
+                "desc": "Nasze bazy danych są zaprojektowane z myślą o prędkości i bezpieczeństwie Twoich aplikacji."
+            }
+        },
+        "tagline": "Masz dość wolnego oprogramowania? Rozwijaj swój biznes z FemDevs już teraz.",
+        "info": {
+            "one": {
+                "title": "Zaprojektowane z myślą o skalowalności",
+                "desc": "Nasze produkty zostały zaprojektowane, aby dorównać Twoim ambicjom. Bez względu na to, czy masz małą firmę, czy dużą korporację, mamy rozwiązanie."
+            },
+            "two": {
+                "title": "Najnowocześniejsza technologia",
+                "desc": "Używamy najnowszych aplikacji i usług, aby zapewnić szybkość, bezpieczeństwo i niezawodność Twojego oprogramowania od samego początku."
+            },
+            "three": {
+                "title": "Wyróżniające się wsparcie",
+                "desc": "Nasz zespół wsparcia jest dostępny 24/7, aby pomóc Ci w problemach z oprogramowaniem lub usługami."
+            }
+        },
+        "contact": {
+            "button": "Kontakt z działem sprzedaży"
+        },
+        "clients": "Łączna liczba klientów",
+        "uptime": "Dostępność usługi"
+    },
+    "about": {
+        "title": "Nasza historia",
+        "sections": {
+            "one": {
+                "title": "Tło",
+                "desc": "Jesteśmy małą firmą zajmującą się rozwojem oprogramowania, założoną w lutym 2023 roku. Nasza siedziba znajduje się w Stanach Zjednoczonych, a naszym celem jest dostarczanie wysokiej jakości rozwiązań programistycznych dla osób prywatnych i małych firm. Pasjonujemy się tym, co robimy i nieustannie dążymy do ulepszania naszych produktów i usług. Jednak nie zaczęło się to tak. Cofnijmy się trochę w czasie."
+            },
+            "two": {
+                "title": "Początki",
+                "desc": "W lutym 2023 roku zaczęliśmy rozwijać bota Discorda do zarządzania prywatnym serwerem. To był pierwszy projekt, nad którym właściciele pracowali jako zespół. Dowiedzieli się wiele z tego projektu, zarówno o sobie, jak i o społeczności open-source oraz o przemyśle programistycznym. To projekt, który zapoczątkował powstanie FemDevs."
+            },
+            "three": {
+                "title": "Pojawienie się nowego wyzwania",
+                "desc": "Po kilku dniach do zespołu dołączył nowy członek – Benjamin. Był bardzo utalentowany w programowaniu, zwłaszcza w rozwoju serwerów i zarządzaniu bazami danych. Zespół kontynuował rozwój bota w Pythonie, aż Benjamin zdecydował, że przejście na JavaScript będzie korzystne. To były pierwsze decyzje, które ukształtowały przyszłość firmy."
+            },
+            "four": {
+                "title": "Teraz",
+                "desc": "W lipcu 2023 roku pomogliśmy już ponad 12 000 osobom i zaczęliśmy sprzedawać wysokiej jakości produkty. Pod koniec 2023 roku pomogliśmy ponad 50 000 osobom. Nadal rośniemy i rozszerzamy nasze usługi, zawsze dążąc do ulepszania tego, co oferujemy. Jesteśmy podekscytowani tym, co przyszłość przyniesie naszej firmie, i wdzięczni za wsparcie, które otrzymaliśmy."
+            },
+            "five": {
+                "title": "Przyszłość",
+                "desc": "Nieustannie dążymy do ulepszania naszych produktów i usług, i nie możemy się doczekać, co przyszłość przyniesie. Jesteśmy zobowiązani do dostarczania wysokiej jakości rozwiązań programistycznych dla osób prywatnych i małych firm i zawsze dążymy do rozszerzania naszych usług."
+            }
+        }
+    },
+    "team": {
+        "desc": "Firma nie byłaby możliwa bez pomocy wielu osób.\nChcielibyśmy podziękować następującym osobom za ich wkład.",
+        "roles": {
+            "owner": "Właściciel",
+            "hr_dir": "Dyrektor HR",
+            "hr_mgr": "Menadżer HR",
+            "hr_mem": "Członek HR",
+            "admin": "Administrator",
+            "dev": "Programista",
+            "marketing": "Specjalista ds. marketingu",
+            "adv": "Doradca",
+            "server_mod": "Moderator serwera",
+            "digital_assets": "Twórca zasobów cyfrowych",
+            "social_media": "Menadżer mediów społecznościowych",
+            "support": "Członek zespołu wsparcia",
+            "org_partner": "Partner biznesowy (organizacja)",
+            "other": "Inny"
+        }
+    }
+}

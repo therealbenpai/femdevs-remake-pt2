@@ -1,0 +1,141 @@
+{
+    "nav": {
+        "home": "Ana Sayfa",
+        "about": "Hakkımızda",
+        "team": "Ekip",
+        "contact": "İletişim"
+    },
+    "footer": {
+        "header": {
+            "about": "Hakkımızda",
+            "community": "Topluluk",
+            "company": "Şirket",
+            "legal": "Hukuki"
+        },
+        "links": {
+            "about": {
+                "about": "Hakkımızda",
+                "team": "Ekip",
+                "products": "Ürünler"
+            },
+            "community": {
+                "discord": "Discord",
+                "twitter": "Twitter",
+                "instagram": "Instagram",
+                "tiktok": "TikTok",
+                "reddit": "Reddit",
+                "femboyland": "Femboyland"
+            },
+            "company": {
+                "branding": "Markalaşma",
+                "careers": "Kariyer",
+                "contact": "İletişim"
+            },
+            "legal": {
+                "terms": "Hizmet Şartları",
+                "privacy": "Gizlilik Politikası",
+                "cookies": "Çerez Politikası"
+            }
+        }
+    },
+    "status": {
+        "prefix": "Sistem Durumu: ",
+        "type": {
+            "up": "Bağlantı Sağlandı",
+            "down": "Hizmet Dışı",
+            "degraded": "Zayıflamış",
+            "maintenance": "Bakımda",
+            "unknown": "Bilinmiyor"
+        }
+    },
+    "home": {
+        "headliner": {
+            "title": "Bugün Dijital Varlığınızı Dönüştürün",
+            "desc": "Hızlı, güvenli ve yüksek kaliteli yazılımlar. Kişisel kullanım veya küçük işletmeler için mi ihtiyacınız var? Biz ihtiyaçlarınızı karşılayabiliriz. Hemen başlayın."
+        },
+        "products": {
+            "button": "Ürünlerimiz",
+            "title": "Güvenilir Ürünler",
+            "api": {
+                "title": "API",
+                "desc": "API'lerimiz, uygulamalarınız için hızlı ve güvenilir olacak şekilde tasarlanmıştır."
+            },
+            "website": {
+                "title": "Web Siteleri",
+                "desc": "Web tabanlı web sitelerimiz ve uygulamalarımız, kullanımı kolay ve her yerden erişilebilir olacak şekilde tasarlanmıştır."
+            },
+            "bot": {
+                "title": "Discord Botları",
+                "desc": "Discord botlarımız, yetenekli geliştiriciler tarafından birden fazla amaç ve görev için yapılmıştır."
+            },
+            "database": {
+                "title": "Veritabanları",
+                "desc": "Veritabanlarımız, uygulamalarınız için hız ve güvenliği göz önünde bulundurarak tasarlanmıştır."
+            }
+        },
+        "tagline": "Yavaş yazılımlardan bıktınız mı? Bugün FemDevs ile işinizi geliştirin.",
+        "info": {
+            "one": {
+                "title": "Ölçeklenebilir Tasarım",
+                "desc": "Ürünlerimiz, hedeflerinizi takip edecek şekilde tasarlanmıştır. Küçük bir işletme veya büyük bir şirket olun, çözümümüz var."
+            },
+            "two": {
+                "title": "En Yeni Teknolojiler",
+                "desc": "Başlangıçtan itibaren yazılımlarınızın hızlı, güvenli ve güvenilir olmasını sağlamak için en yeni uygulamaları ve hizmetleri kullanıyoruz."
+            },
+            "three": {
+                "title": "Öne Çıkan Destek",
+                "desc": "Destek ekibimiz, yazılımlarınız veya hizmetlerinizle ilgili karşılaştığınız sorunlara yardımcı olmak için 7/24 hizmetinizde."
+            }
+        },
+        "contact": {
+            "button": "Satışla İletişime Geç"
+        },
+        "clients": "Toplam Müşteri Sayısı",
+        "uptime": "Hizmet Çalışma Süresi"
+    },
+    "about": {
+        "title": "Hikayemiz",
+        "sections": {
+            "one": {
+                "title": "Arka Plan Hikayesi",
+                "desc": "Biz, 2023 Şubat ayında kurulan küçük bir yazılım geliştirme şirketiyiz. ABD merkezliyiz ve bireyler ve küçük işletmeler için yüksek kaliteli yazılım çözümleri sunma taahhüdündeyiz. Yaptığımız işi seviyoruz ve her zaman ürünlerimizi ve hizmetlerimizi geliştirmek için çalışıyoruz. Ancak, böyle başlamadık. Hadi biraz geriye gidelim."
+            },
+            "two": {
+                "title": "Başlangıçlar",
+                "desc": "2023 Şubat ayında, kişisel bir sunucu yönetimi için Discord botu geliştirmeye başladık. Bu, sahiplerin ekip olarak üzerinde çalıştığı ilk projeydi. Bu proje, hem birbirlerinden hem de açık kaynak topluluğundan çok şey öğrendiler. Bu proje, FemDevs'in kurulum kıvılcımı oldu."
+            },
+            "three": {
+                "title": "Yeni Bir Zorluk Ortaya Çıktı",
+                "desc": "Proje başladıktan birkaç gün sonra, ekibe yeni bir üye katıldı, Benjamin. Benjamin, özellikle sunucu geliştirme ve veritabanı yönetiminde çok yetenekliydi. Ekip, botu Python dilinde geliştirmeye devam etti, ancak Benjamin, JavaScript'e geçmenin faydalı olacağını düşündü. Bu, şirketin geleceğini şekillendiren ilk kararlardan biriydi."
+            },
+            "four": {
+                "title": "Bugün",
+                "desc": "2023 Temmuz ayında, 12.000'den fazla kişiye yardımcı olduk ve yüksek kaliteli ürünler satmaya başladık. 2023 sonunda, 50.000'den fazla kişiye yardımcı olduk. Büyümeye devam ettik ve hizmetlerimizi genişlettik, her zaman sunduğumuz şeyi geliştirmeye çalıştık. Şirketimizin geleceği için heyecanlıyız ve aldığımız tüm destek için minnettarız."
+            },
+            "five": {
+                "title": "Gelecek",
+                "desc": "Her zaman ürünlerimizi ve hizmetlerimizi geliştirmeye çalışıyoruz ve gelecekte neler getireceğini görmek için çok heyecanlıyız. Bireyler ve küçük işletmeler için yüksek kaliteli yazılım çözümleri sunma taahhüdündeyiz ve hizmetlerimizi genişletmeye devam edeceğiz."
+            }
+        }
+    },
+    "team": {
+        "desc": "Bu şirket, birçok kişinin yardımı olmadan mümkün olamazdı.\nAşağıdaki kişilere katkılarından dolayı teşekkür ederiz.",
+        "roles": {
+            "owner": "Sahip",
+            "hr_dir": "İK Direktörü",
+            "hr_mgr": "İK Yöneticisi",
+            "hr_mem": "İK Üyesi",
+            "admin": "Yönetici",
+            "dev": "Geliştirici",
+            "marketing": "Pazarlama Sorumlusu",
+            "adv": "Danışman",
+            "server_mod": "Sunucu Yöneticisi",
+            "digital_assets": "Dijital Varlık Yaratıcısı",
+            "social_media": "Sosyal Medya Yöneticisi",
+            "support": "Destek Ekibi Üyesi",
+            "org_partner": "İş Ortağı (Kuruluş)",
+            "other": "Diğer"
+        }
+    }
+}

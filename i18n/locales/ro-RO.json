@@ -1,0 +1,141 @@
+{
+    "nav": {
+        "home": "Acasă",
+        "about": "Despre noi",
+        "team": "Echipa",
+        "contact": "Contact"
+    },
+    "footer": {
+        "header": {
+            "about": "Despre noi",
+            "community": "Comunitate",
+            "company": "Companie",
+            "legal": "Legal"
+        },
+        "links": {
+            "about": {
+                "about": "Despre noi",
+                "team": "Echipa",
+                "products": "Produse"
+            },
+            "community": {
+                "discord": "Discord",
+                "twitter": "Twitter",
+                "instagram": "Instagram",
+                "tiktok": "TikTok",
+                "reddit": "Reddit",
+                "femboyland": "Femboyland"
+            },
+            "company": {
+                "branding": "Branding",
+                "careers": "Cariere",
+                "contact": "Contact"
+            },
+            "legal": {
+                "terms": "Termeni și condiții",
+                "privacy": "Politica de confidențialitate",
+                "cookies": "Politica de cookies"
+            }
+        }
+    },
+    "status": {
+        "prefix": "Starea sistemului: ",
+        "type": {
+            "up": "Funcționează",
+            "down": "Nefuncțional",
+            "degraded": "Performanță redusă",
+            "maintenance": "În întreținere",
+            "unknown": "Necunoscut"
+        }
+    },
+    "home": {
+        "headliner": {
+            "title": "Transformă-ți prezența online acum",
+            "desc": "Software rapid, sigur și de înaltă calitate. Ai nevoie de el pentru afaceri mici sau scopuri personale? Vom satisface nevoile tale. Începe acum."
+        },
+        "products": {
+            "button": "Produsele noastre",
+            "title": "Produse de încredere",
+            "api": {
+                "title": "API",
+                "desc": "API-urile noastre sunt concepute pentru a fi rapide și fiabile pentru aplicațiile tale."
+            },
+            "website": {
+                "title": "Site-uri web",
+                "desc": "Site-urile web și aplicațiile noastre bazate pe web sunt concepute pentru a fi ușor de utilizat și accesibile din orice locație."
+            },
+            "bot": {
+                "title": "Boti Discord",
+                "desc": "Boti noștri Discord sunt creați de dezvoltatori talentați pentru diferite scopuri și sarcini."
+            },
+            "database": {
+                "title": "Baze de date",
+                "desc": "Bazele noastre de date sunt concepute cu gândul la viteză și siguranță pentru aplicațiile tale."
+            }
+        },
+        "tagline": "Te-ai săturat de software-ul lent? Crește-ți afacerea cu FemDevs acum.",
+        "info": {
+            "one": {
+                "title": "Proiectat pentru scalabilitate",
+                "desc": "Produsele noastre sunt concepute pentru a ține pasul cu ambițiile tale. Indiferent dacă ai o afacere mică sau o corporație mare, avem soluția."
+            },
+            "two": {
+                "title": "Tehnologie de ultimă oră",
+                "desc": "Folosim cele mai noi aplicații și servicii pentru a asigura viteza, siguranța și fiabilitatea software-ului tău de la început."
+            },
+            "three": {
+                "title": "Suport deosebit",
+                "desc": "Echipa noastră de suport este disponibilă 24/7 pentru a te ajuta cu orice problemă ai întâmpina cu software-ul sau serviciile tale."
+            }
+        },
+        "contact": {
+            "button": "Contactează vânzările"
+        },
+        "clients": "Total clienți",
+        "uptime": "Disponibilitate serviciu"
+    },
+    "about": {
+        "title": "Povestea noastră",
+        "sections": {
+            "one": {
+                "title": "Context",
+                "desc": "Suntem o mică companie de dezvoltare software, înființată în februarie 2023. Sediul nostru este în Statele Unite și ne angajăm să oferim soluții software de înaltă calitate pentru persoane fizice și afaceri mici. Suntem pasionați de ceea ce facem și ne străduim mereu să îmbunătățim produsele și serviciile noastre. Totuși, nu am început așa. Hai să facem un pas înapoi în timp."
+            },
+            "two": {
+                "title": "Începuturile",
+                "desc": "În februarie 2023, am început să dezvoltăm un bot Discord pentru gestionarea unui server personal. Acesta a fost primul proiect la care proprietarii au lucrat ca echipă. Au învățat multe din acest proiect, atât unii despre alții, cât și despre comunitatea open-source și industria software. Acest proiect a fost scânteia care a aprins crearea FemDevs."
+            },
+            "three": {
+                "title": "O provocare nouă apare",
+                "desc": "După câteva zile de la începerea proiectului, un nou membru s-a alăturat echipei, Benjamin. Benjamin era foarte priceput la programare, mai ales în dezvoltarea serverelor și gestionarea bazelor de date. Echipa a continuat dezvoltarea botului în Python, până când Benjamin a decis că trecerea la JavaScript va fi mai benefică. Acestea au fost primele decizii care au modelat viitorul companiei."
+            },
+            "four": {
+                "title": "Prezentul",
+                "desc": "În iulie 2023, am ajutat mai mult de 12.000 de persoane și am început să vindem produse de înaltă calitate. La sfârșitul anului 2023, am ajutat mai mult de 50.000 de persoane. Continuăm să creștem și să ne extindem serviciile, iar întotdeauna căutăm modalități de a îmbunătăți ceea ce oferim. Suntem entuziasmați să vedem ce ne rezervă viitorul pentru compania noastră și suntem recunoscători pentru tot sprijinul pe care l-am primit."
+            },
+            "five": {
+                "title": "Viitorul",
+                "desc": "Suntem mereu în căutarea unor modalități de a îmbunătăți produsele și serviciile noastre și suntem nerăbdători să vedem ce ne rezervă viitorul. Suntem dedicați să oferim soluții software de înaltă calitate pentru persoane fizice și afaceri mici și căutăm mereu modalități de a ne extinde serviciile."
+            }
+        }
+    },
+    "team": {
+        "desc": "Această companie nu ar fi fost posibilă fără ajutorul multor persoane.\nDorim să mulțumim următoarelor persoane pentru contribuțiile lor.",
+        "roles": {
+            "owner": "Proprietar",
+            "hr_dir": "Director HR",
+            "hr_mgr": "Manager HR",
+            "hr_mem": "Membru HR",
+            "admin": "Administrator",
+            "dev": "Dezvoltator",
+            "marketing": "Specialist marketing",
+            "adv": "Consultant",
+            "server_mod": "Moderator server",
+            "digital_assets": "Creator resurse digitale",
+            "social_media": "Manager social media",
+            "support": "Membru echipa suport",
+            "org_partner": "Partener de afaceri (organizație)",
+            "other": "Altul"
+        }
+    }
+}

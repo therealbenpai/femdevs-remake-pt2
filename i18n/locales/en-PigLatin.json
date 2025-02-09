@@ -1,0 +1,125 @@
+{
+    "nav": {
+        "home": "ay-homay",
+        "about": "ay-boutay",
+        "team": "eam-tay",
+        "contact": "ontact-cay"
+    },
+    "footer": {
+        "header": {
+            "about": "ay-boutay",
+            "community": "ommunity-cay",
+            "company": "ompany-cay",
+            "legal": "egal-lay"
+        },
+        "links": {
+            "about": {
+                "about": "ay-boutay",
+                "team": "eam-tay",
+                "products": "oducts-pray"
+            },
+            "community": {
+                "discord": "iscord-day",
+                "twitter": "itter-tway",
+                "instagram": "instagram-ay",
+                "tiktok": "iktok-tay",
+                "reddit": "edit-ray",
+                "femboyland": "emboyland-fay"
+            },
+            "company": {
+                "branding": "anding-bray",
+                "careers": "areers-cay",
+                "contact": "ontact-cay"
+            },
+            "legal": {
+                "terms": "erms-tay",
+                "privacy": "ivacy-pray",
+                "cookies": "ookies-cay"
+            }
+        }
+    },
+    "status": {
+        "prefix": "ystem-say atus-stay: ",
+        "type": {
+            "up": "up-ay",
+            "down": "own-day",
+            "degraded": "egraded-day",
+            "maintenance": "maintenance-ay",
+            "unknown": "unknown-ay"
+        }
+    },
+    "home": {
+        "headliner": {
+            "title": "oday-tay urt-thay our-yay igital-day esence-pray",
+            "desc": "ast-fay, ecure-say and-hay igh-hay uality-qay oftware-say. Eed-nay it-yay or-fay a-yay all-smay usiness-bay or-yay or-say onal-pay use? E-wey ill-way eed-may our-yay eeds-nay. Et-say art-stay ow-nay."
+        },
+        "products": {
+            "button": "oducts-pray",
+            "title": "eliable-ray oducts-pray",
+            "api": {
+                "title": "pi-ay",
+                "desc": "Our-yay api's-yay are-yay esigned-day to-yay e-bay ast-fay and-hay eliable-ray for-yay our-yay pps-aay."
+            },
+            "website": {
+                "title": "ebsites-way",
+                "desc": "Our-yay ebsites-way and-hay eb-bay ased-bay apps-way are-yay esigned-day to-yay e-bay easy-hay to-yay use-hay and-hay accessible-ay om-fray anywhere-yay."
+            },
+            "bot": {
+                "title": "Discord-yay ots-bay",
+                "desc": "Our-yay iscord-day ots-bay are-yay ade-may by-hay skilled-hay evelopers-day for-yay arious-vay urposes-pay and-hay asks-tay."
+            },
+            "database": {
+                "title": "atabase-day",
+                "desc": "Our-yay atabase-day are-yay esigned-day with-hay eed-nay for-hay eed-spay and-hay ecurity-say in-hay ind-may."
+            }
+        },
+        "tagline": "Ad-yay of-yay ow-slay oftware-say? Uild-bay our-yay usiness-bay ith-way em-Devs-Fay oday-tay.",
+        "info": {
+            "one": {
+                "title": "Esigned-day or-fay owth-gr-ay",
+                "desc": "Our-yay od-ucts-pray are-yay esigned-day to-yay owth-gr-ay ith-way your-yay ambitious-ay olutions-say. E-thay small-yay usiness-bay or-yay arge-lay orporation-cay, e-way ave-hay o-lay answer-say."
+            },
+            "two": {
+                "title": "Echnology-tay",
+                "desc": "E-way use-hay e-lay ate-lay pps-aay and-hay ervices-say to-yay uarantee-gay ast-fay and-hay ecurity-say and-hay eliability-ray in-hay our-yay apps-aay."
+            },
+            "three": {
+                "title": "Pecial-say upport-say",
+                "desc": "Our-yay upport-say eam-tay is-hay available-hay 24/7 for-hay any-hay issues-hay with-hay our-yay software-yay or-hay ervices-say."
+            }
+        },
+        "contact": {
+            "button": "ontact-cay ith-way ales-say"
+        },
+        "clients": "Total-ay ustomers-cay",
+        "uptime": "Ervice-say ilability-avay"
+    },
+    "about": {
+        "title": "Our-yay ory-stay",
+        "sections": {
+            "one": {
+                "title": "Background-bay",
+                "desc": "E-way are-hay a-yay all-smay oftware-say evelopment-day ompany-cay, established-hay in-hay ebruary-Fay 2023. E-way are-hay ommitted-cay to-yay providing-hay igh-hay uality-qay oftware-say olutions-say for-yay individuals-yay and-hay all-smay usinesses-bay."
+            },
+            "two": {
+                "title": "Eginnings-bay",
+                "desc": "In-hay ebruary-Fay 2023, e-way tarted-say eveloping-day a-y iscord-Day ot-bay to-yay anage-may a-y ersonal-pay erver-say. It-hay was-hay the-hay first-hay oject-pray that-hay the-hay owners-hay worked-hay on-hay as-hay a-y eam-tay."
+            },
+            "three": {
+                "title": "New-hay Hallenge-cay",
+                "desc": "After-hay a-y ew-fay ays-day of-hay tarting-stay, a-y ew-nay ember-may oined-jay the-hay eam-tay, and-hay e-way egan-bay to-yay iterating-hay."
+            },
+            "four": {
+                "title": "urrent-cay",
+                "desc": "By-hay uly-Jay 2023, e-way had-hay elped-hay over-hay 12,000 people-hay and-hay tarted-say elling-say igh-hay uality-qay roducts-pray."
+            },
+            "five": {
+                "title": "uture-fay",
+                "desc": "E-way continue-hay to-yay improve-hay our-yay roducts-pray and-hay ervices-say and-hay are-yay excited-hay for-yay the-hay uture-fay."
+            }
+        }
+    },
+    "team": {
+        "desc": "Is-hay ompany-cay ould-would ot-hay have-hay een-bay ossible-pay ithout-way all-hay the-hay elp-hay of-hay our-yay amazing-hay eams-tay."
+    }
+}

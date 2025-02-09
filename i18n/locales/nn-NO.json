@@ -1,0 +1,141 @@
+{
+    "nav": {
+        "home": "Hjem",
+        "about": "Om oss",
+        "team": "Team",
+        "contact": "Kontakt"
+    },
+    "footer": {
+        "header": {
+            "about": "Om oss",
+            "community": "Samfunn",
+            "company": "Selskap",
+            "legal": "Juridisk"
+        },
+        "links": {
+            "about": {
+                "about": "Om oss",
+                "team": "Team",
+                "products": "Produkt"
+            },
+            "community": {
+                "discord": "Discord",
+                "twitter": "Twitter",
+                "instagram": "Instagram",
+                "tiktok": "TikTok",
+                "reddit": "Reddit",
+                "femboyland": "Femboyland"
+            },
+            "company": {
+                "branding": "Merkevare",
+                "careers": "Karrierar",
+                "contact": "Kontakt"
+            },
+            "legal": {
+                "terms": "Tjenestevilkår",
+                "privacy": "Personvern",
+                "cookies": "Informasjonskapslar"
+            }
+        }
+    },
+    "status": {
+        "prefix": "Systemstatus: ",
+        "type": {
+            "up": "Oppe",
+            "down": "Nede",
+            "degraded": "Redusert",
+            "maintenance": "Vedlikehald",
+            "unknown": "Ukjend"
+        }
+    },
+    "home": {
+        "headliner": {
+            "title": "Transformér di digitale tilstadeværelse i dag",
+            "desc": "Rask, sikker og høgkvalitets programvare. Treng du det for små bedrifter eller personleg bruk? Vi dekkjer behova dine. Start no."
+        },
+        "products": {
+            "button": "Våre produkt",
+            "title": "Pålitelege produkt",
+            "api": {
+                "title": "API",
+                "desc": "API-ane våre er designa for å vere raske og pålitelege for applikasjonane dine."
+            },
+            "website": {
+                "title": "Nettsider",
+                "desc": "Nettsidene våre og nettapplikasjonar er designa for å vere brukarvennlege og tilgjengelege frå kva som helst."
+            },
+            "bot": {
+                "title": "Discord-botar",
+                "desc": "Discord-botane våre er laga av flinke utviklarar for ulike føremål og oppgåver."
+            },
+            "database": {
+                "title": "Databasar",
+                "desc": "Databasane våre er designa med fart og tryggleik i tankane for applikasjonane dine."
+            }
+        },
+        "tagline": "Lei av treg programvare? Utvikle bedrifta di med FemDevs i dag.",
+        "info": {
+            "one": {
+                "title": "Designa for å skalerast",
+                "desc": "Produktane våre er designa for å følgje med på ambisjonane dine. Enten du har eit lite selskap eller eit stort, har vi løysinga."
+            },
+            "two": {
+                "title": "Nyaste teknologi",
+                "desc": "Vi brukar dei nyaste appane og tenestene for å sikre at programvara di er rask, trygg og påliteleg frå start."
+            },
+            "three": {
+                "title": "Fremragande støtte",
+                "desc": "Støtteteamet vårt er tilgjengeleg 24/7 for å hjelpe deg med eventuelle problem du møter med programvara eller tenester."
+            }
+        },
+        "contact": {
+            "button": "Kontakt sal"
+        },
+        "clients": "Totalt antal kundar",
+        "uptime": "Tilgjengelegheit"
+    },
+    "about": {
+        "title": "Historia vår",
+        "sections": {
+            "one": {
+                "title": "Bakgrunn",
+                "desc": "Vi er eit lite programvareutviklingsselskap, etablert i februar 2023. Vi har kontor i USA og er forplikta til å levere høgkvalitets programvareløysingar til både enkeltpersonar og små bedrifter. Vi er lidenskapelege for det vi gjer og jobbar kontinuerleg med å forbetre produkta og tenestene våre. Men vi byrja ikkje slik. La oss gå tilbake i tid."
+            },
+            "two": {
+                "title": "Dei første stega",
+                "desc": "I februar 2023 begynte vi å utvikle ein Discord-bot for å administrere ein personlig server. Dette var det første prosjektet eigarane jobba med som team. Dei lærte mykje frå dette prosjektet, både om kvarandre og om open kildekode-samfunnet og programvareindustrien. Dette prosjektet var gnisten som tente FemDevs."
+            },
+            "three": {
+                "title": "Ei ny utfordring dukkar opp",
+                "desc": "Etter nokre dagar blei eit nytt medlem med i teamet, Benjamin. Benjamin var svært dyktig i programmering, spesielt med serverutvikling og databaseforvaltning. Teamet fortsatte å utvikle boten i Python, til Benjamin bestemte at det ville vere nyttig å bytte til JavaScript. Dette var dei første avgjerdene som forma framtida til selskapet."
+            },
+            "four": {
+                "title": "No",
+                "desc": "I juli 2023 hadde vi allereie hjelpt meir enn 12 000 personar og begynte å selje høgkvalitets produkt. Ved slutten av 2023 hadde vi hjelpt meir enn 50 000 personar. Vi held fram med å vekse og utvide tenestene våre, og vi jobbar heile tida for å forbetre det vi tilbyr. Vi er spente på kva framtida har i vente for selskapet vårt, og takknemlege for all støtte vi har fått."
+            },
+            "five": {
+                "title": "Framtida",
+                "desc": "Vi held fram med å forbetre produkta og tenestene våre, og ser fram til å sjå kva framtida bringer for oss. Vi er forplikta til å levere høgkvalitets programvareløysingar til både enkeltpersonar og små bedrifter, og vi strevar alltid etter å utvide tenestene våre."
+            }
+        }
+    },
+    "team": {
+        "desc": "Dette selskapet hadde ikkje vore mogleg utan hjelp frå mange folk.\nVi vil takke dei følgjande for deira bidrag.",
+        "roles": {
+            "owner": "Eigar",
+            "hr_dir": "HR-leiar",
+            "hr_mgr": "HR-leiar",
+            "hr_mem": "HR-medlem",
+            "admin": "Administrator",
+            "dev": "Utviklar",
+            "marketing": "Marknadsføringsansvarleg",
+            "adv": "Rådgivar",
+            "server_mod": "Servermoderator",
+            "digital_assets": "Digital innhaldsskaper",
+            "social_media": "Sosiale medier ansvarleg",
+            "support": "Supportteammedlem",
+            "org_partner": "Forretningspartner (organisasjon)",
+            "other": "Annan"
+        }
+    }
+}
