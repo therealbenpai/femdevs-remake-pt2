@@ -1,0 +1,141 @@
+{
+    "nav": {
+        "home": "Inicio",
+        "about": "Acerca de",
+        "team": "Equipo",
+        "contact": "Contacto"
+    },
+    "footer": {
+        "header": {
+            "about": "Acerca de",
+            "community": "Comunidad",
+            "company": "Empresa",
+            "legal": "Legal"
+        },
+        "links": {
+            "about": {
+                "about": "Acerca de",
+                "team": "Equipo",
+                "products": "Productos"
+            },
+            "community": {
+                "discord": "Discord",
+                "twitter": "Twitter",
+                "instagram": "Instagram",
+                "tiktok": "TikTok",
+                "reddit": "Reddit",
+                "femboyland": "FemboyLand"
+            },
+            "company": {
+                "branding": "Marca",
+                "careers": "Carreras",
+                "contact": "Contacto"
+            },
+            "legal": {
+                "terms": "Términos de servicio",
+                "privacy": "Política de privacidad",
+                "cookies": "Política de cookies"
+            }
+        }
+    },
+    "status": {
+        "prefix": "Estado del sistema: ",
+        "type": {
+            "up": "En marcha",
+            "down": "Caído",
+            "degraded": "Degradado",
+            "maintenance": "En mantenimiento",
+            "unknown": "Desconocido"
+        }
+    },
+    "home": {
+        "headliner": {
+            "title": "Soluciones de software rápidas, seguras y de alta calidad.",
+            "desc": "FemDevs es una empresa de desarrollo de software dedicada a proporcionar soluciones de software de alta calidad a pequeñas empresas e individuos. Nuestros productos están diseñados para ser rápidos, seguros y confiables desde el primer día."
+        },
+        "products": {
+            "button": "Ver Productos",
+            "title": "Nuestros Productos",
+            "api": {
+                "title": "APIs",
+                "desc": "Nuestras APIs están diseñadas para ser rápidas y fáciles de usar, ideales para cualquier aplicación que necesite acceso a datos en tiempo real."
+            },
+            "website": {
+                "title": "Sitios Web",
+                "desc": "Nuestros sitios web están diseñados para ser rápidos, seguros y confiables, ideales para cualquier empresa que necesite presencia en línea."
+            },
+            "bot": {
+                "title": "Bots de Discord",
+                "desc": "Nuestros bots de Discord están diseñados para ser fáciles de usar y personalizar, ideales para cualquier servidor de Discord que necesite un bot de moderación o entretenimiento."
+            },
+            "database": {
+                "title": "Bases de Datos",
+                "desc": "Nuestras bases de datos están diseñadas para ser rápidas, seguras y confiables, ideales para cualquier aplicación que necesite almacenar y recuperar datos en tiempo real."
+            }
+        },
+        "tagline": "Construido para escalar.",
+        "info": {
+            "one": {
+                "title": "Escalabilidad",
+                "desc": "Nuestros productos están diseñados para ser escalables, lo que significa que pueden crecer con su empresa conforme esta crece."
+            },
+            "two": {
+                "title": "Tecnología de Vanguardia",
+                "desc": "Utilizamos la última tecnología para garantizar que nuestros productos sean rápidos, seguros y confiables desde el primer día."
+            },
+            "three": {
+                "title": "Soporte 24/7",
+                "desc": "Nuestro equipo de soporte está disponible las 24 horas del día, los 7 días de la semana, para ayudarle con cualquier pregunta o problema que pueda tener."
+            }
+        },
+        "contact": {
+            "button": "Contáctanos"
+        },
+        "clients": "Algunos de nuestros clientes",
+        "uptime": "Tiempo de actividad"
+    },
+    "about": {
+        "title": "Nuestra Historia",
+        "sections": {
+            "one": {
+                "title": "El Contexto",
+                "desc": "FemDevs es una pequeña empresa de desarrollo de software, fundada en febrero de 2023 por Alex y Oblong. Estamos basados en los Estados Unidos y nos dedicamos a proporcionar soluciones de software de alta calidad a pequeñas empresas e individuos. Nos apasiona lo que hacemos y siempre estamos buscando mejorar nuestros productos y servicios. Sin embargo, no comenzamos de esta manera. Permítanos llevarlo atrás en el tiempo."
+            },
+            "two": {
+                "title": "Los Comienzos",
+                "desc": "En febrero de 2023, comenzamos a desarrollar un bot de Discord para gestionar un servidor personal de Discord conocido como \"El Reino de Candia.\" Este sería el primer proyecto que Alex y Oblong, como equipo, desarrollarían juntos. Aprendieron mucho de este proyecto, como cosas sobre ellos mismos, sobre la comunidad de código abierto y sobre la industria del desarrollo de software. Este sería el proyecto que encendería la creación de FemDevs."
+            },
+            "three": {
+                "title": "Aparece un Nuevo Retador",
+                "desc": "Pocos días después del inicio del proyecto, un nuevo miembro se unió a FemDevs, Benjamin. Benjamin era muy hábil en programación, destacando en el desarrollo del lado del servidor y en la gestión de bases de datos. El equipo continuó desarrollando el bot en el lenguaje inicial de Python, hasta que Benjamin determinó que sería beneficioso cambiar a JavaScript. Esta sería la primera de muchas decisiones que darían forma al futuro de FemDevs."
+            },
+            "four": {
+                "title": "El Presente",
+                "desc": "En julio de 2023, hemos ayudado a más de 12,000 personas y comenzamos a vender productos de alta calidad. Al final de 2023, hemos ayudado a más de 50,000 personas. Hemos seguido creciendo y expandiendo nuestros servicios, y siempre estamos buscando nuevas formas de mejorar. Estamos emocionados de ver qué nos depara el futuro para FemDevs, y agradecemos todo el apoyo recibido."
+            },
+            "five": {
+                "title": "El Futuro",
+                "desc": "Siempre estamos buscando nuevas formas de mejorar nuestros productos y servicios, y estamos emocionados de ver qué nos depara el futuro para FemDevs. Nos dedicamos a proporcionar soluciones de software de alta calidad a pequeñas empresas e individuos, y siempre estamos buscando nuevas formas de expandir nuestros servicios. Estamos emocionados de ver qué nos depara el futuro para FemDevs, y agradecemos todo el apoyo recibido."
+            }
+        }
+    },
+    "team": {
+        "desc": "FemDevs no sería posible sin la ayuda de varias personas.\nNos gustaría agradecer a las siguientes personas por sus contribuciones a FemDevs.",
+        "roles": {
+            "owner": "Propietario",
+            "hr_dir": "Director de Recursos Humanos",
+            "hr_mgr": "Gerente de Recursos Humanos",
+            "hr_mem": "Recursos Humanos",
+            "admin": "Administrador",
+            "dev": "Desarrollador",
+            "marketing": "Marketing",
+            "adv": "Asesor",
+            "server_mod": "Moderador de Servidor",
+            "digital_assets": "Creador de Activos Digitales",
+            "social_media": "Gerente de Redes Sociales",
+            "support": "Miembro del Equipo de Soporte",
+            "org_partner": "Socio Comercial (Organización)",
+            "other": "Otro"
+        }
+    }
+}

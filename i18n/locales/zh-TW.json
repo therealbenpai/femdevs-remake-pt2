@@ -1,0 +1,141 @@
+{
+    "nav": {
+        "home": "首頁",
+        "about": "關於我們",
+        "team": "團隊",
+        "contact": "聯絡我們"
+    },
+    "footer": {
+        "header": {
+            "about": "關於我們",
+            "community": "社群",
+            "company": "公司",
+            "legal": "法律資訊"
+        },
+        "links": {
+            "about": {
+                "about": "公司簡介",
+                "team": "團隊成員",
+                "products": "產品與服務"
+            },
+            "community": {
+                "discord": "Discord",
+                "twitter": "Twitter",
+                "instagram": "Instagram",
+                "tiktok": "TikTok",
+                "reddit": "Reddit",
+                "femboyland": "Femboy Land"
+            },
+            "company": {
+                "branding": "品牌形象",
+                "careers": "職缺資訊",
+                "contact": "聯絡我們"
+            },
+            "legal": {
+                "terms": "使用條款",
+                "privacy": "隱私政策",
+                "cookies": "Cookie 政策"
+            }
+        }
+    },
+    "status": {
+        "prefix": "系統狀態：",
+        "type": {
+            "up": "在線",
+            "down": "離線",
+            "degraded": "效能下降",
+            "maintenance": "維護中",
+            "unknown": "未知"
+        }
+    },
+    "home": {
+        "headliner": {
+            "title": "提升您的數位體驗",
+            "desc": "快速、安全、高品質的軟體解決方案。無論是中小企業還是個人用戶，我們都能提供合適的產品。立即開始！"
+        },
+        "products": {
+            "button": "查看產品",
+            "title": "可靠的解決方案",
+            "api": {
+                "title": "API",
+                "desc": "我們的 API 運行快速、穩定，適合您的應用程式。"
+            },
+            "website": {
+                "title": "網站",
+                "desc": "我們的網站與 Web 應用兼具美觀與高效，隨時可用。"
+            },
+            "bot": {
+                "title": "Discord 機器人",
+                "desc": "我們的 Discord 機器人專為各種需求打造。"
+            },
+            "database": {
+                "title": "資料庫",
+                "desc": "我們的資料庫專注於高效與安全。"
+            }
+        },
+        "tagline": "厭倦了緩慢的軟體？使用 FemDevs 提升您的業務體驗。",
+        "info": {
+            "one": {
+                "title": "助力成長",
+                "desc": "我們的解決方案可擴展，適用於新創公司與大型企業。"
+            },
+            "two": {
+                "title": "現代技術",
+                "desc": "我們採用最新技術，確保高效能、安全性與可靠性。"
+            },
+            "three": {
+                "title": "24/7 支援",
+                "desc": "我們的支援團隊全天候為您服務。"
+            }
+        },
+        "contact": {
+            "button": "聯絡我們的銷售團隊"
+        },
+        "clients": "客戶總數",
+        "uptime": "正常運行時間"
+    },
+    "about": {
+        "title": "我們的故事",
+        "sections": {
+            "one": {
+                "title": "我們的起源",
+                "desc": "我們是一家軟體開發公司，成立於 2023 年 2 月，總部位於美國。我們的目標是為個人與中小企業提供高品質的軟體解決方案。然而，我們的起點與現在截然不同。讓我們回顧這段歷史。"
+            },
+            "two": {
+                "title": "最初的嘗試",
+                "desc": "2023 年 2 月，我們開發了第一個 Discord 機器人，用於管理私人伺服器。這是我們的第一個團隊專案，也讓我們學到了許多關於程式設計與開源的知識。"
+            },
+            "three": {
+                "title": "新階段",
+                "desc": "幾天後，Benjamin 加入團隊，負責後端開發與資料庫管理。在他的建議下，我們從 Python 轉向 JavaScript，推動了公司的技術發展。"
+            },
+            "four": {
+                "title": "我們的現在",
+                "desc": "到 2023 年 7 月，我們已為超過 12,000 名使用者提供服務，並開始銷售高品質產品。到了年底，我們的使用者數量已超過 50,000 人，並持續成長。"
+            },
+            "five": {
+                "title": "展望未來",
+                "desc": "我們持續優化產品與服務，期待未來的新機遇。我們的目標是提供創新且可靠的軟體解決方案。"
+            }
+        }
+    },
+    "team": {
+        "desc": "沒有大家的努力，這家公司無法成功。\n我們感謝每一位貢獻者。",
+        "roles": {
+            "owner": "創辦人",
+            "hr_dir": "人力資源總監",
+            "hr_mgr": "人力資源經理",
+            "hr_mem": "人力資源專員",
+            "admin": "管理員",
+            "dev": "開發人員",
+            "marketing": "行銷",
+            "adv": "顧問",
+            "server_mod": "伺服器管理員",
+            "digital_assets": "數位內容設計師",
+            "social_media": "社群媒體經理",
+            "support": "客服專員",
+            "org_partner": "合作夥伴（組織）",
+            "other": "其他"
+        }
+    }
+}

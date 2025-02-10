@@ -1,0 +1,141 @@
+{
+    "nav": {
+        "home": "Serdema Serhêl",
+        "about": "Li ser me",
+        "team": "Tîm",
+        "contact": "Têkili"
+    },
+    "footer": {
+        "header": {
+            "about": "Li ser me",
+            "community": "Komelge",
+            "company": "Kompaniya",
+            "legal": "Yasa"
+        },
+        "links": {
+            "about": {
+                "about": "Li ser me",
+                "team": "Tîm",
+                "products": "Hilberên"
+            },
+            "community": {
+                "discord": "Discord",
+                "twitter": "Twitter",
+                "instagram": "Instagram",
+                "tiktok": "TikTok",
+                "reddit": "Reddit",
+                "femboyland": "Femboyland"
+            },
+            "company": {
+                "branding": "Marka",
+                "careers": "Karîyer",
+                "contact": "Têkili"
+            },
+            "legal": {
+                "terms": "Şertên Xizmetê",
+                "privacy": "Politîka Taybetî",
+                "cookies": "Politîka Cookies"
+            }
+        }
+    },
+    "status": {
+        "prefix": "Rewşa pergalê: ",
+        "type": {
+            "up": "Çalak",
+            "down": "Neçalak",
+            "degraded": "Têkildar",
+            "maintenance": "Di xebata parastinê de",
+            "unknown": "Nizanî"
+        }
+    },
+    "home": {
+        "headliner": {
+            "title": "Nîşanên dijîtalê ya xwe biguherînin",
+            "desc": "Yazîlên zû, ewlehî û bilind yên taybetî. Hûn dixwazin ji bo biznesekî biçûk an jî bikarhênerê kesayî? Em bi pêvajoyên we re hemû tiştan dikin. Pêşbînîya xwe dest pê bikin."
+        },
+        "products": {
+            "button": "Hilberên me",
+            "title": "Hilberên piştrast",
+            "api": {
+                "title": "API",
+                "desc": "API'ên me ji bo sepanên we çêtir, ewlehî û piştrast hene."
+            },
+            "website": {
+                "title": "Malper",
+                "desc": "Malperên me û sepanên wepê ji bo bikarhêneran hêsan û li her cih ve girîng in."
+            },
+            "bot": {
+                "title": "Botên Discord",
+                "desc": "Botên me yên Discord ji bo armancên cuda û karanîna xebatê hatine çêkirin."
+            },
+            "database": {
+                "title": "Danasîngehên daneyê",
+                "desc": "Danasîngehên me bi taybetî ji bo speed û ewlehiyê ji bo sepanên we hatine çêkirin."
+            }
+        },
+        "tagline": "Piştrastî li ser yazîlên neçar? Bi FemDevs re pêvajoya xwe dest pê bikin.",
+        "info": {
+            "one": {
+                "title": "Sazîkirin ji bo berdewamî",
+                "desc": "Hilberên me çêkirî ne ji bo heyv û xeyalên we. Ji bo biznesê biçûk an yekîneyên mezin, em çarenûsê hene."
+            },
+            "two": {
+                "title": "Teknolojîya herî nû",
+                "desc": "Em bi aplikasyonek nû ya herî nû û xizmetan şewatî ne, û hemî ewlehiyê, spek û piştrastiyê li ser hilberên we."
+            },
+            "three": {
+                "title": "Piştgirîya kalîteyê",
+                "desc": "Tîma piştgiriyê me her hefte û her roj li ser xizmetên we bi hevaltiyê re amade ye."
+            }
+        },
+        "contact": {
+            "button": "Bi firotanê re têkili bide"
+        },
+        "clients": "Tevahiya xerîdar",
+        "uptime": "Dema xebatê"
+    },
+    "about": {
+        "title": "Çîroka me",
+        "sections": {
+            "one": {
+                "title": "Sedsala me",
+                "desc": "Em şirkekê piçûk ên pêşvebirinê ya yazîlê ne, ku di Çileyê 2023'an de hate avakirin. Me di Dewletên Yekbûyî de ye û bi hêvîya firotina xizmetan yên taybetî û ewlehî bo kesên xwerû û biznesên piçûkê. Em hezkirin ji xebata me û her dem bi şermezarî û xwastinên me bûn û pêşveçûnên we."
+            },
+            "two": {
+                "title": "Destpêka me",
+                "desc": "Di Çileyê 2023'an de em dest bi pêşveçûnê kirin û botê Discord bi armancê parastina servera xweşînê çêkirin. Ev yekemîn projeya tîmê ye, û tiştên gelek li ser zanîn û mafên kodê û nivîsên cîhê ve hildan û anîn."
+            },
+            "three": {
+                "title": "Dema Nû",
+                "desc": "Piştî çend rojan, Benjamin tîmê re hat, û wî di destûra malperê û şandina daneyê de baştir bû. Di gotinên wî de, em xweseriya ku têkildarî bi Pythonê ve şîrove bikin û JavaScriptê bi rê ve bikişînin."
+            },
+            "four": {
+                "title": "Hûnermendiya me",
+                "desc": "Di hefteya Çileya 2023'an de, me alîkariya 12,000 kesan pêşkêş kir û hilberên we ya bilind firotî. Di dawiya 2023'an de, em 50,000 kes hildan û ne jî pêşveçûn di weşanên xizmetan de çêkirin."
+            },
+            "five": {
+                "title": "Avakirina Piştî",
+                "desc": "Me her dem li ser hilberên me û xizmetên me têkildarî û firotî pêşkêş dikin û bi şêrîn pêşveçûnên me. Me ji bo paşê rêzeya me a nexweşiyê û hilberên nû derxistin."
+            }
+        }
+    },
+    "team": {
+        "desc": "Ev şîrketê nehat bûn belavkirin û herwiha ji hevalên çêkirî û şehîdên kurdî re dîtin.\nMe bi hez dikim bi temamî îştî",
+        "roles": {
+            "owner": "Xwedî",
+            "hr_dir": "Rêveberê HR",
+            "hr_mgr": "Yöneticîya HR",
+            "hr_mem": "Endamê HR",
+            "admin": "Admin",
+            "dev": "Pêşvebir",
+            "marketing": "Piştgirêkarê Marketingê",
+            "adv": "Rêbera alîkarî",
+            "server_mod": "Moderatora Serverê",
+            "digital_assets": "Çêkerê Çavkanî",
+            "social_media": "Rêveberê Medyayên Civakî",
+            "support": "Endamê Piştgirî",
+            "org_partner": "Hevpeyvîna Parastinê (Rêvebir)",
+            "other": "Yekî din"
+        }
+    }
+}
