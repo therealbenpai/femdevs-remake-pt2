@@ -1,0 +1,141 @@
+{
+    "nav": {
+        "home": "Trang chủ",
+        "about": "Về chúng tôi",
+        "team": "Đội ngũ",
+        "contact": "Liên hệ"
+    },
+    "footer": {
+        "header": {
+            "about": "Về chúng tôi",
+            "community": "Cộng đồng",
+            "company": "Công ty",
+            "legal": "Pháp lý"
+        },
+        "links": {
+            "about": {
+                "about": "Về chúng tôi",
+                "team": "Đội ngũ",
+                "products": "Sản phẩm"
+            },
+            "community": {
+                "discord": "Discord",
+                "twitter": "Twitter",
+                "instagram": "Instagram",
+                "tiktok": "TikTok",
+                "reddit": "Reddit",
+                "femboyland": "Femboy Land"
+            },
+            "company": {
+                "branding": "Thương hiệu",
+                "careers": "Cơ hội nghề nghiệp",
+                "contact": "Liên hệ"
+            },
+            "legal": {
+                "terms": "Điều khoản dịch vụ",
+                "privacy": "Chính sách quyền riêng tư",
+                "cookies": "Chính sách cookie"
+            }
+        }
+    },
+    "status": {
+        "prefix": "Trạng thái hệ thống: ",
+        "type": {
+            "up": "Đang hoạt động",
+            "down": "Ngừng hoạt động",
+            "degraded": "Giảm hiệu suất",
+            "maintenance": "Đang bảo trì",
+            "unknown": "Không xác định"
+        }
+    },
+    "home": {
+        "headliner": {
+            "title": "Chuyển đổi sự hiện diện kỹ thuật số của bạn hôm nay",
+            "desc": "Phần mềm nhanh, an toàn và chất lượng cao. Bạn cần chúng cho doanh nghiệp nhỏ hay mục đích cá nhân? Chúng tôi có thể đáp ứng nhu cầu của bạn. Bắt đầu ngay bây giờ."
+        },
+        "products": {
+            "button": "Sản phẩm của chúng tôi",
+            "title": "Sản phẩm đáng tin cậy",
+            "api": {
+                "title": "API",
+                "desc": "API của chúng tôi được thiết kế để nhanh chóng và đáng tin cậy cho các ứng dụng của bạn."
+            },
+            "website": {
+                "title": "Website",
+                "desc": "Các trang web và ứng dụng của chúng tôi được thiết kế để dễ sử dụng và có thể truy cập từ mọi nơi."
+            },
+            "bot": {
+                "title": "Bot Discord",
+                "desc": "Bot Discord của chúng tôi được phát triển bởi các lập trình viên chuyên nghiệp cho nhiều mục đích và chức năng khác nhau."
+            },
+            "database": {
+                "title": "Cơ sở dữ liệu",
+                "desc": "Cơ sở dữ liệu của chúng tôi được thiết kế để tối ưu về tốc độ và bảo mật cho các ứng dụng của bạn."
+            }
+        },
+        "tagline": "Mệt mỏi với phần mềm chậm? Phát triển doanh nghiệp của bạn với FemDevs hôm nay.",
+        "info": {
+            "one": {
+                "title": "Thiết kế để mở rộng",
+                "desc": "Sản phẩm của chúng tôi được thiết kế để phù hợp với tham vọng của bạn. Dù là doanh nghiệp nhỏ hay tổ chức lớn, chúng tôi có giải pháp."
+            },
+            "two": {
+                "title": "Công nghệ mới nhất",
+                "desc": "Chúng tôi sử dụng các ứng dụng và dịch vụ mới nhất để đảm bảo phần mềm của bạn nhanh chóng, an toàn và đáng tin cậy ngay từ đầu."
+            },
+            "three": {
+                "title": "Hỗ trợ xuất sắc",
+                "desc": "Đội ngũ hỗ trợ của chúng tôi luôn sẵn sàng 24/7 để giúp đỡ bạn với bất kỳ vấn đề nào liên quan đến phần mềm hoặc dịch vụ của bạn."
+            }
+        },
+        "contact": {
+            "button": "Liên hệ với bộ phận bán hàng"
+        },
+        "clients": "Tổng số khách hàng",
+        "uptime": "Thời gian hoạt động"
+    },
+    "about": {
+        "title": "Câu chuyện của chúng tôi",
+        "sections": {
+            "one": {
+                "title": "Câu chuyện đằng sau",
+                "desc": "Chúng tôi là một công ty phát triển phần mềm nhỏ, được thành lập vào tháng 2 năm 2023. Chúng tôi có trụ sở tại Hoa Kỳ và cam kết cung cấp các giải pháp phần mềm chất lượng cao cho cá nhân và doanh nghiệp nhỏ. Chúng tôi rất đam mê những gì mình làm và luôn nỗ lực cải thiện sản phẩm và dịch vụ của mình. Tuy nhiên, chúng tôi không bắt đầu như thế này. Hãy cùng quay ngược thời gian một chút."
+            },
+            "two": {
+                "title": "Khởi đầu",
+                "desc": "Vào tháng 2 năm 2023, chúng tôi bắt đầu phát triển một bot Discord để quản lý một server cá nhân. Đây là dự án đầu tiên mà các chủ sở hữu làm việc cùng nhau như một đội. Họ học được rất nhiều từ dự án này, không chỉ về nhau mà còn về cộng đồng mã nguồn mở và ngành công nghiệp phần mềm. Dự án này chính là ngọn lửa khởi đầu cho việc thành lập FemDevs."
+            },
+            "three": {
+                "title": "Một thử thách mới xuất hiện",
+                "desc": "Sau vài ngày bắt đầu dự án, một thành viên mới gia nhập nhóm, đó là Benjamin. Benjamin rất giỏi lập trình, đặc biệt là trong việc phát triển server và quản lý cơ sở dữ liệu. Nhóm tiếp tục phát triển bot bằng Python cho đến khi Benjamin quyết định rằng việc chuyển sang JavaScript sẽ hữu ích. Đây là quyết định đầu tiên định hình tương lai của công ty."
+            },
+            "four": {
+                "title": "Hiện tại",
+                "desc": "Vào tháng 7 năm 2023, chúng tôi đã giúp hơn 12,000 người và bắt đầu bán các sản phẩm chất lượng cao. Vào cuối năm 2023, chúng tôi đã giúp hơn 50,000 người. Chúng tôi tiếp tục phát triển và mở rộng dịch vụ của mình, luôn cố gắng cải thiện những gì mình cung cấp. Chúng tôi rất háo hức để xem tương lai sẽ mang lại gì cho công ty và biết ơn vì tất cả sự hỗ trợ mà chúng tôi nhận được."
+            },
+            "five": {
+                "title": "Tương lai",
+                "desc": "Chúng tôi luôn nỗ lực cải thiện sản phẩm và dịch vụ của mình và rất háo hức để xem tương lai sẽ đưa chúng tôi đến đâu. Chúng tôi cam kết cung cấp các giải pháp phần mềm chất lượng cao cho cá nhân và doanh nghiệp nhỏ, và luôn nỗ lực mở rộng dịch vụ của mình."
+            }
+        }
+    },
+    "team": {
+        "desc": "Công ty này sẽ không thể thành hiện thực nếu không có sự giúp đỡ của nhiều người.\nChúng tôi muốn cảm ơn những người sau đây vì những đóng góp của họ.",
+        "roles": {
+            "owner": "Chủ sở hữu",
+            "hr_dir": "Trưởng phòng nhân sự",
+            "hr_mgr": "Quản lý nhân sự",
+            "hr_mem": "Thành viên nhân sự",
+            "admin": "Quản trị viên",
+            "dev": "Lập trình viên",
+            "marketing": "Nhân viên marketing",
+            "adv": "Tư vấn viên",
+            "server_mod": "Quản lý server",
+            "digital_assets": "Tạo tài nguyên kỹ thuật số",
+            "social_media": "Quản lý mạng xã hội",
+            "support": "Thành viên hỗ trợ",
+            "org_partner": "Đối tác tổ chức",
+            "other": "Khác"
+        }
+    }
+}

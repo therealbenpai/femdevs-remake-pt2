@@ -1,0 +1,141 @@
+{
+    "nav": {
+        "home": "Beranda",
+        "about": "Tentang Kami",
+        "team": "Tim",
+        "contact": "Kontak"
+    },
+    "footer": {
+        "header": {
+            "about": "Tentang Kami",
+            "community": "Komunitas",
+            "company": "Perusahaan",
+            "legal": "Legal"
+        },
+        "links": {
+            "about": {
+                "about": "Tentang Kami",
+                "team": "Tim",
+                "products": "Produk"
+            },
+            "community": {
+                "discord": "Discord",
+                "twitter": "Twitter",
+                "instagram": "Instagram",
+                "tiktok": "TikTok",
+                "reddit": "Reddit",
+                "femboyland": "Femboy Land"
+            },
+            "company": {
+                "branding": "Branding",
+                "careers": "Karir",
+                "contact": "Kontak"
+            },
+            "legal": {
+                "terms": "Syarat Layanan",
+                "privacy": "Kebijakan Privasi",
+                "cookies": "Kebijakan Cookie"
+            }
+        }
+    },
+    "status": {
+        "prefix": "Status sistem: ",
+        "type": {
+            "up": "Aktif",
+            "down": "Tidak Aktif",
+            "degraded": "Menurun",
+            "maintenance": "Dalam Pemeliharaan",
+            "unknown": "Tidak Diketahui"
+        }
+    },
+    "home": {
+        "headliner": {
+            "title": "Ubah Kehadiran Digital Anda Hari Ini",
+            "desc": "Perangkat lunak cepat, aman, dan berkualitas tinggi. Apakah Anda membutuhkannya untuk bisnis kecil atau tujuan pribadi? Kami akan memenuhi kebutuhan Anda. Mulai sekarang."
+        },
+        "products": {
+            "button": "Produk Kami",
+            "title": "Produk Terpercaya",
+            "api": {
+                "title": "API",
+                "desc": "API kami dirancang untuk cepat dan andal untuk aplikasi Anda."
+            },
+            "website": {
+                "title": "Situs Web",
+                "desc": "Situs web dan aplikasi kami dirancang untuk mudah digunakan dan dapat diakses dari mana saja."
+            },
+            "bot": {
+                "title": "Bot Discord",
+                "desc": "Bot Discord kami dibuat oleh pengembang terampil untuk berbagai tujuan dan fungsi."
+            },
+            "database": {
+                "title": "Database",
+                "desc": "Database kami dirancang untuk kecepatan dan keamanan aplikasi Anda."
+            }
+        },
+        "tagline": "Bosankah dengan perangkat lunak yang lambat? Kembangkan bisnis Anda dengan FemDevs hari ini.",
+        "info": {
+            "one": {
+                "title": "Dirancang untuk Skalabilitas",
+                "desc": "Produk kami dirancang untuk mengikuti ambisi Anda. Baik itu perusahaan kecil atau organisasi besar, kami memiliki solusi."
+            },
+            "two": {
+                "title": "Teknologi Terbaru",
+                "desc": "Kami menggunakan aplikasi dan layanan terbaru untuk memastikan perangkat lunak Anda cepat, aman, dan dapat diandalkan sejak awal."
+            },
+            "three": {
+                "title": "Dukungan Luar Biasa",
+                "desc": "Tim dukungan kami tersedia 24/7 untuk membantu Anda dengan masalah apa pun yang mungkin Anda hadapi dengan perangkat lunak atau layanan Anda."
+            }
+        },
+        "contact": {
+            "button": "Hubungi Penjualan"
+        },
+        "clients": "Jumlah Klien",
+        "uptime": "Waktu Aktif Layanan"
+    },
+    "about": {
+        "title": "Cerita Kami",
+        "sections": {
+            "one": {
+                "title": "Latar Belakang",
+                "desc": "Kami adalah perusahaan pengembangan perangkat lunak kecil yang didirikan pada Februari 2023. Kami berbasis di Amerika Serikat dan berkomitmen untuk memberikan solusi perangkat lunak berkualitas tinggi untuk individu dan bisnis kecil. Kami sangat antusias dengan apa yang kami lakukan, dan selalu berusaha untuk meningkatkan produk dan layanan kami. Namun, kami tidak memulai seperti ini. Mari kita kembali sedikit ke belakang."
+            },
+            "two": {
+                "title": "Awal Mula",
+                "desc": "Pada Februari 2023, kami mulai mengembangkan bot Discord untuk mengelola server pribadi. Ini adalah proyek pertama yang dikerjakan oleh pemilik sebagai tim. Mereka banyak belajar dari proyek ini, baik tentang satu sama lain maupun tentang komunitas sumber terbuka dan industri perangkat lunak. Proyek ini menjadi api yang menyalakan pendirian FemDevs."
+            },
+            "three": {
+                "title": "Tantangan Baru Muncul",
+                "desc": "Beberapa hari setelah memulai proyek, seorang anggota baru bergabung dengan tim, yaitu Benjamin. Benjamin sangat terampil dalam pemrograman, terutama dalam pengembangan server dan manajemen basis data. Tim melanjutkan pengembangan bot dengan Python, hingga Benjamin memutuskan bahwa beralih ke JavaScript akan lebih menguntungkan. Ini adalah keputusan pertama yang membentuk masa depan perusahaan."
+            },
+            "four": {
+                "title": "Saat Ini",
+                "desc": "Pada Juli 2023, kami telah membantu lebih dari 12.000 orang dan mulai menjual produk berkualitas tinggi. Pada akhir 2023, kami telah membantu lebih dari 50.000 orang. Kami terus tumbuh dan memperluas layanan kami, selalu berusaha untuk meningkatkan apa yang kami tawarkan. Kami sangat bersemangat untuk melihat apa yang akan datang untuk masa depan perusahaan kami, dan kami berterima kasih atas segala dukungan yang telah kami terima."
+            },
+            "five": {
+                "title": "Masa Depan",
+                "desc": "Kami selalu berusaha untuk meningkatkan produk dan layanan kami, dan sangat antusias untuk melihat apa yang akan datang. Kami berkomitmen untuk memberikan solusi perangkat lunak berkualitas tinggi untuk individu dan bisnis kecil, dan selalu berusaha untuk memperluas layanan kami."
+            }
+        }
+    },
+    "team": {
+        "desc": "Perusahaan ini tidak akan mungkin ada tanpa bantuan dari banyak orang.\nKami ingin mengucapkan terima kasih kepada orang-orang berikut atas kontribusinya.",
+        "roles": {
+            "owner": "Pemilik",
+            "hr_dir": "Kepala HR",
+            "hr_mgr": "Manajer HR",
+            "hr_mem": "Anggota HR",
+            "admin": "Administrator",
+            "dev": "Pengembang",
+            "marketing": "Pemasaran",
+            "adv": "Konsultan",
+            "server_mod": "Moderator Server",
+            "digital_assets": "Pembuat Aset Digital",
+            "social_media": "Manajer Media Sosial",
+            "support": "Anggota Dukungan",
+            "org_partner": "Mitra Organisasi",
+            "other": "Lainnya"
+        }
+    }
+}
