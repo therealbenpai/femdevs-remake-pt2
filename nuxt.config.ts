@@ -85,6 +85,7 @@ export default defineNuxtConfig({
     vueI18n: './configs/i18n.config.ts',
     locales: languages,
     defaultLocale: 'en-US',
+    skipSettingLocaleOnNavigate: true,
   },
   routeRules: {},
   fonts: FontConfig,

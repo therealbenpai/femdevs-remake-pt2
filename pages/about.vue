@@ -3,7 +3,7 @@
         <div class="flex w-full max-w-6xl flex-row items-center justify-between p-8 md:my-16">
             <div class="flex w-full flex-col space-y-4">
                 <img class="w-full rounded-xl object-cover transition-all"
-                    src="https://thefemdevs.com/assets/images/deficon" alt="FemDevs Logo" async />
+                    src="https://thefemdevs.com/logos/default.svg" alt="FemDevs Logo" async />
                 <h1 class="select-none font-poppins text-5xl font-medium text-neutral-900">{{
                     $t('about.title')
                 }}</h1>
