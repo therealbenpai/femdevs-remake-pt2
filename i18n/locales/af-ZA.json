@@ -1,0 +1,141 @@
+{
+    "nav": {
+        "home": "Tuisblad",
+        "about": "Oor ons",
+        "team": "Span",
+        "contact": "Kontak ons"
+    },
+    "footer": {
+        "header": {
+            "about": "Oor ons",
+            "community": "Gemeenskap",
+            "company": "Maatskappy",
+            "legal": "Regsdinge"
+        },
+        "links": {
+            "about": {
+                "about": "Oor ons",
+                "team": "Span",
+                "products": "Produkte"
+            },
+            "community": {
+                "discord": "Discord",
+                "twitter": "Twitter",
+                "instagram": "Instagram",
+                "tiktok": "TikTok",
+                "reddit": "Reddit",
+                "femboyland": "Femboy Land"
+            },
+            "company": {
+                "branding": "Handelsmerk",
+                "careers": "Loopbane",
+                "contact": "Kontak ons"
+            },
+            "legal": {
+                "terms": "Diensvoorwaardes",
+                "privacy": "Privaatheidsbeleid",
+                "cookies": "Koekiebeleid"
+            }
+        }
+    },
+    "status": {
+        "prefix": "Stelselstatus: ",
+        "type": {
+            "up": "Aktief",
+            "down": "Af",
+            "degraded": "Gedaal",
+            "maintenance": "In onderhoud",
+            "unknown": "Onbekend"
+        }
+    },
+    "home": {
+        "headliner": {
+            "title": "Verander jou digitale teenwoordigheid vandag",
+            "desc": "Vinnige, veilige en hoë kwaliteit sagteware. Het jy dit vir klein besighede of persoonlike gebruik nodig? Ons sal aan jou behoeftes voldoen. Begin nou."
+        },
+        "products": {
+            "button": "Ons produkte",
+            "title": "Betroubare produkte",
+            "api": {
+                "title": "API",
+                "desc": "Ons API’s is ontwerp om vinnig en betroubaar vir jou programme te wees."
+            },
+            "website": {
+                "title": "Webwerwe",
+                "desc": "Ons webwerwe en webgebaseerde toepassings is ontwerp om maklik gebruik te word en toegang te hê van enige plek."
+            },
+            "bot": {
+                "title": "Discord bots",
+                "desc": "Ons Discord bots is gemaak deur vaardige ontwikkelaars vir verskeie take."
+            },
+            "database": {
+                "title": "Databasis",
+                "desc": "Ons databasis is ontwerp met spoed en sekuriteit in gedagtes vir jou programme."
+            }
+        },
+        "tagline": "Is jy moeg vir stadige sagteware? Bou jou besigheid met FemDevs vandag.",
+        "info": {
+            "one": {
+                "title": "Ontwerp vir skaalbaarheid",
+                "desc": "Ons produkte is ontwerp om jou ambisies te volg. Of dit nou 'n klein besigheid of 'n groot maatskappy is, ons het die oplossing."
+            },
+            "two": {
+                "title": "Nuutste tegnologie",
+                "desc": "Ons gebruik die nuutste toepassings en dienste om spoed, sekuriteit en betroubaarheid vanaf die begin te verseker."
+            },
+            "three": {
+                "title": "Uitstekende ondersteuning",
+                "desc": "Ons ondersteuning span is 24/7 beskikbaar om jou te help met enige probleme wat jy mag ervaar met jou sagteware of dienste."
+            }
+        },
+        "contact": {
+            "button": "Kontak die verkoopspan"
+        },
+        "clients": "Totaal kliënte",
+        "uptime": "Stelselbeskikbaarheid"
+    },
+    "about": {
+        "title": "Ons storie",
+        "sections": {
+            "one": {
+                "title": "Achtergrond storie",
+                "desc": "Ons is 'n klein sagteware-ontwikkelingsmaatskappy, gestig in Februarie 2023. Ons hoofkwartier is in die Verenigde State van Amerika, en ons is daartoe verbind om hoëgehalte sagteware-oplossings aan individue en klein besighede te lewer. Ons is passievol oor wat ons doen en streef altyd daarna om ons produkte en dienste te verbeter. Maar ons het nie so begin nie. Laat ons 'n paar maande teruggaan."
+            },
+            "two": {
+                "title": "Begin",
+                "desc": "In Februarie 2023 het ons begin met die ontwikkeling van 'n Discord bot vir die bestuur van 'n persoonlike bediener. Dit was die eerste projek waaraan die eienaars as 'n span gewerk het. Hulle het baie geleer van die projek, sowel oor mekaar as oor die oopbron-gemeenskap en die sagtewarebedryf. Dit was die projek wat die vonk was wat FemDevs gestig het."
+            },
+            "three": {
+                "title": "Nuwe uitdaging kom op",
+                "desc": "Na 'n paar dae van die projek se begin het 'n nuwe lid by die span aangesluit, Benjamin. Benjamin was baie vaardig in programmering, veral in bedienerontwikkeling en databasismoderering. Die span het voortgegaan om die bot in die basis Python te ontwikkel totdat Benjamin besluit het dat dit voordelig sou wees om na JavaScript oor te skuif. Dit was die eerste besluit wat die maatskappy se toekoms vorm."
+            },
+            "four": {
+                "title": "Hedendaags",
+                "desc": "In Julie 2023 het ons meer as 12.000 mense gehelp en begin om hoëgehalte produkte te verkoop. Teen die einde van 2023 het ons meer as 50.000 mense gehelp. Ons het aanhou groei en ons dienste uitgebrei, en ons streef altyd daarna om dit wat ons bied te verbeter. Ons is opgewonde om te sien wat die toekoms vir ons maatskappy inhou en is dankbaar vir al die ondersteuning wat ons ontvang het."
+            },
+            "five": {
+                "title": "Toekoms",
+                "desc": "Ons is altyd op soek na maniere om ons produkte en dienste te verbeter en is opgewonde oor wat die toekoms vir ons hou. Ons is daartoe verbind om hoëgehalte sagteware-oplossings vir individue en klein besighede te lewer en streef daarna om ons dienste voortdurend uit te brei."
+            }
+        }
+    },
+    "team": {
+        "desc": "Hierdie maatskappy sou nie moontlik wees sonder die hulp van baie mense.\nOns wil die volgende mense bedank vir hul bydraes.",
+        "roles": {
+            "owner": "Eienaar",
+            "hr_dir": "HR Leier",
+            "hr_mgr": "HR Bestuurder",
+            "hr_mem": "HR Lid",
+            "admin": "Admin",
+            "dev": "Ontwikkelaar",
+            "marketing": "Bemarkingsverantwoordelike",
+            "adv": "Konsultant",
+            "server_mod": "Bediener Moderator",
+            "digital_assets": "Digitale Bate Skepper",
+            "social_media": "Sosiale Media Bestuurder",
+            "support": "Ondersteuningspan Lid",
+            "org_partner": "Besigheidsvennoot (Organisasie)",
+            "other": "Ander"
+        }
+    }
+}

@@ -1,0 +1,141 @@
+{
+    "nav": {
+        "home": "Kreu",
+        "about": "Rreth nesh",
+        "team": "Ekipi",
+        "contact": "Na kontaktoni"
+    },
+    "footer": {
+        "header": {
+            "about": "Rreth nesh",
+            "community": "Komuniteti",
+            "company": "Kompania",
+            "legal": "Ligjore"
+        },
+        "links": {
+            "about": {
+                "about": "Rreth nesh",
+                "team": "Ekipi",
+                "products": "Produktet"
+            },
+            "community": {
+                "discord": "Discord",
+                "twitter": "Twitter",
+                "instagram": "Instagram",
+                "tiktok": "TikTok",
+                "reddit": "Reddit",
+                "femboyland": "Femboy Land"
+            },
+            "company": {
+                "branding": "Marka",
+                "careers": "Karriera",
+                "contact": "Na kontaktoni"
+            },
+            "legal": {
+                "terms": "Kushtet e shërbimit",
+                "privacy": "Politika e privatësisë",
+                "cookies": "Politika e cookies"
+            }
+        }
+    },
+    "status": {
+        "prefix": "Statusi i sistemit: ",
+        "type": {
+            "up": "I disponueshëm",
+            "down": "I papunuar",
+            "degraded": "I dëmtuar",
+            "maintenance": "Në mirëmbajtje",
+            "unknown": "I panjohur"
+        }
+    },
+    "home": {
+        "headliner": {
+            "title": "Ndryshoni praninë tuaj dixhitale sot",
+            "desc": "Softuer i shpejtë, i sigurt dhe me cilësi të lartë. E keni nevojë për të për biznese të vogla apo për qëllime personale? Ne do të plotësojmë nevojat tuaja. Filloni tani."
+        },
+        "products": {
+            "button": "Produktet tona",
+            "title": "Produkte të besueshme",
+            "api": {
+                "title": "API",
+                "desc": "API-të tona janë të dizajnuara për të qenë të shpejta dhe të besueshme për aplikacionet tuaja."
+            },
+            "website": {
+                "title": "Webfaqe",
+                "desc": "Webfaqet dhe aplikacionet tona të bazuara në internet janë të dizajnuara për t’u përdorur lehtësisht dhe për t’u aksesuar nga çdo vend."
+            },
+            "bot": {
+                "title": "Bots të Discord",
+                "desc": "Bots-të tona të Discord janë krijuar nga zhvillues të aftë për qëllime dhe detyra të ndryshme."
+            },
+            "database": {
+                "title": "Baza të dhënash",
+                "desc": "Baza e të dhënave tona janë të dizajnuara me shpejtësi dhe siguri për aplikacionet tuaja."
+            }
+        },
+        "tagline": "A jeni lodhur nga softueri i ngadaltë? Zhvilloni biznesin tuaj me FemDevs sot.",
+        "info": {
+            "one": {
+                "title": "Dizajnuar për rritje",
+                "desc": "Produktet tona janë të dizajnuara për të pasuar ambiciet tuaja. Qoftë një biznes i vogël apo një kompani e madhe, ne kemi zgjidhjen."
+            },
+            "two": {
+                "title": "Teknologjia më e fundit",
+                "desc": "Ne përdorim aplikacione dhe shërbime të fundit për të siguruar shpejtësinë, sigurinë dhe besueshmërinë e programeve tuaja që nga fillimi."
+            },
+            "three": {
+                "title": "Mbështetje e shkëlqyer",
+                "desc": "Ekipa jonë mbështetëse është në dispozicion 24/7 për t'ju ndihmuar me çdo problem që mund të hasni me programet ose shërbimet tuaja."
+            }
+        },
+        "contact": {
+            "button": "Kontaktoni shitjet"
+        },
+        "clients": "Klientët total",
+        "uptime": "Disponueshmëria e shërbimit"
+    },
+    "about": {
+        "title": "Historia jonë",
+        "sections": {
+            "one": {
+                "title": "Historia e pasme",
+                "desc": "Ne jemi një kompani e vogël zhvillimi softuerësh, e themeluar në shkurt 2023. Sedi ynë është në Shtetet e Bashkuara të Amerikës dhe jemi të angazhuar për të ofruar zgjidhje të softuerit me cilësi të lartë për individët dhe bizneset e vogla. Jemi pasionantë për atë që bëjmë dhe gjithmonë përpiqemi të përmirësojmë produktet dhe shërbimet tona. Megjithatë, ne nuk filluam kështu. Le të kthehemi pak prapa në kohë."
+            },
+            "two": {
+                "title": "Fillimet",
+                "desc": "Në shkurt 2023, filluam të zhvillonim një bot Discord për menaxhimin e një serveri personal. Ky ishte projekti i parë që punuan pronarët si një ekip. Ata mësuan shumë nga ky projekt, si për njëri-tjetrin ashtu edhe për komunitetin e burimeve të hapura dhe industrinë e softuerëve. Ky projekt ishte shkëndija që ndezi krijimin e FemDevs."
+            },
+            "three": {
+                "title": "Një sfidë e re shfaqet",
+                "desc": "Pas disa ditësh që projekti kishte nisur, një anëtar i ri iu bashkua ekipit, Benjamin. Benjamin ishte shumë i aftë në programim, veçanërisht në zhvillimin e serverëve dhe menaxhimin e bazave të të dhënave. Ekipi vazhdoi të zhvillonte botin në Python, deri sa Benjamin vendosi që kalimi në JavaScript do të ishte i dobishëm. Ky ishte vendimi i parë që formoi të ardhmen e kompanisë."
+            },
+            "four": {
+                "title": "Prezantimi",
+                "desc": "Në korrik 2023, ndihmuam më shumë se 12,000 njerëz dhe filluam të shesim produkte me cilësi të lartë. Deri në fund të vitit 2023, ndihmuam më shumë se 50,000 njerëz. Vazhdova të rritemi dhe të zgjeronim shërbimet tona, dhe gjithmonë kërkojmë të përmirësojmë atë që ofrojmë. Jemi të emocionuar të shohim se çfarë ka në të ardhmen për kompaninë tonë dhe mirënjohës për gjithë mbështetjen që kemi marrë."
+            },
+            "five": {
+                "title": "E ardhmja",
+                "desc": "Ne gjithmonë kërkojmë mundësi për të përmirësuar produktet dhe shërbimet tona, dhe jemi të emocionuar për atë që do të na sjellë. Ne jemi të angazhuar për të ofruar zgjidhje të softuerit me cilësi të lartë për individët dhe bizneset e vogla, dhe gjithmonë kërkojmë të zgjeronim shërbimet tona."
+            }
+        }
+    },
+    "team": {
+        "desc": "Kjo kompani nuk do të ishte e mundur pa ndihmën e shumë njerëzve.\nNe duam t’i falënderojmë këta individë për kontributet e tyre.",
+        "roles": {
+            "owner": "Pronari",
+            "hr_dir": "Drejtori i Burimeve Njerëzore",
+            "hr_mgr": "Menaxheri i Burimeve Njerëzore",
+            "hr_mem": "Anëtari i Burimeve Njerëzore",
+            "admin": "Administrator",
+            "dev": "Zhvillues",
+            "marketing": "Përgjegjës i Marketingut",
+            "adv": "Konsulent",
+            "server_mod": "Moderator i Serverit",
+            "digital_assets": "Krijues i Pasurive Digjitale",
+            "social_media": "Menaxher i Mediave Sociale",
+            "support": "Anëtar i Ekipit të Mbështetjes",
+            "org_partner": "Partner Komercial (Organizatë)",
+            "other": "Tjetër"
+        }
+    }
+}
