@@ -123,16 +123,4 @@ export default defineNuxtConfig({
       }
     }
   },
-  icon: {
-    serverBundle: {
-      collections: [
-        'mdi',
-        'fa-solid',
-        'fa-brands',
-        'simple-icons',
-        'material-symbols',
-        'heroicons-solid',
-      ],
-    }
-  },
 })
