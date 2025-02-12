@@ -1,5 +1,3 @@
-import * as supabase from "@supabase/supabase-js";
-
 export const { format: formatFullDateTime } = new Intl.DateTimeFormat('en-US', {
     year: "numeric",
     month: "long",

@@ -1,21 +1,32 @@
 <script setup lang="ts">
+const {localeProperties, defaultLocale, locale} = useI18n();
+
 defineProps({
     href: {
         type: String,
-        required: true,
+        required: true
     },
     extraAttributes: {
         type: Object,
-        default: {},
-    },
-});
+        default: {}
+    }
+})
+
+const parseLink = (link: string) => {
+    if (localeProperties.value.code === defaultLocale) {
+        return link
+    }
+    return `/${locale.value}${link}`
+}
 </script>
 
 <template>
     <div>
-        <h2 class="select-none font-poppins text-lg text-neutral-100 transition-all hover:text-neutral-300" :href="href"
-            {...extraAttributes}>
+        <a
+            :href="parseLink(href)"
+            class="select-none font-poppins text-lg text-neutral-100 transition-all hover:text-neutral-300"
+        >
             <slot></slot>
-        </h2>
+        </a>
     </div>
 </template>
