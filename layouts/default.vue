@@ -1,6 +1,12 @@
 <script setup lang="ts">
-const {localeProperties} = useI18n();
-const {dir} = localeProperties.value;
+const {localeProperties, defaultLocale, locale} = useI18n();
+
+const parseLink = (link: string) => {
+  if (localeProperties.value.code === defaultLocale) {
+    return link;
+  }
+  return `/${locale.value}${link}`;
+};
 </script>
 
 
@@ -15,16 +21,16 @@ const {dir} = localeProperties.value;
         >
           <img class="h-12" src="/logos/default.svg" alt="FemDevs Logo" />
           <div class="hidden flex-row items-center space-x-6 md:flex">
-            <NavLink href="/">{{ $t("nav.home") }}</NavLink>
-            <NavLink href="/about">{{ $t("nav.about") }}</NavLink>
-            <NavLink href="/team">{{ $t("nav.team") }}</NavLink>
-            <NavLink href="mailto:support@thefemdevs.com">{{
+            <CNavLink href="/">{{ $t("nav.home") }}</CNavLink>
+            <CNavLink href="/about">{{ $t("nav.about") }}</CNavLink>
+            <CNavLink href="/team">{{ $t("nav.team") }}</CNavLink>
+            <CNavLink href="mailto:support@thefemdevs.com">{{
               $t("nav.contact")
-            }}</NavLink>
+            }}</CNavLink>
           </div>
         </div>
       </nav>
-      <div :dir="dir">
+      <div :dir="localeProperties.dir">
         <slot></slot>
       </div>
       <footer

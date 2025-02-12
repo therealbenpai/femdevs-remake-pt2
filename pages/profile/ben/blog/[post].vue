@@ -1,12 +1,12 @@
 <script setup lang="ts">
 const route = useRoute();
 const slug = route.params.post;
-console.log(slug);
 const { data: posts } = await useAsyncData(`blog-${slug}`, () =>
     queryCollection('blog').path(`/blog/${slug}`).where('author', '=', 'ben').first()
 );
 const post = posts.value;
 const postDate = post ? new Date(post.date) : null;
+
 definePageMeta({
     layout: 'custom-ben',
 })

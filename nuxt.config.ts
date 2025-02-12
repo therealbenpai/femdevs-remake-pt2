@@ -82,11 +82,9 @@ export default defineNuxtConfig({
       },
       '/profile/ben/blog/**': {
         isr: false,
-        ssr: true,
       },
       '/profile/alex/blog/**': {
         isr: false,
-        ssr: true,
       }
     },
     content: {
@@ -143,7 +141,6 @@ export default defineNuxtConfig({
     vueI18n: './configs/i18n.config.ts',
     locales: languages,
     defaultLocale: 'en-US',
-    skipSettingLocaleOnNavigate: true,
   },
   routeRules: {},
   fonts: FontConfig,
@@ -163,8 +160,8 @@ export default defineNuxtConfig({
         highlight: {
           theme: 'github-dark',
         }
-      }
-    }
+      },
+    },
   },
   security: {
     headers: {
@@ -257,23 +254,9 @@ export default defineNuxtConfig({
       xDownloadOptions: 'noopen',
       xFrameOptions: 'DENY',
       xPermittedCrossDomainPolicies: 'none',
-      xXSSProtection: '1; mode=block',
       referrerPolicy: 'strict-origin'
     },
-    csrf: {
-      enabled: true,
-      cookie: {
-        secure: true,
-        sameSite: 'strict',
-        httpOnly: true,
-      },
-    },
     hidePoweredBy: true,
-    rateLimiter: {
-      interval: 60,
-      tokensPerInterval: 300,
-      throwError: true,
-    },
   },
   runtimeConfig: {
     betterStack: {
