@@ -57,7 +57,7 @@ class PermissionPolicy {
     this.src = data.src ?? false;
     this.domains = data.domains ?? [];
   }
-  toString() {
+  parse() {
     if (this.none) return '()';
     if (this.wildcard) return '*';
     return [
@@ -71,30 +71,9 @@ class PermissionPolicy {
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
-  runtimeConfig: {
-    betterStack: {
-      token: process.env.BETTER_STACK_TOKEN,
-    },
-    spotify: {
-      clientId: process.env.SPOTIFY_CLIENT_ID,
-      clientSecret: process.env.SPOTIFY_CLIENT_SECRET,
-      redirectUri: process.env.SPOTIFY_REDIRECT_URI,
-    },
-    supabase: {
-      url: process.env.SUPABASE_URL,
-      key: process.env.SUPABASE_KEY,
-      serviceKey: process.env.SUPABASE_SERVICE_KEY,
-    },
-    oauth: {
-      discord: {
-        clientId: process.env.DISCORD_CLIENT_ID,
-        clientSecret: process.env.DISCORD_CLIENT_SECRET,
-      },
-    }
-  },
   $production: {
     routeRules: {
-      '/*': { isr: false },
+      '/*': { isr: true },
       '/api/**': {
         isr: false,
         headers: {
@@ -229,42 +208,42 @@ export default defineNuxtConfig({
         ).parse(),
       },
       permissionsPolicy: {
-        'hid': new PermissionPolicy({ none: true }).toString(),
-        'usb': new PermissionPolicy({ none: true }).toString(),
-        'midi': new PermissionPolicy({ none: true }).toString(),
-        'camera': new PermissionPolicy({ none: true }).toString(),
-        'serial': new PermissionPolicy({ none: true }).toString(),
-        'battery': new PermissionPolicy({ none: true }).toString(),
-        'gamepad': new PermissionPolicy({ none: true }).toString(),
-        'payment': new PermissionPolicy({ none: true }).toString(),
-        'autoplay': new PermissionPolicy({ none: true }).toString(),
-        'web-share': new PermissionPolicy({ self: true }).toString(),
-        'bluetooth': new PermissionPolicy({ none: true }).toString(),
-        'gyroscope': new PermissionPolicy({ none: true }).toString(),
-        'fullscreen': new PermissionPolicy({ self: true }).toString(),
-        'microphone': new PermissionPolicy({ none: true }).toString(),
-        'geolocation': new PermissionPolicy({ none: true }).toString(),
-        'magnetometer': new PermissionPolicy({ none: true }).toString(),
-        'accelerometer': new PermissionPolicy({ none: true }).toString(),
-        'idle-detection': new PermissionPolicy({ none: true }).toString(),
-        'storage-access': new PermissionPolicy({ none: true }).toString(),
-        'otp-credentials': new PermissionPolicy({ none: true }).toString(),
-        'browsing-topics': new PermissionPolicy({ none: true }).toString(),
-        'local-fonts': new PermissionPolicy({ wildcard: true }).toString(),
-        'screen-wake-lock': new PermissionPolicy({ none: true }).toString(),
-        'display-capture': new PermissionPolicy({ none: true }).toString(),
-        'document-domain': new PermissionPolicy({ none: true }).toString(),
-        'encrypted-media': new PermissionPolicy({ none: true }).toString(),
-        'speaker-selection': new PermissionPolicy({ none: true }).toString(),
-        'window-management': new PermissionPolicy({ none: true }).toString(),
-        'xr-spatial-tracking': new PermissionPolicy({ none: true }).toString(),
-        'ambient-light-sensor': new PermissionPolicy({ none: true }).toString(),
-        'picture-in-picture': new PermissionPolicy({ wildcard: true }).toString(),
-        'identity-credentials-get': new PermissionPolicy({ self: true }).toString(),
-        'publickey-credentials-get': new PermissionPolicy({ self: true }).toString(),
-        'execution-while-not-rendered': new PermissionPolicy({ none: true }).toString(),
-        'publickey-credentials-create': new PermissionPolicy({ self: true }).toString(),
-        'execution-while-out-of-viewport': new PermissionPolicy({ none: true }).toString(),
+        'hid': new PermissionPolicy({ none: true }).parse(),
+        'usb': new PermissionPolicy({ none: true }).parse(),
+        'midi': new PermissionPolicy({ none: true }).parse(),
+        'camera': new PermissionPolicy({ none: true }).parse(),
+        'serial': new PermissionPolicy({ none: true }).parse(),
+        'battery': new PermissionPolicy({ none: true }).parse(),
+        'gamepad': new PermissionPolicy({ none: true }).parse(),
+        'payment': new PermissionPolicy({ none: true }).parse(),
+        'autoplay': new PermissionPolicy({ none: true }).parse(),
+        'web-share': new PermissionPolicy({ self: true }).parse(),
+        'bluetooth': new PermissionPolicy({ none: true }).parse(),
+        'gyroscope': new PermissionPolicy({ none: true }).parse(),
+        'fullscreen': new PermissionPolicy({ self: true }).parse(),
+        'microphone': new PermissionPolicy({ none: true }).parse(),
+        'geolocation': new PermissionPolicy({ none: true }).parse(),
+        'magnetometer': new PermissionPolicy({ none: true }).parse(),
+        'accelerometer': new PermissionPolicy({ none: true }).parse(),
+        'idle-detection': new PermissionPolicy({ none: true }).parse(),
+        'storage-access': new PermissionPolicy({ none: true }).parse(),
+        'otp-credentials': new PermissionPolicy({ none: true }).parse(),
+        'browsing-topics': new PermissionPolicy({ none: true }).parse(),
+        'local-fonts': new PermissionPolicy({ wildcard: true }).parse(),
+        'screen-wake-lock': new PermissionPolicy({ none: true }).parse(),
+        'display-capture': new PermissionPolicy({ none: true }).parse(),
+        'document-domain': new PermissionPolicy({ none: true }).parse(),
+        'encrypted-media': new PermissionPolicy({ none: true }).parse(),
+        'speaker-selection': new PermissionPolicy({ none: true }).parse(),
+        'window-management': new PermissionPolicy({ none: true }).parse(),
+        'xr-spatial-tracking': new PermissionPolicy({ none: true }).parse(),
+        'ambient-light-sensor': new PermissionPolicy({ none: true }).parse(),
+        'picture-in-picture': new PermissionPolicy({ wildcard: true }).parse(),
+        'identity-credentials-get': new PermissionPolicy({ self: true }).parse(),
+        'publickey-credentials-get': new PermissionPolicy({ self: true }).parse(),
+        'execution-while-not-rendered': new PermissionPolicy({ none: true }).parse(),
+        'publickey-credentials-create': new PermissionPolicy({ self: true }).parse(),
+        'execution-while-out-of-viewport': new PermissionPolicy({ none: true }).parse(),
       },
       strictTransportSecurity: {
         includeSubdomains: true,
@@ -296,5 +275,21 @@ export default defineNuxtConfig({
       tokensPerInterval: 300,
       throwError: true,
     },
+  },
+  runtimeConfig: {
+    betterStack: {
+      token: process.env.BETTER_STACK_TOKEN,
+    },
+    supabase: {
+      url: process.env.SUPABASE_URL,
+      key: process.env.SUPABASE_KEY,
+      serviceKey: process.env.SUPABASE_SERVICE_KEY,
+    },
+    oauth: {
+      discord: {
+        clientId: process.env.DISCORD_CLIENT_ID,
+        clientSecret: process.env.DISCORD_CLIENT_SECRET,
+      },
+    }
   },
 })

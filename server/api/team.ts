@@ -15,7 +15,7 @@ interface StaffMember {
 }
 
 export default defineEventHandler(async (event) => {
-    const runtimeConfig = useRuntimeConfig();
+    const runtimeConfig = useRuntimeConfig(event);
     const staffRoles = [] as { name: string, members: StaffMember[] }[];
     const supabase = createClient(runtimeConfig.supabase.url, runtimeConfig.supabase.key);
     const { data, error } = await supabase
