@@ -82,9 +82,11 @@ export default defineNuxtConfig({
       },
       '/profile/ben/blog/**': {
         isr: false,
+        ssr: true,
       },
       '/profile/alex/blog/**': {
         isr: false,
+        ssr: true,
       }
     },
     content: {
