@@ -111,7 +111,6 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxtjs/seo',
     '@nuxt/content',
-    'nuxt-auth-utils',
     'nuxt-security'
   ],
   app: {
