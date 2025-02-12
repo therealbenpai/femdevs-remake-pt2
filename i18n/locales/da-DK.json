@@ -1,0 +1,141 @@
+{
+    "nav": {
+        "home": "Hjem",
+        "about": "Om os",
+        "team": "Team",
+        "contact": "Kontakt os"
+    },
+    "footer": {
+        "header": {
+            "about": "Om os",
+            "community": "Fællesskab",
+            "company": "Virksomhed",
+            "legal": "Juridisk"
+        },
+        "links": {
+            "about": {
+                "about": "Om os",
+                "team": "Team",
+                "products": "Produkter"
+            },
+            "community": {
+                "discord": "Discord",
+                "twitter": "Twitter",
+                "instagram": "Instagram",
+                "tiktok": "TikTok",
+                "reddit": "Reddit",
+                "femboyland": "Femboy Land"
+            },
+            "company": {
+                "branding": "Branding",
+                "careers": "Karriere",
+                "contact": "Kontakt os"
+            },
+            "legal": {
+                "terms": "Servicevilkår",
+                "privacy": "Privatlivspolitik",
+                "cookies": "Cookiepolitik"
+            }
+        }
+    },
+    "status": {
+        "prefix": "Systemstatus: ",
+        "type": {
+            "up": "Opkoblet",
+            "down": "Nedbrudt",
+            "degraded": "Forringet",
+            "maintenance": "Vedligeholdelse",
+            "unknown": "Ukendt"
+        }
+    },
+    "home": {
+        "headliner": {
+            "title": "Forvandl din digitale tilstedeværelse i dag",
+            "desc": "Hurtig, sikker og høj kvalitet software. Har du brug for det til små virksomheder eller personlige formål? Vi dækker dine behov. Kom i gang nu."
+        },
+        "products": {
+            "button": "Vores produkter",
+            "title": "Pålidelige produkter",
+            "api": {
+                "title": "API",
+                "desc": "Vores API'er er designet til at være hurtige og pålidelige for dine applikationer."
+            },
+            "website": {
+                "title": "Websites",
+                "desc": "Vores websites og webapplikationer er designet til at være lette at bruge og tilgængelige fra ethvert sted."
+            },
+            "bot": {
+                "title": "Discord bots",
+                "desc": "Vores Discord bots er lavet af erfarne udviklere til en række forskellige formål og opgaver."
+            },
+            "database": {
+                "title": "Databaser",
+                "desc": "Vore databaser er designet med hastighed og sikkerhed i tankerne for dine applikationer."
+            }
+        },
+        "tagline": "Er du træt af langsom software? Udvikl din virksomhed med FemDevs i dag.",
+        "info": {
+            "one": {
+                "title": "Designet til skalerbarhed",
+                "desc": "Vore produkter er designet til at vokse med dine ambitioner. Uanset om det er en lille virksomhed eller en stor organisation, har vi løsningen."
+            },
+            "two": {
+                "title": "Nyeste teknologi",
+                "desc": "Vi bruger den nyeste software og tjenester for at sikre hastighed, sikkerhed og pålidelighed fra starten."
+            },
+            "three": {
+                "title": "Fremragende support",
+                "desc": "Vores supportteam er tilgængeligt 24/7 for at hjælpe dig med eventuelle problemer, du måtte have med din software eller tjenester."
+            }
+        },
+        "contact": {
+            "button": "Kontakt salgsafdelingen"
+        },
+        "clients": "Samlet antal kunder",
+        "uptime": "Serviceopetid"
+    },
+    "about": {
+        "title": "Vores historie",
+        "sections": {
+            "one": {
+                "title": "Baggrund",
+                "desc": "Vi er et lille softwareudviklingsfirma, der blev grundlagt i februar 2023. Vores hovedkontor er i USA, og vi er forpligtet til at levere softwareløsninger af høj kvalitet til enkeltpersoner og små virksomheder. Vi er passionerede omkring det, vi gør, og stræber altid efter at forbedre vores produkter og tjenester. Men vi begyndte ikke sådan. Lad os tage et skridt tilbage."
+            },
+            "two": {
+                "title": "Begyndelsen",
+                "desc": "I februar 2023 begyndte vi at udvikle en Discord bot til at administrere en personlig server. Det var det første projekt, som ejerne arbejdede på som et team. De lærte meget fra dette projekt, både om hinanden og om open source-samfundet og softwareindustrien. Dette projekt var gnisten, der tændte for FemDevs."
+            },
+            "three": {
+                "title": "En ny udfordring opstår",
+                "desc": "Efter nogle dage med projektet, sluttede et nyt medlem sig til holdet, Benjamin. Benjamin var meget dygtig til programmering, især til serverudvikling og databaseadministration. Holdet fortsatte med at udvikle bot'en i Python, indtil Benjamin besluttede, at det ville være nyttigt at skifte til JavaScript. Dette var den første beslutning, der formede virksomhedens fremtid."
+            },
+            "four": {
+                "title": "Nutid",
+                "desc": "I juli 2023 hjalp vi mere end 12.000 personer og begyndte at sælge højkvalitetsprodukter. Ved udgangen af 2023 havde vi hjulpet mere end 50.000 personer. Vi fortsætter med at vokse og udvide vores tjenester, og vi arbejder altid på at forbedre det, vi tilbyder. Vi ser frem til, hvad fremtiden bringer for vores virksomhed, og er taknemmelige for al den støtte, vi har modtaget."
+            },
+            "five": {
+                "title": "Fremtid",
+                "desc": "Vi stræber altid efter at forbedre vores produkter og tjenester og ser frem til, hvad fremtiden bringer. Vi er forpligtet til at levere softwareløsninger af høj kvalitet til enkeltpersoner og små virksomheder og søger konstant at udvide vores tjenester."
+            }
+        }
+    },
+    "team": {
+        "desc": "Denne virksomhed ville ikke have været mulig uden hjælp fra mange mennesker.\nVi vil gerne takke de følgende personer for deres bidrag.",
+        "roles": {
+            "owner": "Ejer",
+            "hr_dir": "HR-direktør",
+            "hr_mgr": "HR-manager",
+            "hr_mem": "HR-medarbejder",
+            "admin": "Administrator",
+            "dev": "Udvikler",
+            "marketing": "Marketingansvarlig",
+            "adv": "Rådgiver",
+            "server_mod": "Servermoderator",
+            "digital_assets": "Skaber af digitale aktiver",
+            "social_media": "Social Media Manager",
+            "support": "Supportmedarbejder",
+            "org_partner": "Forretningspartner (Organisation)",
+            "other": "Andet"
+        }
+    }
+}

@@ -1,0 +1,141 @@
+{
+    "nav": {
+        "home": "Domů",
+        "about": "O nás",
+        "team": "Tým",
+        "contact": "Kontaktujte nás"
+    },
+    "footer": {
+        "header": {
+            "about": "O nás",
+            "community": "Komunita",
+            "company": "Společnost",
+            "legal": "Právní"
+        },
+        "links": {
+            "about": {
+                "about": "O nás",
+                "team": "Tým",
+                "products": "Produkty"
+            },
+            "community": {
+                "discord": "Discord",
+                "twitter": "Twitter",
+                "instagram": "Instagram",
+                "tiktok": "TikTok",
+                "reddit": "Reddit",
+                "femboyland": "Femboy Land"
+            },
+            "company": {
+                "branding": "Branding",
+                "careers": "Kariéra",
+                "contact": "Kontaktujte nás"
+            },
+            "legal": {
+                "terms": "Podmínky služby",
+                "privacy": "Zásady ochrany osobních údajů",
+                "cookies": "Zásady používání cookies"
+            }
+        }
+    },
+    "status": {
+        "prefix": "Stav systému: ",
+        "type": {
+            "up": "Připojeno",
+            "down": "Neaktivní",
+            "degraded": "Poškozeno",
+            "maintenance": "Údržba",
+            "unknown": "Neznámý"
+        }
+    },
+    "home": {
+        "headliner": {
+            "title": "Změňte svou digitální přítomnost ještě dnes",
+            "desc": "Rychlý, bezpečný a vysoce kvalitní software. Potřebujete ho pro malý podnik nebo osobní účely? Postaráme se o vaše potřeby. Začněte hned."
+        },
+        "products": {
+            "button": "Naše produkty",
+            "title": "Spolehlivé produkty",
+            "api": {
+                "title": "API",
+                "desc": "Naše API jsou navržena tak, aby byla rychlá a spolehlivá pro vaše aplikace."
+            },
+            "website": {
+                "title": "Webové stránky",
+                "desc": "Naše webové stránky a webové aplikace jsou navrženy tak, aby byly snadno použitelné a přístupné odkudkoliv."
+            },
+            "bot": {
+                "title": "Discord boti",
+                "desc": "Naši Discord boti jsou vytvořeni zkušenými vývojáři pro různé účely a úkoly."
+            },
+            "database": {
+                "title": "Databáze",
+                "desc": "Naše databáze jsou navrženy s ohledem na rychlost a bezpečnost pro vaše aplikace."
+            }
+        },
+        "tagline": "Unaveni z pomalého softwaru? Rozviňte svůj byznys s FemDevs ještě dnes.",
+        "info": {
+            "one": {
+                "title": "Navrženo pro škálovatelnost",
+                "desc": "Naše produkty jsou navrženy tak, aby rostly s vašimi ambicemi. Ať už jde o malý podnik nebo velkou instituci, máme pro vás řešení."
+            },
+            "two": {
+                "title": "Nejnovější technologie",
+                "desc": "Používáme nejnovější aplikace a služby, abychom zajistili rychlost, bezpečnost a spolehlivost vašeho softwaru od začátku."
+            },
+            "three": {
+                "title": "Vynikající podpora",
+                "desc": "Náš tým podpory je k dispozici 24/7, aby vám pomohl s jakýmikoli problémy, které mohou nastat s vaším softwarem nebo službami."
+            }
+        },
+        "contact": {
+            "button": "Kontaktujte prodej"
+        },
+        "clients": "Celkový počet klientů",
+        "uptime": "Dostupnost služby"
+    },
+    "about": {
+        "title": "Náš příběh",
+        "sections": {
+            "one": {
+                "title": "Pozadí",
+                "desc": "Jsme malá softwarová vývojová společnost, která byla založena v únoru 2023. Naše sídlo je v USA a jsme odhodláni poskytovat kvalitní softwarová řešení pro jednotlivce a malé podniky. Jsme nadšení pro to, co děláme, a vždy se snažíme zlepšovat naše produkty a služby. Ale nezačali jsme takhle. Pojďme se vrátit o krok zpět."
+            },
+            "two": {
+                "title": "Začátky",
+                "desc": "V únoru 2023 jsme začali vyvíjet Discord bota pro správu osobního serveru. Byl to první projekt, na kterém pracovali zakladatelé jako tým. Z tohoto projektu se naučili mnoho, ať už o sobě navzájem nebo o komunitě open-source a softwarovém průmyslu. Tento projekt byl jiskrou, která zapálila vznik FemDevs."
+            },
+            "three": {
+                "title": "Nová výzva přichází",
+                "desc": "Po několika dnech od zahájení projektu se k týmu přidal nový člen, Benjamin. Benjamin byl velmi zdatný v programování, zejména při vývoji serverů a správě databází. Tým pokračoval v vývoji bota v základním jazyce Python, dokud se Benjamin nerozhodl, že přechod na JavaScript bude užitečný. Toto byla první rozhodnutí, která formovala budoucnost společnosti."
+            },
+            "four": {
+                "title": "Současnost",
+                "desc": "V červenci 2023 jsme pomohli více než 12 000 lidem a začali prodávat vysoce kvalitní produkty. Na konci roku 2023 jsme pomohli více než 50 000 lidem. Pokračujeme v růstu a rozšiřování našich služeb, vždy se snažíme zlepšovat to, co nabízíme. Jsme nadšení, co nám budoucnost přinese, a vděční za veškerou podporu, kterou jsme dostali."
+            },
+            "five": {
+                "title": "Budoucnost",
+                "desc": "Stále se snažíme zlepšovat naše produkty a služby a těšíme se, co nám budoucnost přinese. Jsme odhodláni poskytovat kvalitní softwarová řešení pro jednotlivce a malé podniky a stále se snažíme rozšiřovat naše služby."
+            }
+        }
+    },
+    "team": {
+        "desc": "Tato společnost by nebyla možná bez pomoci mnoha lidí.\nChceme poděkovat těmto lidem za jejich příspěvky.",
+        "roles": {
+            "owner": "Majitel",
+            "hr_dir": "Ředitel/ka lidských zdrojů",
+            "hr_mgr": "Manažer/ka lidských zdrojů",
+            "hr_mem": "Člen/ka lidských zdrojů",
+            "admin": "Administrátor/ka",
+            "dev": "Vývojář/ka",
+            "marketing": "Marketingový manažer/ka",
+            "adv": "Poradce/poradkyně",
+            "server_mod": "Moderátor/ka serveru",
+            "digital_assets": "Tvůrce/ka digitálních aktiv",
+            "social_media": "Manažer/ka sociálních médií",
+            "support": "Člen/ka podpory",
+            "org_partner": "Obchodní partner/ka (organizace)",
+            "other": "Ostatní"
+        }
+    }
+}

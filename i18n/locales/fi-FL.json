@@ -1,0 +1,141 @@
+{
+    "nav": {
+        "home": "Etusivu",
+        "about": "Meistä",
+        "team": "Tiimi",
+        "contact": "Ota yhteyttä"
+    },
+    "footer": {
+        "header": {
+            "about": "Meistä",
+            "community": "Yhteisö",
+            "company": "Yritys",
+            "legal": "Oikeudelliset"
+        },
+        "links": {
+            "about": {
+                "about": "Meistä",
+                "team": "Tiimi",
+                "products": "Tuotteet"
+            },
+            "community": {
+                "discord": "Discord",
+                "twitter": "Twitter",
+                "instagram": "Instagram",
+                "tiktok": "TikTok",
+                "reddit": "Reddit",
+                "femboyland": "Femboy Land"
+            },
+            "company": {
+                "branding": "Brändäys",
+                "careers": "Ura",
+                "contact": "Ota yhteyttä"
+            },
+            "legal": {
+                "terms": "Palveluehdot",
+                "privacy": "Tietosuojakäytännöt",
+                "cookies": "Evästekäytännöt"
+            }
+        }
+    },
+    "status": {
+        "prefix": "Järjestelmän tila: ",
+        "type": {
+            "up": "Yhteydessä",
+            "down": "Ei käytössä",
+            "degraded": "Heikentynyt",
+            "maintenance": "Huollossa",
+            "unknown": "Tuntematon"
+        }
+    },
+    "home": {
+        "headliner": {
+            "title": "Muunna digitaalinen läsnäolosi tänään",
+            "desc": "Nopea, turvallinen ja korkealaatuinen ohjelmointi. Tarvitsetko sitä pienille yrityksille tai henkilökohtaisiin tarkoituksiin? Me täytämme tarpeesi. Aloita nyt."
+        },
+        "products": {
+            "button": "Tuotteemme",
+            "title": "Luotettavat tuotteet",
+            "api": {
+                "title": "API",
+                "desc": "API-rajapintamme on suunniteltu nopeiksi ja luotettaviksi sovelluksillesi."
+            },
+            "website": {
+                "title": "Verkkosivustot",
+                "desc": "Verkkosivustot ja verkkosovelluksemme on suunniteltu helppokäyttöisiksi ja saatavilla mistä tahansa."
+            },
+            "bot": {
+                "title": "Discord botit",
+                "desc": "Discord-botit on kehitetty kokeneiden kehittäjien toimesta moniin eri tarkoituksiin ja tehtäviin."
+            },
+            "database": {
+                "title": "Tietokannat",
+                "desc": "Tietokannat on suunniteltu nopeuden ja turvallisuuden takaamiseksi sovelluksillesi."
+            }
+        },
+        "tagline": "Onko tylsistynyt hitaista ohjelmista? Kehitä liiketoimintaasi FemDevsillä tänään.",
+        "info": {
+            "one": {
+                "title": "Suunniteltu laajentamista varten",
+                "desc": "Tuotteemme on suunniteltu kasvamaan kanssasi. Olipa kyseessä pieni yritys tai suuri organisaatio, meillä on ratkaisu."
+            },
+            "two": {
+                "title": "Uusin teknologia",
+                "desc": "Käytämme uusimpia ohjelmistoja ja palveluja varmistaaksemme nopeuden, turvallisuuden ja luotettavuuden alusta alkaen."
+            },
+            "three": {
+                "title": "Erinomainen tuki",
+                "desc": "Tukitiimimme on saatavilla ympäri vuorokauden auttamaan sinua kaikissa mahdollisissa ohjelmointi- tai palveluongelmissa."
+            }
+        },
+        "contact": {
+            "button": "Ota yhteyttä myyntiin"
+        },
+        "clients": "Asiakasmäärä yhteensä",
+        "uptime": "Palvelun käyttöaika"
+    },
+    "about": {
+        "title": "Tarina",
+        "sections": {
+            "one": {
+                "title": "Tausta",
+                "desc": "Olemme pieni ohjelmistokehitysyhtiö, joka perustettiin helmikuussa 2023. Pääkonttorimme sijaitsee Yhdysvalloissa, ja olemme sitoutuneet tarjoamaan korkealaatuisia ohjelmistoratkaisuja yksityishenkilöille ja pienille yrityksille. Olemme intohimoisia siitä, mitä teemme, ja pyrimme aina parantamaan tuotteitamme ja palvelujamme. Mutta emme aloitaneet näin. Palaa kanssamme hieman ajassa taaksepäin."
+            },
+            "two": {
+                "title": "Alku",
+                "desc": "Helmikuussa 2023 aloitimme kehittämään Discord-bottia henkilökohtaisen palvelimen hallintaan. Tämä oli ensimmäinen projekti, jota omistajat tekivät tiiminä. He oppivat paljon tästä projektista, sekä toisistaan että avoimen lähdekoodin yhteisöstä ja ohjelmointiteollisuudesta. Tämä projekti oli kipinä, joka sytytti FemDevsin perustamisen."
+            },
+            "three": {
+                "title": "Uusi haaste nousee",
+                "desc": "Päivien kuluttua projekti alkoi, ja tiimiin liittyi uusi jäsen Benjamin. Benjamin oli erittäin taitava ohjelmoinnissa, erityisesti palvelimien kehittämisessä ja tietokantojen hallinnassa. Tiimi jatkoi bottin kehittämistä Pythonilla, kunnes Benjamin päätti, että siirtyminen JavaScriptiin olisi hyödyllistä. Tämä oli ensimmäinen päätös, joka muokkasi yrityksen tulevaisuutta."
+            },
+            "four": {
+                "title": "Nykyhetki",
+                "desc": "Heinäkuussa 2023 autamme yli 12 000 henkilöä ja aloitimme korkealaatuisten tuotteiden myynnin. Vuoden 2023 loppuun mennessä olimme auttaneet yli 50 000 henkilöä. Jatkamme kasvua ja laajennamme palvelujamme, pyrkien aina parantamaan tarjoamiamme tuotteita ja palveluja. Olemme innostuneita siitä, mitä tulevaisuus tuo yrityksellemme ja kiitämme saamaamme tukea."
+            },
+            "five": {
+                "title": "Tulevaisuus",
+                "desc": "Pyrimme aina parantamaan tuotteitamme ja palvelujamme ja olemme innoissamme siitä, mitä tulevaisuus tuo. Olemme sitoutuneet tarjoamaan korkealaatuisia ohjelmistoratkaisuja yksityishenkilöille ja pienille yrityksille ja laajentamaan palvelujamme jatkuvasti."
+            }
+        }
+    },
+    "team": {
+        "desc": "Tämä yritys ei olisi ollut mahdollinen ilman monien ihmisten apua.\nHaluamme kiittää seuraavia henkilöitä heidän panoksestaan.",
+        "roles": {
+            "owner": "Omistaja",
+            "hr_dir": "HR-päällikkö",
+            "hr_mgr": "HR-manageri",
+            "hr_mem": "HR-jäsen",
+            "admin": "Ylläpitäjä",
+            "dev": "Kehittäjä",
+            "marketing": "Markkinointivastaava",
+            "adv": "Neuvonantaja",
+            "server_mod": "Palvelimen moderaattori",
+            "digital_assets": "Digitaalisten resurssien luoja",
+            "social_media": "Sosiaalisen median manageri",
+            "support": "Tukitiimi jäsen",
+            "org_partner": "Liikekumppani (Organisaatio)",
+            "other": "Muu"
+        }
+    }
+}

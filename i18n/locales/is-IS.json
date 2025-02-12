@@ -1,0 +1,141 @@
+{
+    "nav": {
+        "home": "Heim",
+        "about": "Um okkur",
+        "team": "Teymi",
+        "contact": "Hafa samband"
+    },
+    "footer": {
+        "header": {
+            "about": "Um okkur",
+            "community": "Samfélagið",
+            "company": "Fyrirtækið",
+            "legal": "Lögfræðilegt"
+        },
+        "links": {
+            "about": {
+                "about": "Um okkur",
+                "team": "Teymi",
+                "products": "Vörur"
+            },
+            "community": {
+                "discord": "Discord",
+                "twitter": "Twitter",
+                "instagram": "Instagram",
+                "tiktok": "TikTok",
+                "reddit": "Reddit",
+                "femboyland": "Femboy Land"
+            },
+            "company": {
+                "branding": "Merki",
+                "careers": "Störf",
+                "contact": "Hafa samband"
+            },
+            "legal": {
+                "terms": "Notkunarskilmálar",
+                "privacy": "Persónuverndarstefna",
+                "cookies": "Kökurstefna"
+            }
+        }
+    },
+    "status": {
+        "prefix": "Kerfisstaða: ",
+        "type": {
+            "up": "Í gangi",
+            "down": "Óvirkt",
+            "degraded": "Hægt",
+            "maintenance": "Í viðhaldi",
+            "unknown": "Óþekkt"
+        }
+    },
+    "home": {
+        "headliner": {
+            "title": "Breyttu stafrænu tilveru þinni í dag",
+            "desc": "Fljót og örugg hugbúnaðarlausn. Þarfir fyrir lítil fyrirtæki eða persónuleg notkun? Við munum mæta þínum þörfum. Byrjaðu núna."
+        },
+        "products": {
+            "button": "Vörur okkar",
+            "title": "Áreiðanlegar vörur",
+            "api": {
+                "title": "API",
+                "desc": "API okkar eru hönnuð til að vera fljót og áreiðanleg fyrir forritin þín."
+            },
+            "website": {
+                "title": "Vefsíður",
+                "desc": "Vefsíður og veflausnir okkar eru hönnuð til að vera auðveldar í notkun og aðgengilegar hvaðan sem er."
+            },
+            "bot": {
+                "title": "Discord robots",
+                "desc": "Discord robots okkar eru smíðaðar af færum forriturum til fjölbreyttra verkefna."
+            },
+            "database": {
+                "title": "Gagnagrunna",
+                "desc": "Gagnagrunnarnir okkar eru hannaðir með hraða og öryggi í huga fyrir forritin þín."
+            }
+        },
+        "tagline": "Ertu þreyttur á hægum hugbúnaði? Búðu til fyrirtækið þitt með FemDevs í dag.",
+        "info": {
+            "one": {
+                "title": "Hannað fyrir vöxt",
+                "desc": "Vörur okkar eru hannaðar til að passa við þínar væntingar. Hvort sem það er lítið fyrirtæki eða stórt fyrirtæki, við höfum lausn."
+            },
+            "two": {
+                "title": "Nýjustu tækni",
+                "desc": "Við notum nýjustu forritin og þjónustur til að tryggja hraða, öryggi og áreiðanleika frá upphafi."
+            },
+            "three": {
+                "title": "Frábær þjónusta",
+                "desc": "Stuðningsteymið okkar er í boði allan sólarhringinn til að aðstoða þig við öll vandamál sem þú gætir lent í með hugbúnaði eða þjónustu."
+            }
+        },
+        "contact": {
+            "button": "Hafa samband við söludeild"
+        },
+        "clients": "Heildarfjöldi viðskiptavina",
+        "uptime": "Þjónustuforrit"
+    },
+    "about": {
+        "title": "Saga okkar",
+        "sections": {
+            "one": {
+                "title": "Bakgrunnssaga",
+                "desc": "Við erum lítið hugbúnaðarþróunarfyrirtæki sem var stofnað í febrúar 2023. Við erum staðsett í Bandaríkjunum og skuldbundum okkur til að veita hágæða hugbúnaðarlausnir fyrir einstaklinga og lítil fyrirtæki. Við erum áhugasöm um það sem við gerum og stöðugt að leita að því að bæta vörur okkar og þjónustu. En við byrjuðum ekki svona. Leyfðu okkur að fara aftur í tímann."
+            },
+            "two": {
+                "title": "Byrjunin",
+                "desc": "Í febrúar 2023 byrjuðum við að þróa Discord bót fyrir persónulegan þjónn. Þetta var fyrsta verkefnið sem eigendurnir unnu sem lið. Þau lærðu mikið af þessu verkefni, bæði um hvort annað og um samfélag opinskóða og hugbúnaðarframleiðslu. Þetta verkefni var flugeldur sem kveikti á stofnun FemDevs."
+            },
+            "three": {
+                "title": "Nýtt áskorun kemur upp",
+                "desc": "Eftir nokkra daga frá því að verkefnið byrjaði kom nýr meðlimur í teymið, Benjamin. Benjamin var mjög fær í forritun, sérstaklega við þróun þjónn og stjórnun gagnagrunna. Teymið hélt áfram að þróa bótina í grunn Python, þar til Benjamin ákvað að skipta yfir í JavaScript sem myndi gagnast. Þetta var fyrsta ákvörðun sem mótaði framtíð fyrirtækisins."
+            },
+            "four": {
+                "title": "Núverandi",
+                "desc": "Í júlí 2023 hjálpuðum við meira en 12.000 manns og byrjuðum að selja hágæða vörur. Í lok árs 2023 höfðum við hjálpað meira en 50.000 manns. Við héldum áfram að vaxa og útvíkka þjónustuna okkar, og við viljum stöðugt bæta það sem við bjóðum. Við erum spennt að sjá hvað framtíðin hefur í för með sér fyrir fyrirtækið okkar og þakklát fyrir allan stuðning sem við höfum fengið."
+            },
+            "five": {
+                "title": "Framtíðin",
+                "desc": "Við viljum alltaf bæta vörur okkar og þjónustu, og við erum spennt að sjá hvað framtíðin hefur fyrir okkur. Við erum skuldbundin til að veita hágæða hugbúnaðarlausnir fyrir einstaklinga og lítil fyrirtæki, og við viljum alltaf útvíkka þjónustu okkar."
+            }
+        }
+    },
+    "team": {
+        "desc": "Þetta fyrirtæki hefði ekki verið mögulegt án hjálpar margra fólks.\nVið viljum þakka eftirfarandi einstaklingum fyrir framlag þeirra.",
+        "roles": {
+            "owner": "Eigandi",
+            "hr_dir": "HR leiðtogi",
+            "hr_mgr": "HR stjórnandi",
+            "hr_mem": "HR meðlimur",
+            "admin": "Stjórnandi",
+            "dev": "Forritari",
+            "marketing": "Markaðsfulltrúi",
+            "adv": "Ráðgjafi",
+            "server_mod": "Þjónn stjórnandi",
+            "digital_assets": "Skapari stafrænnar eignar",
+            "social_media": "Stjórnandi samfélagsmiðla",
+            "support": "Stuðningur meðlimur",
+            "org_partner": "Viðskipta samstarfsaðili (stofnun)",
+            "other": "Annað"
+        }
+    }
+}

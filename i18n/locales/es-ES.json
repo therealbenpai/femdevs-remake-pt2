@@ -95,47 +95,47 @@
         "uptime": "Tiempo de actividad"
     },
     "about": {
-        "title": "Our Story",
+        "title": "Nuestra Historia",
         "sections": {
             "one": {
-                "title": "The Backstory",
-                "desc": "FemDevs is a small software development company, founded in February 2023 by Alex and Oblong. We are based in the United States, and we are dedicated to providing high-quality software solutions to small businesses and individuals. We are passionate about what we do, and we are always looking to improve our products and services. Although, we didn't start like this. Let us take you back in time."
+                "title": "Los Orígenes",
+                "desc": "FemDevs es una pequeña empresa de desarrollo de software, fundada en febrero de 2023 por Alex y Oblong. Estamos ubicados en Estados Unidos y nos dedicamos a ofrecer soluciones de software de alta calidad a pequeñas empresas y particulares. Nos apasiona lo que hacemos y siempre estamos buscando mejorar nuestros productos y servicios. Aunque no comenzamos así. Permítannos llevarles atrás en el tiempo."
             },
             "two": {
-                "title": "The Beginnings",
-                "desc": "In February 2023, we started developing discord bot to manage a personal discord server known as \"The Kingdom of Candia.\" This would be the first project that Alex and Oblong, as a team, would work on together. They would both learn a lot from this project, such as things about each other, about the open source community, and about the software development industry. This would be the project that would spark the creation of the FemDevs."
+                "title": "Los Comienzos",
+                "desc": "En febrero de 2023, comenzamos a desarrollar un bot de Discord para gestionar un servidor personal de Discord conocido como 'El Reino de Candia'. Este sería el primer proyecto en el que Alex y Oblong, como equipo, trabajarían juntos. Ambos aprenderían mucho de este proyecto, tanto sobre ellos mismos como sobre la comunidad de código abierto y la industria del desarrollo de software. Este sería el proyecto que desencadenaría la creación de FemDevs."
             },
             "three": {
-                "title": "A New Challenger Appears",
-                "desc": "A few days after the beginning of the project, a new team member would join the FemDevs, that being Benjamin. Benjamin was very skilled at programming, excelling at server-side development and database management. The team continued developing the bot in the initial language of Python, until Benjamin determined that it would be beneficial to switch to JavaScript. This would be the first of many decisions that would shape the future of the FemDevs."
+                "title": "Aparece un Nuevo Desafiante",
+                "desc": "Unos días después de comenzar el proyecto, un nuevo miembro se uniría a FemDevs, Benjamin. Benjamin era muy hábil en programación, destacando en el desarrollo del lado del servidor y en la gestión de bases de datos. El equipo continuó desarrollando el bot en el lenguaje inicial de Python, hasta que Benjamin determinó que sería beneficioso cambiar a JavaScript. Esta sería la primera de muchas decisiones que darían forma al futuro de FemDevs."
             },
             "four": {
-                "title": "The Present",
-                "desc": "In July of 2023, we have helped over 12,000 people and started to sell high quality products. By the end of 2023, we have helped over 50,000 people. We have continued to grow and expand our services, and we are always looking for new ways to improve. We are excited to see what the future holds for FemDevs, and we are grateful for all of the support that we have received."
+                "title": "El Presente",
+                "desc": "En julio de 2023, hemos ayudado a más de 12,000 personas y comenzamos a vender productos de alta calidad. Al final de 2023, habíamos ayudado a más de 50,000 personas. Hemos seguido creciendo y expandiendo nuestros servicios, y siempre estamos buscando nuevas formas de mejorar. Estamos emocionados de ver lo que depara el futuro para FemDevs y agradecemos todo el apoyo que hemos recibido."
             },
             "five": {
-                "title": "The Future",
-                "desc": "We are always looking for new ways to improve our products and services, and we are excited to see what the future holds for FemDevs. We are dedicated to providing high-quality software solutions to small businesses and individuals, and we are always looking for new ways to expand our services. We are excited to see what the future holds for FemDevs, and we are grateful for all of the support that we have received."
+                "title": "El Futuro",
+                "desc": "Siempre estamos buscando nuevas formas de mejorar nuestros productos y servicios, y estamos emocionados de ver lo que el futuro tiene preparado para FemDevs. Nos dedicamos a proporcionar soluciones de software de alta calidad a pequeñas empresas y particulares, y siempre estamos buscando nuevas formas de expandir nuestros servicios. Estamos emocionados de ver lo que el futuro tiene preparado para FemDevs y agradecemos todo el apoyo que hemos recibido."
             }
         }
     },
     "team": {
-        "desc": "FemDevs would not be possible without the help of a number of people.\nWe would like to thank the following people for their contributions to FemDevs.",
+        "desc": "FemDevs no sería posible sin la ayuda de muchas personas.\nNos gustaría agradecer a las siguientes personas por sus contribuciones a FemDevs.",
         "roles": {
-            "owner": "Owner",
-            "hr_dir": "Human Resources Director",
-            "hr_mgr": "Human Resources Manager",
-            "hr_mem": "Human Resources",
-            "admin": "Administrator",
-            "dev": "Developer",
+            "owner": "Propietario",
+            "hr_dir": "Director de Recursos Humanos",
+            "hr_mgr": "Gerente de Recursos Humanos",
+            "hr_mem": "Recursos Humanos",
+            "admin": "Administrador",
+            "dev": "Desarrollador",
             "marketing": "Marketing",
-            "adv": "Advisor",
-            "server_mod": "Server Moderator",
-            "digital_assets": "Digital Assets Creator",
-            "social_media": "Social Media Manager",
-            "support": "Support Team Member",
-            "org_partner": "Business Partner (Organization)",
-            "other": "Other"
+            "adv": "Asesor",
+            "server_mod": "Moderador de Servidor",
+            "digital_assets": "Creador de Activos Digitales",
+            "social_media": "Gestor de Redes Sociales",
+            "support": "Miembro del Equipo de Soporte",
+            "org_partner": "Socio Comercial (Organización)",
+            "other": "Otro"
         }
     }
 }

@@ -1,0 +1,141 @@
+{
+    "nav": {
+        "home": "Kezdőlap",
+        "about": "Rólunk",
+        "team": "Csapat",
+        "contact": "Kapcsolat"
+    },
+    "footer": {
+        "header": {
+            "about": "Rólunk",
+            "community": "Közösség",
+            "company": "Cég",
+            "legal": "Jogi információ"
+        },
+        "links": {
+            "about": {
+                "about": "Cégbemutató",
+                "team": "Csapattagok",
+                "products": "Termékek"
+            },
+            "community": {
+                "discord": "Discord",
+                "twitter": "Twitter",
+                "instagram": "Instagram",
+                "tiktok": "TikTok",
+                "reddit": "Reddit",
+                "femboyland": "Femboyland"
+            },
+            "company": {
+                "branding": "Márkázás",
+                "careers": "Karrier",
+                "contact": "Kapcsolat"
+            },
+            "legal": {
+                "terms": "Felhasználási feltételek",
+                "privacy": "Adatvédelmi szabályzat",
+                "cookies": "Cookie szabályzat"
+            }
+        }
+    },
+    "status": {
+        "prefix": "Rendszer állapota: ",
+        "type": {
+            "up": "Elérhető",
+            "down": "Nem elérhető",
+            "degraded": "Csökkentett teljesítmény",
+            "maintenance": "Karbantartás alatt",
+            "unknown": "Ismeretlen"
+        }
+    },
+    "home": {
+        "headliner": {
+            "title": "Növelje digitális jelenlétét még ma",
+            "desc": "Gyors, biztonságos és magas színvonalú szoftvermegoldások. Kicsi vállalkozásra vagy személyes használatra van szüksége? Mi megfelelünk az igényeinek. Kezdje el most."
+        },
+        "products": {
+            "button": "Termékeink",
+            "title": "Megbízható megoldások",
+            "api": {
+                "title": "API",
+                "desc": "API-jaink gyorsak, megbízhatóak és tökéletesek az Ön alkalmazásai számára."
+            },
+            "website": {
+                "title": "Weboldalak",
+                "desc": "Weboldalaink és webalapú alkalmazásaink könnyen használhatók és bárhonnan elérhetők."
+            },
+            "bot": {
+                "title": "Discord botok",
+                "desc": "Discord botjaink tapasztalt fejlesztők által készültek különböző célokra és feladatokra."
+            },
+            "database": {
+                "title": "Adatbázisok",
+                "desc": "Adatbázisaink gyorsak és biztonságosak, hogy támogassák alkalmazásait."
+            }
+        },
+        "tagline": "Unja a lassú szoftvereket? Fejlessze vállalkozását még ma a FemDevs segítségével.",
+        "info": {
+            "one": {
+                "title": "Skálázhatóságra tervezve",
+                "desc": "Termékeinket úgy alakítottuk ki, hogy lépést tartsanak az Ön ambícióival. Legyen szó kisvállalkozásról vagy nagyvállalatról, nálunk megtalálja a megoldást."
+            },
+            "two": {
+                "title": "Legújabb technológia",
+                "desc": "A legújabb alkalmazásokat és szolgáltatásokat használjuk annak érdekében, hogy biztosítsuk a szoftverek gyorsaságát, biztonságát és megbízhatóságát már az elejétől."
+            },
+            "three": {
+                "title": "Minőségi támogatás",
+                "desc": "Támogatási csapatunk 24 órában rendelkezésére áll, hogy segítsen bármilyen problémában, amely felmerülhet a szoftvereivel vagy szolgáltatásaival kapcsolatban."
+            }
+        },
+        "contact": {
+            "button": "Lépjen kapcsolatba az értékesítéssel"
+        },
+        "clients": "Összes ügyfél",
+        "uptime": "Szolgáltatás elérhetőség"
+    },
+    "about": {
+        "title": "Történetünk",
+        "sections": {
+            "one": {
+                "title": "Kezdetek",
+                "desc": "Mi egy kis szoftverfejlesztő cég vagyunk, amelyet 2023 februárjában alapítottak. Az Egyesült Államokban vagyunk és elkötelezettek vagyunk abban, hogy magas színvonalú szoftvermegoldásokat kínáljunk egyéneknek és kisvállalkozásoknak. Szeretjük, amit csinálunk, és folyamatosan törekszünk a termékeink és szolgáltatásaink javítására. Azonban nem mindig így indult. Lépjünk vissza egy kicsit."
+            },
+            "two": {
+                "title": "A kezdeti lépések",
+                "desc": "2023 februárjában elkezdtük fejleszteni az első Discord botunkat egy személyes szerver kezelésére. Ez volt az első projekt, amelyben a társ-alapítók együtt dolgoztak, és sokat tanultak egymástól, valamint az open-source közösségtől és a szoftveripartól. Ez a projekt volt az a szikra, amely elindította a FemDevs létrehozását."
+            },
+            "three": {
+                "title": "Új kihívás",
+                "desc": "A projekt néhány napja után csatlakozott a csapathoz egy új tag, Benjamin. Benjamin nagyon jártas volt a programozásban, különösen a szerverek fejlesztésében és az adatbázisok kezelésében. A csapat Python-ban folytatta a bot fejlesztését, amíg Benjamin úgy nem döntött, hogy a JavaScript-re való áttérés hasznos lenne. Ez volt az egyik első döntés, amely formálta a cég jövőjét."
+            },
+            "four": {
+                "title": "A jelen",
+                "desc": "2023 júliusára több mint 12.000 felhasználónak segítettünk, és elkezdtük a magas színvonalú termékek értékesítését. 2023 végére több mint 50.000 felhasználónk volt, és folyamatosan növekszünk és bővítjük szolgáltatásainkat."
+            },
+            "five": {
+                "title": "A jövő",
+                "desc": "Folyamatosan törekszünk a termékeink és szolgáltatásaink javítására, és izgatottan várjuk, hogy mit tartogat a jövő számunkra. Célunk, hogy innovatív és megbízható szoftvermegoldásokat kínáljunk egyéneknek és kisvállalkozásoknak."
+            }
+        }
+    },
+    "team": {
+        "desc": "Ez a cég nem jöhetett volna létre sok ember segítsége nélkül.\nSzeretnénk megköszönni a következő személyek hozzájárulásait.",
+        "roles": {
+            "owner": "Tulajdonos",
+            "hr_dir": "HR Igazgató",
+            "hr_mgr": "HR Menedzser",
+            "hr_mem": "HR Munkatárs",
+            "admin": "Adminisztrátor",
+            "dev": "Fejlesztő",
+            "marketing": "Marketing Felelős",
+            "adv": "Tanácsadó",
+            "server_mod": "Szerver Moderátor",
+            "digital_assets": "Digitális Tartalom Készítő",
+            "social_media": "Közösségi Média Menedzser",
+            "support": "Ügyfélszolgálati Munkatárs",
+            "org_partner": "Partner (Szervezet)",
+            "other": "Egyéb"
+        }
+    }
+}
