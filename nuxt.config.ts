@@ -36,8 +36,22 @@ export default defineNuxtConfig({
         headers: {
           'Cache-Control': 'no-cache'
         }
+      },
+      '/profile/ben/blog/**': {
+        isr: false,
+        ssr: true,
+      },
+      '/profile/alex/blog/**': {
+        isr: false,
+        ssr: true,
       }
     },
+    content: {
+      database: {
+        type: 'd1',
+        bindingName: 'main',
+      },
+    }
   },
   $development: {
     tailwindcss: {
@@ -53,6 +67,7 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/fonts',
     '@nuxtjs/seo',
+    '@nuxt/content',
     'nuxt-auth-utils',
   ],
   app: {
@@ -89,4 +104,23 @@ export default defineNuxtConfig({
   },
   routeRules: {},
   fonts: FontConfig,
+  content: {
+    preview: {
+      api: 'https://api.nuxt.studio',
+      dev: true
+    },
+    renderer: {
+      anchorLinks: true,
+    },
+    watch: {
+      enabled: true,
+    },
+    build: {
+      markdown: {
+        highlight: {
+          theme: 'github-dark',
+        }
+      }
+    }
+  },
 })
