@@ -4,21 +4,21 @@ useHead({
 })
 
 useSeoMeta({
-    description: 'A little bit about me.',
+    description: 'Some info about me!',
     ogTitle: 'About Me',
-    ogDescription: 'A little bit about me.',
-    ogUrl: 'https://benshawmean.com/',
-    ogImage: 'https://cdn.benshawmean.com/meta-banner.png',
+    ogDescription: 'Some info about me!',
+    ogUrl: 'https://thefemdevs.com/profile/alex',
+    ogImage: 'https://cdn.benshawmean.com/Alexs_Profile.png',
     ogImageAlt: 'Profile Picture',
     ogType: 'website',
-    ogSiteName: "Benpai's Website",
+    ogSiteName: "Alex's Profile",
     twitterCard: 'summary_large_image',
     twitterTitle: 'About Me',
-    twitterDescription: 'A little bit about me.',
-    twitterImage: 'https://cdn.benshawmean.com/meta-banner.png',
+    twitterDescription: 'Some info about me!',
+    twitterImage: 'https://cdn.benshawmean.com/Alexs_Profile.png',
     twitterImageAlt: 'Profile Picture',
-    twitterSite: '@therealbenpai',
-    twitterCreator: '@therealbenpai'
+    twitterSite: '@auxiliaryfrfr',
+    twitterCreator: '@auxiliaryfrfr'
 })
 
 definePageMeta({
@@ -34,22 +34,22 @@ const sections: Section[] = [
     {
         title: 'About Me',
         content:
-            "Hai, I'm Alex! (She/They), an exceptionally silly 17 year old :3"
+            "Hai, I'm Alex! An exceptionally silly individual :3"
     },
     {
         title: 'FemDevs',
         content:
-            "As a co-owner of The FemDevs, I'm committed to helping everyone thrive in the coding world, regardless of gender. We also strive to make new and unique projects for people worldwide."
+            "As a co-owner of FemDevs, I'm committed to helping everyone thrive in the coding world, regardless of gender or sexual orientation. We also strive to make new and unique projects for people worldwide."
     },
     {
         title: 'Language Proficiency',
         content:
-            "I'm fluent in both English and Arabic, and I'm all for learning new languages. I've found a passion for translation as a member of the Pronouns.Page team, where we're dedicated to making the Arab world more inclusive and open."
+            "I love learning about languages! Translation has become a big passion of mine, especially through my work with Pronouns.Page and other freelance projects."
     },
     {
         title: 'General Interests',
         content:
-            "I have loved cooking since I was child, and I like learning new recipes all the time. And while I might not be great at it, I play video games, when I have some extra free time. I also enjoy playing badminton, and hanging out with close friends, even though I'm socially anxious."
+            "Cooking has been my thing since I was a kid, I’m always experimenting with new recipes. I also game when I get the chance (even if I suck at it), and I love playing badminton. :D"
     }
 ]
 </script>

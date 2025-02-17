@@ -4,21 +4,21 @@ useHead({
 });
 
 useSeoMeta({
-    description: 'A list of all of my projects.',
+    description: 'A list of all of my projects!',
     ogTitle: 'Projects',
-    ogDescription: 'A list of all of my projects.',
-    ogUrl: 'https://benshawmean.com/projects',
-    ogImage: 'https://cdn.benshawmean.com/meta-banner.png',
+    ogDescription: 'A list of all of my projects!',
+    ogUrl: 'https://thefemdevs.com/profile/alex/projects',
+    ogImage: 'https://cdn.benshawmean.com/Alexs_Profile.png',
     ogImageAlt: 'Profile Picture',
     ogType: 'website',
-    ogSiteName: "Benpai's Website",
+    ogSiteName: "Alex's Profile",
     twitterCard: 'summary_large_image',
     twitterTitle: 'Projects',
-    twitterDescription: 'A list of all of my projects.',
-    twitterImage: 'https://cdn.benshawmean.com/meta-banner.png',
+    twitterDescription: 'A list of all of my projects!',
+    twitterImage: 'https://cdn.benshawmean.com/Alexs_Profile.png',
     twitterImageAlt: 'Profile Picture',
-    twitterSite: '@therealbenpai',
-    twitterCreator: '@therealbenpai',
+    twitterSite: '@auxiliaryfrfr',
+    twitterCreator: '@auxiliaryfrfr'
 });
 
 definePageMeta({
@@ -36,17 +36,9 @@ interface Project {
 }
 const projects: Project[] = [
     {
-        name: 'FemDevs Website',
-        description:
-            'The FemDevs website is a website for the FemDevs community. It is built with Nuxt and Vue 3.',
-        link: 'https://github.com/therealbenpai/femdevs-rewrite-pt2',
-        public: true,
-        status: 'released',
-    },
-    {
         name: 'Fembot',
         description:
-            'Fembot is a Discord bot that is used in the FemDevs Discord server. It is built with Discord.js and TypeScript.',
+            'A Discord bot that is used in the FemDevs Discord server. It is built with Discord.js and TypeScript.',
         link: 'https://github.com/femdevs/fembot',
         public: true,
         status: 'released',
@@ -54,9 +46,49 @@ const projects: Project[] = [
     {
         name: 'BananaBot',
         description:
-            'A Discord bot that is used in the BananaBots Discord server. It is built with Discord.js and TypeScript.',
+            'A private Discord bot. It is built with Discord.py.',
         link: 'https://github.com/femdevs/bananabot',
         public: false,
+        status: 'released',
+    },
+    {
+        name: 'Sanrio Bot',
+        description:
+            'A Discord bot that is used in the Sanrio Discord server. It is built with Discord.js.',
+        link: 'https://github.com/femdevs/Sanrio-Bot',
+        public: false,
+        status: 'archived',
+    },
+    {
+        name: 'BSH Bot',
+        description:
+            'A Discord bot that was used in the Brian\'s House Discord server. It is built with Discord.js.',
+        link: 'https://github.com/femdevs/BSH-Bot-v2',
+        public: true,
+        status: 'archived',
+    },
+    {
+        name: 'Poland Destruction Simulator',
+        description:
+            'A funny simple webgame made to test click-rate.',
+        link: 'https://github.com/femdevs/Poland-Destruction-Simulator',
+        public: true,
+        status: 'archived',
+    },
+    {
+        name: 'Wave',
+        description:
+            'A social media website.',
+        link: 'https://github.com/femdevs/wave',
+        public: false,
+        status: 'dropped',
+    },
+    {
+        name: 'Arabic Pronouns.Page',
+        description:
+            `I've helped with translations in an effort to increase visibility and understanding of gender and sexuality inclusivity within Arabic-speaking communities.`,
+        link: 'https://ar.pronouns.page',
+        public: true,
         status: 'released',
     },
 ];

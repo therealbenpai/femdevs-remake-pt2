@@ -58,17 +58,19 @@ onMounted(() => {
                     Alex
                     <span class="text-gray-400 text-sm">(she/her)</span>
                 </h2>
-                <h3 class="text-lg text-gray-400">Full Stack Developer</h3>
+                <h3 class="text-lg text-gray-400">Developer, Translator, Optimist</h3>
             </div>
             <p class="text-lg">
-                I am a <span class="text-blue-500">web developer</span> with a
-                passion for creating beautiful and functional websites using
-                technologies like <span class="text-[#f06529]">HTML</span>,
+                I am a developer with a
+                passion for creating beautiful and functional projects using
+                technologies like <span class="text-[#41b883]">HTML</span>,
                 <span class="text-[#639]">CSS</span>,
-                <span class="text-[#f3db4c]">JavaScript</span>,
-                <span class="text-[#41b883]">Vue</span>,
-                <span class="text-[#007ACC]">React</span>, and
-                <span class="text-[#393]">Node.js</span>.
+                <span class="text-[#f06529]">Javascript</span>, and
+                <span class="text-[#f3db4c]">Python</span>.
+                I also work as a translator as I am knowledgable in languages such as  
+                <span class="text-[#007ACC]">English</span>, 
+                <span class="text-[#ffa6c9]">Arabic</span>, and some 
+                <span class="text-[#393]">French</span>.
             </p>
         </div>
         <div class="flex flex-col gap-2 w-1/2 pl-12">
@@ -119,17 +121,19 @@ onMounted(() => {
                     Alex
                     <span class="text-gray-400 text-sm">(she/her)</span>
                 </h2>
-                <h3 class="text-lg text-gray-400">Full Stack Developer</h3>
+                <h3 class="text-lg text-gray-400">Developer, Translator, Optimist</h3>
             </div>
             <p class="text-lg">
-                I am a <span class="text-blue-500">web developer</span> with a
-                passion for creating beautiful and functional websites using
-                technologies like <span class="text-[#f06529]">HTML</span>,
+                I am a developer with a
+                passion for creating beautiful and functional projects using
+                technologies like <span class="text-[#41b883]">HTML</span>,
                 <span class="text-[#639]">CSS</span>,
-                <span class="text-[#f3db4c]">JavaScript</span>,
-                <span class="text-[#41b883]">Vue</span>,
-                <span class="text-[#007ACC]">React</span>, and
-                <span class="text-[#393]">Node.js</span>.
+                <span class="text-[#f06529]">Javascript</span>, and
+                <span class="text-[#f3db4c]">Python</span>.
+                I also work as a translator as I am knowledgable in languages such as  
+                <span class="text-[#007ACC]">English</span>, 
+                <span class="text-[#ffa6c9]">Arabic</span>, and some 
+                <span class="text-[#393]">French</span>.
             </p>
         </div>
         <div class="flex flex-col gap-2 md:w-1/2 md:pl-12">
