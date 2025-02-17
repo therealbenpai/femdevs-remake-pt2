@@ -72,7 +72,7 @@ const projects: Project[] = [
         description:
             'A funny simple webgame made to test click-rate.',
         link: 'https://github.com/femdevs/Poland-Destruction-Simulator',
-        public: false,
+        public: true,
         status: 'archived',
     },
     {
@@ -88,7 +88,7 @@ const projects: Project[] = [
         description:
             `I've helped with translations in an effort to increase visibility and understanding of gender and sexuality inclusivity within Arabic-speaking communities.`,
         link: 'https://ar.pronouns.page',
-        public: false,
+        public: true,
         status: 'released',
     },
 ];

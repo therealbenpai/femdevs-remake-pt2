@@ -101,8 +101,8 @@ const socialMediaAccounts: SocialMediaAccount[] = [
         link: 'https://www.linkedin.com/in/alex-auxiliary-061367338/',
         icon: 'fa6-brands:linkedin',
         platform: 'LinkedIn',
-        username: 'auxiliaryfrfr',
-        identifier: 'auxiliaryfrfr',
+        username: 'Alex Auxiliary',
+        identifier: 'alex-auxiliary-061367338',
     },
     {
         link: 'https://www.twitch.tv/auxiliaryfrfr',
@@ -115,7 +115,7 @@ const socialMediaAccounts: SocialMediaAccount[] = [
         link: 'https://bsky.app/profile/auxiliaryfrfr.bsky.social',
         icon: 'fa6-brands:bluesky',
         platform: 'Bluesky',
-        username: 'auxiliaryfrfr',
+        username: 'auxiliaryfrfr.bsky.social',
         identifier: 'auxiliaryfrfr.bsky.social',
     },
     {

@@ -61,7 +61,7 @@ onMounted(() => {
                 <h3 class="text-lg text-gray-400">Developer, Translator, Optimist</h3>
             </div>
             <p class="text-lg">
-                I am a <span class="text-blue-500">developer</span> with a
+                I am a developer with a
                 passion for creating beautiful and functional projects using
                 technologies like <span class="text-[#41b883]">HTML</span>,
                 <span class="text-[#639]">CSS</span>,
@@ -124,7 +124,7 @@ onMounted(() => {
                 <h3 class="text-lg text-gray-400">Developer, Translator, Optimist</h3>
             </div>
             <p class="text-lg">
-                I am a <span class="text-blue-500">developer</span> with a
+                I am a developer with a
                 passion for creating beautiful and functional projects using
                 technologies like <span class="text-[#41b883]">HTML</span>,
                 <span class="text-[#639]">CSS</span>,
