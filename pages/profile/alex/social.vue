@@ -1,24 +1,24 @@
 <script setup lang="ts">
 useHead({
-    title: 'Social Accounts',
+    title: 'Socials',
 });
 
 useSeoMeta({
-    description: 'A list of all of my social media accounts.',
-    ogTitle: 'Social Accounts',
-    ogDescription: 'A list of all of my social media accounts.',
-    ogUrl: 'https://benshawmean.com/social',
-    ogImage: 'https://cdn.benshawmean.com/meta-banner.png',
+    description: 'A list of all of my social media accounts!',
+    ogTitle: 'Socials',
+    ogDescription: 'A list of all of my social media accounts!',
+    ogUrl: 'https://thefemdevs/profile/alex/social',
+    ogImage: 'https://cdn.benshawmean.com/Alexs_Profile.png',
     ogImageAlt: 'Profile Picture',
     ogType: 'website',
-    ogSiteName: "Benpai's Website",
+    ogSiteName: "Alex's Profile",
     twitterCard: 'summary_large_image',
-    twitterTitle: 'Social Accounts',
-    twitterDescription: 'A list of all of my social media accounts.',
-    twitterImage: 'https://cdn.benshawmean.com/meta-banner.png',
+    twitterTitle: 'Socials',
+    twitterDescription: 'A list of all of my social media accounts!',
+    twitterImage: 'https://cdn.benshawmean.com/Alexs_Profile.png',
     twitterImageAlt: 'Profile Picture',
-    twitterSite: '@therealbenpai',
-    twitterCreator: '@therealbenpai',
+    twitterSite: '@auxiliaryfrfr',
+    twitterCreator: '@auxiliaryfrfr'
 });
 
 definePageMeta({
@@ -94,6 +94,34 @@ const socialMediaAccounts: SocialMediaAccount[] = [
         link: 'https://www.last.fm/user/auxiliaryfrfr',
         icon: 'fa6-brands:lastfm',
         platform: 'LastFM',
+        username: 'auxiliaryfrfr',
+        identifier: 'auxiliaryfrfr',
+    },
+    {
+        link: 'https://www.linkedin.com/in/alex-auxiliary-061367338/',
+        icon: 'fa6-brands:linkedin',
+        platform: 'LinkedIn',
+        username: 'auxiliaryfrfr',
+        identifier: 'auxiliaryfrfr',
+    },
+    {
+        link: 'https://www.twitch.tv/auxiliaryfrfr',
+        icon: 'fa6-brands:twitch',
+        platform: 'Twitch',
+        username: 'auxiliaryfrfr',
+        identifier: 'auxiliaryfrfr',
+    },
+    {
+        link: 'https://bsky.app/profile/auxiliaryfrfr.bsky.social',
+        icon: 'fa6-brands:bluesky',
+        platform: 'Bluesky',
+        username: 'auxiliaryfrfr',
+        identifier: 'auxiliaryfrfr.bsky.social',
+    },
+    {
+        link: 'https://steamcommunity.com/id/auxiliaryfrfr',
+        icon: 'fa6-brands:steam',
+        platform: 'Steam',
         username: 'auxiliaryfrfr',
         identifier: 'auxiliaryfrfr',
     },

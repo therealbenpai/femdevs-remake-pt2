@@ -4,21 +4,21 @@ useHead({
 });
 
 useSeoMeta({
-    description: 'Blog posts by Benpai.',
+    description: 'Blog posts by Alex.',
     ogTitle: 'Blog Posts',
-    ogDescription: 'Blog posts by Benpai.',
-    ogUrl: 'https://benshawmean.com/blog',
-    ogImage: 'https://cdn.benshawmean.com/meta-banner.png',
+    ogDescription: 'Blog posts by Alex.',
+    ogUrl: 'https://thefemdevs/profile/alex/blog',
+    ogImage: 'https://cdn.benshawmean.com/Alexs_Profile.png',
     ogImageAlt: 'Profile Picture',
     ogType: 'website',
-    ogSiteName: "Benpai's Website",
+    ogSiteName: "Alex's Profile",
     twitterCard: 'summary_large_image',
     twitterTitle: 'Blog Posts',
-    twitterDescription: 'Blog posts by Benpai.',
-    twitterImage: 'https://cdn.benshawmean.com/meta-banner.png',
+    twitterDescription: 'Blog posts by Alex.',
+    twitterImage: 'https://cdn.benshawmean.com/Alexs_Profile.png',
     twitterImageAlt: 'Profile Picture',
-    twitterSite: '@therealbenpai',
-    twitterCreator: '@therealbenpai',
+    twitterSite: '@auxiliaryfrfr',
+    twitterCreator: '@auxiliaryfrfr',
 });
 
 const { data: posts } = await useAsyncData(`blog-posts`, () =>

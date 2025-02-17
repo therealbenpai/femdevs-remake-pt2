@@ -4,21 +4,21 @@ useHead({
 });
 
 useSeoMeta({
-    description: 'You can contact me through the following methods.',
+    description: 'You can contact me through the following methods!',
     ogTitle: 'Contact',
-    ogDescription: 'You can contact me through the following methods.',
-    ogUrl: 'https://benshawmean.com/contact',
-    ogImage: 'https://cdn.benshawmean.com/meta-banner.png',
+    ogDescription: 'You can contact me through the following methods!',
+    ogUrl: 'https://thefemdevs/profile/alex/contact',
+    ogImage: 'https://cdn.benshawmean.com/Alexs_Profile.png',
     ogImageAlt: 'Profile Picture',
     ogType: 'website',
-    ogSiteName: "Benpai's Website",
+    ogSiteName: "Alex's Profile",
     twitterCard: 'summary_large_image',
     twitterTitle: 'Contact',
-    twitterDescription: 'You can contact me through the following methods.',
-    twitterImage: 'https://cdn.benshawmean.com/meta-banner.png',
+    twitterDescription: 'You can contact me through the following methods!',
+    twitterImage: 'https://cdn.benshawmean.com/Alexs_Profile.png',
     twitterImageAlt: 'Profile Picture',
-    twitterSite: '@therealbenpai',
-    twitterCreator: '@therealbenpai',
+    twitterSite: '@auxiliaryfrfr',
+    twitterCreator: '@auxiliaryfrfr'
 });
 
 definePageMeta({
