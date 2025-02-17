@@ -64,7 +64,7 @@ const projects: Project[] = [
         description:
             'A Discord bot that was used in the Brian\'s House Discord server. It is built with Discord.js.',
         link: 'https://github.com/femdevs/BSH-Bot-v2',
-        public: false,
+        public: true,
         status: 'archived',
     },
     {
