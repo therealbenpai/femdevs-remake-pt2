@@ -7,7 +7,7 @@ useSeoMeta({
     description: 'Blog posts by Alex.',
     ogTitle: 'Blog Posts',
     ogDescription: 'Blog posts by Alex.',
-    ogUrl: 'https://thefemdevs/profile/alex/blog',
+    ogUrl: 'https://thefemdevs.com/profile/alex/blog',
     ogImage: 'https://cdn.benshawmean.com/Alexs_Profile.png',
     ogImageAlt: 'Profile Picture',
     ogType: 'website',

@@ -7,7 +7,7 @@ useSeoMeta({
     description: 'You can contact me through the following methods!',
     ogTitle: 'Contact',
     ogDescription: 'You can contact me through the following methods!',
-    ogUrl: 'https://thefemdevs/profile/alex/contact',
+    ogUrl: 'https://thefemdevs.com/profile/alex/contact',
     ogImage: 'https://cdn.benshawmean.com/Alexs_Profile.png',
     ogImageAlt: 'Profile Picture',
     ogType: 'website',

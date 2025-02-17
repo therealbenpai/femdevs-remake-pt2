@@ -7,7 +7,7 @@ useSeoMeta({
     description: 'A list of all of my projects!',
     ogTitle: 'Projects',
     ogDescription: 'A list of all of my projects!',
-    ogUrl: 'https://thefemdevs/profile/alex/projects',
+    ogUrl: 'https://thefemdevs.com/profile/alex/projects',
     ogImage: 'https://cdn.benshawmean.com/Alexs_Profile.png',
     ogImageAlt: 'Profile Picture',
     ogType: 'website',

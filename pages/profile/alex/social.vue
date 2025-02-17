@@ -7,7 +7,7 @@ useSeoMeta({
     description: 'A list of all of my social media accounts!',
     ogTitle: 'Socials',
     ogDescription: 'A list of all of my social media accounts!',
-    ogUrl: 'https://thefemdevs/profile/alex/social',
+    ogUrl: 'https://thefemdevs.com/profile/alex/social',
     ogImage: 'https://cdn.benshawmean.com/Alexs_Profile.png',
     ogImageAlt: 'Profile Picture',
     ogType: 'website',

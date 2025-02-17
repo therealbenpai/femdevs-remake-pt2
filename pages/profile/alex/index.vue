@@ -7,7 +7,7 @@ useSeoMeta({
     description: 'Some info about me!',
     ogTitle: 'About Me',
     ogDescription: 'Some info about me!',
-    ogUrl: 'https://thefemdevs/profile/alex',
+    ogUrl: 'https://thefemdevs.com/profile/alex',
     ogImage: 'https://cdn.benshawmean.com/Alexs_Profile.png',
     ogImageAlt: 'Profile Picture',
     ogType: 'website',
