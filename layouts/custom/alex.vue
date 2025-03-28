@@ -8,27 +8,27 @@ interface Link {
 const links: Link[] = [
     {
         name: 'Home',
-        url: '/profile/alex/',
+        url: '/profile/evie/',
         icon: 'mdi:home'
     },
     {
         name: 'Blog',
-        url: '/profile/alex/blog',
+        url: '/profile/evie/blog',
         icon: 'mdi:fountain-pen-tip'
     },
     {
         name: 'Projects',
-        url: '/profile/alex/projects',
+        url: '/profile/evie/projects',
         icon: 'mdi:code'
     },
     {
         name: 'Social Media',
-        url: '/profile/alex/social',
+        url: '/profile/evie/social',
         icon: 'mdi:internet'
     },
     {
         name: 'Contact',
-        url: '/profile/alex/contact',
+        url: '/profile/evie/contact',
         icon: 'mdi:email'
     }
 ]
@@ -55,7 +55,7 @@ onMounted(() => {
             />
             <div class="flex flex-col gap-2">
                 <h2 class="text-3xl font-bold">
-                    Alex
+                    Evie
                     <span class="text-gray-400 text-sm">(she/her)</span>
                 </h2>
                 <h3 class="text-lg text-gray-400">Developer, Translator, Optimist</h3>
@@ -118,7 +118,7 @@ onMounted(() => {
             />
             <div class="flex flex-col gap-2">
                 <h2 class="text-3xl font-bold">
-                    Alex
+                    Evie
                     <span class="text-gray-400 text-sm">(she/her)</span>
                 </h2>
                 <h3 class="text-lg text-gray-400">Developer, Translator, Optimist</h3>
