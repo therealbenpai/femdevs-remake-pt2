@@ -7,22 +7,22 @@ useSeoMeta({
     description: 'Some info about me!',
     ogTitle: 'About Me',
     ogDescription: 'Some info about me!',
-    ogUrl: 'https://thefemdevs.com/profile/alex',
-    ogImage: 'https://cdn.benshawmean.com/Alexs_Profile.png',
+    ogUrl: 'https://thefemdevs.com/profile/evie',
+    ogImage: 'https://cdn.benshawmean.com/Evies_Profile.png',
     ogImageAlt: 'Profile Picture',
     ogType: 'website',
-    ogSiteName: "Alex's Profile",
+    ogSiteName: "Evie's Profile",
     twitterCard: 'summary_large_image',
     twitterTitle: 'About Me',
     twitterDescription: 'Some info about me!',
-    twitterImage: 'https://cdn.benshawmean.com/Alexs_Profile.png',
+    twitterImage: 'https://cdn.benshawmean.com/Evies_Profile.png',
     twitterImageAlt: 'Profile Picture',
     twitterSite: '@auxiliaryfrfr',
     twitterCreator: '@auxiliaryfrfr'
 })
 
 definePageMeta({
-    layout: 'custom-alex'
+    layout: 'custom-evie'
 })
 
 interface Section {
@@ -34,7 +34,7 @@ const sections: Section[] = [
     {
         title: 'About Me',
         content:
-            "Hai, I'm Alex! An exceptionally silly individual :3"
+            "Hai, I'm Evie! An exceptionally silly individual :3"
     },
     {
         title: 'FemDevs',

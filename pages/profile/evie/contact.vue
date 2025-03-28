@@ -7,22 +7,22 @@ useSeoMeta({
     description: 'You can contact me through the following methods!',
     ogTitle: 'Contact',
     ogDescription: 'You can contact me through the following methods!',
-    ogUrl: 'https://thefemdevs.com/profile/alex/contact',
-    ogImage: 'https://cdn.benshawmean.com/Alexs_Profile.png',
+    ogUrl: 'https://thefemdevs.com/profile/evie/contact',
+    ogImage: 'https://cdn.benshawmean.com/Evies_Profile.png',
     ogImageAlt: 'Profile Picture',
     ogType: 'website',
-    ogSiteName: "Alex's Profile",
+    ogSiteName: "Evie's Profile",
     twitterCard: 'summary_large_image',
     twitterTitle: 'Contact',
     twitterDescription: 'You can contact me through the following methods!',
-    twitterImage: 'https://cdn.benshawmean.com/Alexs_Profile.png',
+    twitterImage: 'https://cdn.benshawmean.com/Evies_Profile.png',
     twitterImageAlt: 'Profile Picture',
     twitterSite: '@auxiliaryfrfr',
     twitterCreator: '@auxiliaryfrfr'
 });
 
 definePageMeta({
-    layout: 'custom-alex',
+    layout: 'custom-evie',
 })
 
 interface ContactMethod {

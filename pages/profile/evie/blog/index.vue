@@ -4,28 +4,28 @@ useHead({
 });
 
 useSeoMeta({
-    description: 'Blog posts by Alex.',
+    description: 'Blog posts by Evie.',
     ogTitle: 'Blog Posts',
-    ogDescription: 'Blog posts by Alex.',
-    ogUrl: 'https://thefemdevs.com/profile/alex/blog',
-    ogImage: 'https://cdn.benshawmean.com/Alexs_Profile.png',
+    ogDescription: 'Blog posts by Evie.',
+    ogUrl: 'https://thefemdevs.com/profile/evie/blog',
+    ogImage: 'https://cdn.benshawmean.com/Evies_Profile.png',
     ogImageAlt: 'Profile Picture',
     ogType: 'website',
-    ogSiteName: "Alex's Profile",
+    ogSiteName: "Evie's Profile",
     twitterCard: 'summary_large_image',
     twitterTitle: 'Blog Posts',
-    twitterDescription: 'Blog posts by Alex.',
-    twitterImage: 'https://cdn.benshawmean.com/Alexs_Profile.png',
+    twitterDescription: 'Blog posts by Evie.',
+    twitterImage: 'https://cdn.benshawmean.com/Evies_Profile.png',
     twitterImageAlt: 'Profile Picture',
     twitterSite: '@auxiliaryfrfr',
     twitterCreator: '@auxiliaryfrfr',
 });
 
 const { data: posts } = await useAsyncData(`blog-posts`, () =>
-    queryCollection('blog').where('author', '=', 'alex').all()
+    queryCollection('blog').where('author', '=', 'evie').all()
 );
 definePageMeta({
-    layout: 'custom-alex',
+    layout: 'custom-evie',
 })
 </script>
 
@@ -42,7 +42,7 @@ definePageMeta({
                     v-if="!post.draft"
                     class="bg-[#21252b] p-4 rounded-2xl border-2 border-transparent hover:bg-[#282C34] hover:border-slate-400"
                 >
-                    <a :href="'/profile/alex' + post.path">
+                    <a :href="'/profile/evie' + post.path">
                         <div class="flex flex-col gap-2">
                             <img
                                 :src="post.image"
