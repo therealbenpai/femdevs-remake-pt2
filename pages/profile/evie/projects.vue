@@ -7,22 +7,22 @@ useSeoMeta({
     description: 'A list of all of my projects!',
     ogTitle: 'Projects',
     ogDescription: 'A list of all of my projects!',
-    ogUrl: 'https://thefemdevs.com/profile/alex/projects',
-    ogImage: 'https://cdn.benshawmean.com/Alexs_Profile.png',
+    ogUrl: 'https://thefemdevs.com/profile/evie/projects',
+    ogImage: 'https://cdn.benshawmean.com/Evies_Profile.png',
     ogImageAlt: 'Profile Picture',
     ogType: 'website',
-    ogSiteName: "Alex's Profile",
+    ogSiteName: "Evie's Profile",
     twitterCard: 'summary_large_image',
     twitterTitle: 'Projects',
     twitterDescription: 'A list of all of my projects!',
-    twitterImage: 'https://cdn.benshawmean.com/Alexs_Profile.png',
+    twitterImage: 'https://cdn.benshawmean.com/Evies_Profile.png',
     twitterImageAlt: 'Profile Picture',
     twitterSite: '@auxiliaryfrfr',
     twitterCreator: '@auxiliaryfrfr'
 });
 
 definePageMeta({
-    layout: 'custom-alex',
+    layout: 'custom-evie',
 })
 
 type ProjectStatus = 'in progress' | 'beta' | 'released' | 'archived' | 'dropped';

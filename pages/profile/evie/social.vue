@@ -7,22 +7,22 @@ useSeoMeta({
     description: 'A list of all of my social media accounts!',
     ogTitle: 'Socials',
     ogDescription: 'A list of all of my social media accounts!',
-    ogUrl: 'https://thefemdevs.com/profile/alex/social',
-    ogImage: 'https://cdn.benshawmean.com/Alexs_Profile.png',
+    ogUrl: 'https://thefemdevs.com/profile/evie/social',
+    ogImage: 'https://cdn.benshawmean.com/Evies_Profile.png',
     ogImageAlt: 'Profile Picture',
     ogType: 'website',
-    ogSiteName: "Alex's Profile",
+    ogSiteName: "Evie's Profile",
     twitterCard: 'summary_large_image',
     twitterTitle: 'Socials',
     twitterDescription: 'A list of all of my social media accounts!',
-    twitterImage: 'https://cdn.benshawmean.com/Alexs_Profile.png',
+    twitterImage: 'https://cdn.benshawmean.com/Evies_Profile.png',
     twitterImageAlt: 'Profile Picture',
     twitterSite: '@auxiliaryfrfr',
     twitterCreator: '@auxiliaryfrfr'
 });
 
 definePageMeta({
-    layout: 'custom-alex',
+    layout: 'custom-evie',
 })
 
 interface SocialMediaAccount {
@@ -98,11 +98,11 @@ const socialMediaAccounts: SocialMediaAccount[] = [
         identifier: 'auxiliaryfrfr',
     },
     {
-        link: 'https://www.linkedin.com/in/alex-auxiliary-061367338/',
+        link: 'https://www.linkedin.com/in/evie-auxiliary-061367338/',
         icon: 'fa6-brands:linkedin',
         platform: 'LinkedIn',
-        username: 'Alex Auxiliary',
-        identifier: 'alex-auxiliary-061367338',
+        username: 'Evie Auxiliary',
+        identifier: 'evie-auxiliary-061367338',
     },
     {
         link: 'https://www.twitch.tv/auxiliaryfrfr',
